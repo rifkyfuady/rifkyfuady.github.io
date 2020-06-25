@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light"><head>
+    <title> Rifky Fuady | Membuat Blog menjadi PWA </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:url" content="https://rifkyfuady.github.io/"> 
+    <meta property="og:title" content="Decode Ideas, Discover Potential"> 
+    <meta property="og:description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:image" content="https://rifkyfuady.github.io/images/preview.png"> 
+    <meta property="og:site_name" content="Rifky Fuady"> 
+    <meta property="og:ttl" content="3600">
+    <meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk" /><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://rifkyfuady.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rifkyfuady.github.io/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Rifky&nbsp;Fuady"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://rifkyfuady.github.io/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://rifkyfuady.github.io/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://rifkyfuady.github.io/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://rifkyfuady.github.io/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://rifkyfuady.github.io/favicons/mstile-310x310.png" />
+    <link rel="canonical" href="https://rifkyfuady.github.io/post/membuat-blog-pwa/">
+    
+    
+    <script type="text/javascript" src="https://rifkyfuady.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://rifkyfuady.github.io/images/profil.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Rifky Fuady</a></h3>
+        <div class="description">
+          <p>Good programmer with great habits</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/rifkyfu32" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:mi.rifky.fuady@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.dicoding.com/users/57163" rel="me" aria-label="dicoding">
+          <i class="fa fa-2x fa-glide-g" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/Fuu_ady" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.instagram.com/fuadyrifky" rel="me" aria-label="instagram">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Rifky Fuady 2020 &ndash; <a href="/privacy-policy" class="text-secondary"> Privacy Policy</a></div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/portofolio/" title="">Portofolio</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Membuat Blog menjadi PWA
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Sat, May 30, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">7-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah. Blog saya menggunakan static site generator dari <a href="https://gohugo.io">Hugo</a>, saya pernah menulis cara <a href="/post/hello-word/">Ngeblog dari Teks Editor dan Terminal ala Programmer</a> dengan Hugo dan jika anda masih menggunakan blogger ingin bermigrasi dengan Hugo bisa membaca tulisan saya yang ini <a href="/post/hugo-import-blogger/">Mudahnya Mengisi Artikel Hugo dari Blogger</a>.</p>
+<p><strong>Apa itu PWA dan mengapa saya harus menambahkannya?</strong></p>
+<p>Istilah Progressive Web App diperkenalkan oleh Alex Russel, salah seorang Google Chrome engineer, dan Frances Berriman, desainer yang bekerja untuk Google pada tahun 2015. Google mendefinisikan PWA sebagai berikut:</p>
+<blockquote>
+<p>Progressive Web Apps use modern web capabilities to deliver an app-like user experience. They evolve from pages in browser tabs to immersive, top-level apps, maintaining the web&rsquo;s low friction at every moment.</p>
+</blockquote>
+<p>Tujuan utama PWA ialah untuk memungkinkan web developer mengubah web yang sudah ada agar bisa berperilaku layaknya aplikasi mobile native tanpa melakukan banyak perubahan atau menambah programmer khusus.
+Tujuan ini bisa dicapai berkat kumpulan teknologi web. Ia bisa memanfaatkan kelebihan-kelebihan web dan aplikasi mobile native sekaligus.
+Kumpulan teknologi ini memungkinkan aplikasi web tradisional untuk bisa diakses tanpa koneksi internet (offline), bisa dipasang di homescreen seperti aplikasi mobile native, bisa melakukan sinkronisasi data ke server, bisa mengirim push notification, dan-lain lain. Seperti ini karakteristik sebuah PWA :</p>
+<ul>
+<li>Progresif yang berarti bekerja untuk setiap pengguna. Tak peduli apapun browsernya, tidak masalah. Pasalnya, PWAs dibangun dengan peningkatan progresif sebagai konsep intinya.</li>
+<li>Responsif yang berarti cocok dengan setiap faktor bentuk: perangkat desktop, seluler, tablet, atau apa saja yang muncul berikutnya.</li>
+<li>Konektivitas independen yang berarti Disempurnakan dengan service worker agar bisa bekerja offline atau pada jaringan berkualitas-rendah.</li>
+<li>Seperti Aplikasi yang berarti terasa seperti sebuah aplikasi untuk pengguna dengan interaksi dan navigasi bergaya-aplikasi karena mereka dibangun di atas model shell application.</li>
+<li>Fresh yang berarti selalu terkini berkat proses pembaruan service worker.</li>
+<li>Aman yang berarti disediakan melalui HTTPS untuk mencegah snooping dan memastikan materi belum dirusak.</li>
+<li>Dapat ditemukan yang berarti dapat diidentifikasi sebagai &ldquo;aplikasi&rdquo; berkat manifes W3C dan cakupan registrasi service worker. Ini memungkinkan mesin telusur untuk menemukannya.</li>
+<li>Re-engageable yang berarti dengan fitur pemberitahuan seperti push notification, dapat mengajak (engaged) kembali pengguna untuk menggunakan aplikasi.</li>
+<li>Dapat dipasang yang berarti memungkinkan pengguna untuk &ldquo;menyimpan&rdquo; aplikasi yang mereka anggap paling berguna di layar beranda tanpa kerumitan application store.</li>
+<li>Bisa ditautkan yang berarti dapat dengan mudah dibagikan melalui URL. Pemasangannya pun mudah.</li>
+</ul>
+<p><strong>Bagaimana cara menambahkan PWA ke Hugo?</strong></p>
+<p>Fitur minimal PWA paling tidak membutuhkan Web App Manifest dan Service Worker.
+<code>Web app manifest</code> adalah file JSON sederhana yang mengontrol bagaimana aplikasi ditampilkan dan dijalankan di sisi pengguna. Umumnya file ini diberi nama manifest.json. Saat aplikasi pertama kali dibuka di browser, browser akan membaca file manifest, mengunduh resource dan menampilkan konten.
+<code>Service Worker</code> adalah skrip yang dijalankan oleh browser di latar belakang, yang terpisah dengan skrip lain di halaman web browser. Service worker ditulis menggunakan bahasa pemrograman JavaScript, namun dipanggil dengan cara yang berbeda dari kode JavaScript pada umumnya. Dengan menggunakan service worker, kita dapat memanfaatkan resource yang telah disimpan di dalam cache untuk menampilkan bahkan dalam mode jaringan offline.</p>
+<p><strong>Aplikasi ke Home Screen</strong></p>
+<p>Add to Home Screen atau yang sering juga disebut dengan <code>web app install prompt</code> dibuat untuk mempermudah pengguna untuk memasang aplikasi PWA kita di perangkat mobile atau desktop. Tidak hanya mempermudah pengguna untuk membuka kembali aplikasi kita, menambahkan ikon aplikasi ke home screen juga punya efek yang lebih besar yakni memperkuat ikatan dengan pengguna.</p>
+<p>Agar sebuah PWA bisa dipasang ke home screen, aplikasi kita harus memenuhi beberapa kriteria berikut:</p>
+<ul>
+<li>Belum pernah terpasang pada perangkat</li>
+<li>Memenuhi user engagement heuristic (yakni syarat dimana pengguna harus berinteraksi dengan aplikasi yang bersangkutan sekurang-kurangnya 30 detik).</li>
+<li>Memiliki web app manifest yang memiliki atribut:
+<ul>
+<li>name atau short_name</li>
+<li>icons dengan ukuran 192x192 atau 512x512</li>
+<li>start_url</li>
+<li>display harus bernilai fullscreen, standalone, atau minimal-ui.</li>
+</ul>
+</li>
+<li>Harus menggunakan HTTPS (agar service worker bisa bekerja)</li>
+<li>Memiliki sebuah service worker dengan sebuah event handler fetch.</li>
+</ul>
+<p><strong>Buat Ikon Aplikasi</strong></p>
+<p>PWA tersedia offline dan dapat dipasang di homescreen seperti aplikasi mobile native. Ini memerlukan ikon dengan ukuran berbeda untuk situs web Anda. Anda dapat menggunakan layanan seperti <a href="https://favicomatic.com/">Favicomatic</a> untuk membuat ikon aplikasi dengan proses satu klik.</p>
+<p><strong>Membuat Web App Manifest</strong></p>
+<p>Buat file baru bernama manifest.json di folder /static pada template Hugo yang anda gunakan dan contoh kode di bawah ini sesuaikan dengan keinginan :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">{</span>
+  <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Rifky Fuady Blog&#34;</span>,
+  <span style="color:#e6db74">&#34;short_name&#34;</span>: <span style="color:#e6db74">&#34;RF Blog&#34;</span>,
+  <span style="color:#e6db74">&#34;icons&#34;</span>: <span style="color:#f92672">[{</span>
+    <span style="color:#e6db74">&#34;src&#34;</span>: <span style="color:#e6db74">&#34;/img/icons/favicon-128.png&#34;</span>,
+    <span style="color:#e6db74">&#34;sizes&#34;</span>: <span style="color:#e6db74">&#34;128x128&#34;</span>,
+    <span style="color:#e6db74">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;image/png&#34;</span>
+  <span style="color:#f92672">}</span>, <span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;src&#34;</span>: <span style="color:#e6db74">&#34;/img/icons/apple-touch-icon-144x144.png&#34;</span>,
+    <span style="color:#e6db74">&#34;sizes&#34;</span>: <span style="color:#e6db74">&#34;144x144&#34;</span>,
+    <span style="color:#e6db74">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;image/png&#34;</span>
+  <span style="color:#f92672">}</span>, <span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;src&#34;</span>: <span style="color:#e6db74">&#34;/img/icons/apple-touch-icon-152x152.png&#34;</span>,
+    <span style="color:#e6db74">&#34;sizes&#34;</span>: <span style="color:#e6db74">&#34;152x152&#34;</span>,
+    <span style="color:#e6db74">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;image/png&#34;</span>
+  <span style="color:#f92672">}</span>, <span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;src&#34;</span>: <span style="color:#e6db74">&#34;/img/icons/icon-512.png&#34;</span>,
+    <span style="color:#e6db74">&#34;sizes&#34;</span>: <span style="color:#e6db74">&#34;512x512&#34;</span>,
+    <span style="color:#e6db74">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;image/png&#34;</span>
+  <span style="color:#f92672">}]</span>,
+  <span style="color:#e6db74">&#34;start_url&#34;</span>: <span style="color:#e6db74">&#34;/index.html&#34;</span>,
+  <span style="color:#e6db74">&#34;display&#34;</span>: <span style="color:#e6db74">&#34;standalone&#34;</span>,
+  <span style="color:#e6db74">&#34;orientation&#34;</span> : <span style="color:#e6db74">&#34;portrait&#34;</span>,
+  <span style="color:#e6db74">&#34;background_color&#34;</span>: <span style="color:#e6db74">&#34;#0069c0&#34;</span>,
+  <span style="color:#e6db74">&#34;theme_color&#34;</span>: <span style="color:#e6db74">&#34;#0069c0&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p><strong>Mendaftarkan Web App Manifest</strong></p>
+<p>Tambahkan tautan ke manifest.json di header template, biasanya di <code>&lt;root&gt;themes/layouts/partials/head.html</code> tergantung template yang anda gunakan.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;link rel<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;manifest&#34;</span> href<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/manifest.json&#34;</span>&gt;
+</code></pre></div><p><strong>Membuat Service Worker</strong></p>
+<p>Buat file javascript baru sw.js di /static seperti tadi. Contoh dari blog saya yang bisa anda sesuaikan dengan kebutuhan anda.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">const CACHE_VERSION <span style="color:#f92672">=</span> 1;
+
+const BASE_CACHE_FILES <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+    <span style="color:#e6db74">&#39;/manifest.json&#39;</span>,
+    <span style="color:#e6db74">&#39;/css/bootstrap.min.css&#39;</span>,
+    <span style="color:#e6db74">&#39;/css/style.css&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/jquery-3.2.1.slim.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/popper.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/bootstrap.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/img/logo.png&#39;</span>,
+    <span style="color:#e6db74">&#39;/img/favicon.png&#39;</span>,
+<span style="color:#f92672">]</span>;
+
+const OFFLINE_CACHE_FILES <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+    <span style="color:#e6db74">&#39;/css/bootstrap.min.css&#39;</span>,
+    <span style="color:#e6db74">&#39;/css/style.css&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/jquery-3.2.1.slim.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/popper.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/js/bootstrap.min.js&#39;</span>,
+    <span style="color:#e6db74">&#39;/img/logo.png&#39;</span>,
+    <span style="color:#e6db74">&#39;/img/favicon.png&#39;</span>,
+<span style="color:#f92672">]</span>;
+
+const NOT_FOUND_CACHE_FILES <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+    
+    <span style="color:#e6db74">&#39;/404.html&#39;</span>,
+<span style="color:#f92672">]</span>;
+
+const OFFLINE_PAGE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/offline/index.html&#39;</span>;
+const NOT_FOUND_PAGE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/404.html&#39;</span>;
+
+const CACHE_VERSIONS <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+    assets: <span style="color:#e6db74">&#39;assets-v&#39;</span> + CACHE_VERSION,
+    content: <span style="color:#e6db74">&#39;content-v&#39;</span> + CACHE_VERSION,
+    offline: <span style="color:#e6db74">&#39;offline-v&#39;</span> + CACHE_VERSION,
+    notFound: <span style="color:#e6db74">&#39;404-v&#39;</span> + CACHE_VERSION,
+<span style="color:#f92672">}</span>;
+
+const MAX_TTL <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#39;/&#39;</span>: 3600,
+    html: 3600,
+    json: 86400,
+    js: 86400,
+    css: 86400,
+<span style="color:#f92672">}</span>;
+
+const SUPPORTED_METHODS <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+    <span style="color:#e6db74">&#39;GET&#39;</span>,
+<span style="color:#f92672">]</span>;
+
+<span style="color:#66d9ef">function</span> isBlacklisted<span style="color:#f92672">(</span>url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>CACHE_BLACKLIST.length &gt; 0<span style="color:#f92672">)</span> ? !CACHE_BLACKLIST.filter<span style="color:#f92672">((</span>rule<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>typeof rule <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;function&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> !rule<span style="color:#f92672">(</span>url<span style="color:#f92672">)</span>;
+        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> false;
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">})</span>.length : false
+<span style="color:#f92672">}</span>
+
+<span style="color:#66d9ef">function</span> getFileExtension<span style="color:#f92672">(</span>url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    let extension <span style="color:#f92672">=</span> url.split<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;.&#39;</span><span style="color:#f92672">)</span>.reverse<span style="color:#f92672">()[</span>0<span style="color:#f92672">]</span>.split<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;?&#39;</span><span style="color:#f92672">)[</span>0<span style="color:#f92672">]</span>;
+    <span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>extension.endsWith<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/&#39;</span><span style="color:#f92672">))</span> ? <span style="color:#e6db74">&#39;/&#39;</span> : extension;
+<span style="color:#f92672">}</span>
+
+<span style="color:#66d9ef">function</span> getTTL<span style="color:#f92672">(</span>url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>typeof url <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;string&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        let extension <span style="color:#f92672">=</span> getFileExtension<span style="color:#f92672">(</span>url<span style="color:#f92672">)</span>;
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>typeof MAX_TTL<span style="color:#f92672">[</span>extension<span style="color:#f92672">]</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;number&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> MAX_TTL<span style="color:#f92672">[</span>extension<span style="color:#f92672">]</span>;
+        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> null;
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">return</span> null;
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+
+<span style="color:#66d9ef">function</span> installServiceWorker<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> Promise.all<span style="color:#f92672">(</span>
+        <span style="color:#f92672">[</span>
+            caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.assets<span style="color:#f92672">)</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>cache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        <span style="color:#66d9ef">return</span> cache.addAll<span style="color:#f92672">(</span>BASE_CACHE_FILES<span style="color:#f92672">)</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>,
+            caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.offline<span style="color:#f92672">)</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>cache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        <span style="color:#66d9ef">return</span> cache.addAll<span style="color:#f92672">(</span>OFFLINE_CACHE_FILES<span style="color:#f92672">)</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>,
+            caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.notFound<span style="color:#f92672">)</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>cache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        <span style="color:#66d9ef">return</span> cache.addAll<span style="color:#f92672">(</span>NOT_FOUND_CACHE_FILES<span style="color:#f92672">)</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>
+        <span style="color:#f92672">]</span>
+    <span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+
+<span style="color:#66d9ef">function</span> cleanupLegacyCache<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+
+    let currentCaches <span style="color:#f92672">=</span> Object.keys<span style="color:#f92672">(</span>CACHE_VERSIONS<span style="color:#f92672">)</span>
+        .map<span style="color:#f92672">(</span>
+            <span style="color:#f92672">(</span>key<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                <span style="color:#66d9ef">return</span> CACHE_VERSIONS<span style="color:#f92672">[</span>key<span style="color:#f92672">]</span>;
+            <span style="color:#f92672">}</span>
+        <span style="color:#f92672">)</span>;
+
+    <span style="color:#66d9ef">return</span> new Promise<span style="color:#f92672">(</span>
+        <span style="color:#f92672">(</span>resolve, reject<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+            caches.keys<span style="color:#f92672">()</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>keys<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        <span style="color:#66d9ef">return</span> legacyKeys <span style="color:#f92672">=</span> keys.filter<span style="color:#f92672">(</span>
+                            <span style="color:#f92672">(</span>key<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                <span style="color:#66d9ef">return</span> !~currentCaches.indexOf<span style="color:#f92672">(</span>key<span style="color:#f92672">)</span>;
+                            <span style="color:#f92672">}</span>
+                        <span style="color:#f92672">)</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>legacy<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>legacy.length<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                            Promise.all<span style="color:#f92672">(</span>
+                                legacy.map<span style="color:#f92672">(</span>
+                                    <span style="color:#f92672">(</span>legacyKey<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                        <span style="color:#66d9ef">return</span> caches.delete<span style="color:#f92672">(</span>legacyKey<span style="color:#f92672">)</span>
+                                    <span style="color:#f92672">}</span>
+                                <span style="color:#f92672">)</span>
+                            <span style="color:#f92672">)</span>
+                                .then<span style="color:#f92672">(</span>
+                                    <span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                        resolve<span style="color:#f92672">()</span>
+                                    <span style="color:#f92672">}</span>
+                                <span style="color:#f92672">)</span>
+                                .catch<span style="color:#f92672">(</span>
+                                    <span style="color:#f92672">(</span>err<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                        reject<span style="color:#f92672">(</span>err<span style="color:#f92672">)</span>;
+                                    <span style="color:#f92672">}</span>
+                                <span style="color:#f92672">)</span>;
+                        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                            resolve<span style="color:#f92672">()</span>;
+                        <span style="color:#f92672">}</span>
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>
+                .catch<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        reject<span style="color:#f92672">()</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>;
+
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+
+
+self.addEventListener<span style="color:#f92672">(</span>
+    <span style="color:#e6db74">&#39;install&#39;</span>, event <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+        event.waitUntil<span style="color:#f92672">(</span>installServiceWorker<span style="color:#f92672">())</span>;
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">)</span>;
+
+// The activate handler takes care of cleaning up old caches.
+self.addEventListener<span style="color:#f92672">(</span>
+    <span style="color:#e6db74">&#39;activate&#39;</span>, event <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+        event.waitUntil<span style="color:#f92672">(</span>
+            Promise.all<span style="color:#f92672">(</span>
+                <span style="color:#f92672">[</span>
+                    cleanupLegacyCache<span style="color:#f92672">()</span>,
+                <span style="color:#f92672">]</span>
+            <span style="color:#f92672">)</span>
+                .catch<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>err<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                        event.skipWaiting<span style="color:#f92672">()</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>
+        <span style="color:#f92672">)</span>;
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">)</span>;
+
+self.addEventListener<span style="color:#f92672">(</span>
+    <span style="color:#e6db74">&#39;fetch&#39;</span>, event <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+        event.respondWith<span style="color:#f92672">(</span>
+            caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.content<span style="color:#f92672">)</span>
+                .then<span style="color:#f92672">(</span>
+                    <span style="color:#f92672">(</span>cache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+                        <span style="color:#66d9ef">return</span> cache.match<span style="color:#f92672">(</span>event.request<span style="color:#f92672">)</span>
+                            .then<span style="color:#f92672">(</span>
+                                <span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+                                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+
+                                        let headers <span style="color:#f92672">=</span> response.headers.entries<span style="color:#f92672">()</span>;
+                                        let date <span style="color:#f92672">=</span> null;
+
+                                        <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>let pair of headers<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>pair<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;date&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                                date <span style="color:#f92672">=</span> new Date<span style="color:#f92672">(</span>pair<span style="color:#f92672">[</span>1<span style="color:#f92672">])</span>;
+                                            <span style="color:#f92672">}</span>
+                                        <span style="color:#f92672">}</span>
+
+                                        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>date<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                            let age <span style="color:#f92672">=</span> parseInt<span style="color:#f92672">((</span>new Date<span style="color:#f92672">()</span>.getTime<span style="color:#f92672">()</span> - date.getTime<span style="color:#f92672">())</span> / 1000<span style="color:#f92672">)</span>;
+                                            let ttl <span style="color:#f92672">=</span> getTTL<span style="color:#f92672">(</span>event.request.url<span style="color:#f92672">)</span>;
+
+                                            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>ttl <span style="color:#f92672">&amp;&amp;</span> age &gt; ttl<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+
+                                                <span style="color:#66d9ef">return</span> new Promise<span style="color:#f92672">(</span>
+                                                    <span style="color:#f92672">(</span>resolve<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+                                                        <span style="color:#66d9ef">return</span> fetch<span style="color:#f92672">(</span>event.request<span style="color:#f92672">)</span>
+                                                            .then<span style="color:#f92672">(</span>
+                                                                <span style="color:#f92672">(</span>updatedResponse<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>updatedResponse<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                                                        cache.put<span style="color:#f92672">(</span>event.request, updatedResponse.clone<span style="color:#f92672">())</span>;
+                                                                        resolve<span style="color:#f92672">(</span>updatedResponse<span style="color:#f92672">)</span>;
+                                                                    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                                                        resolve<span style="color:#f92672">(</span>response<span style="color:#f92672">)</span>
+                                                                    <span style="color:#f92672">}</span>
+                                                                <span style="color:#f92672">}</span>
+                                                            <span style="color:#f92672">)</span>
+                                                            .catch<span style="color:#f92672">(</span>
+                                                                <span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                                    resolve<span style="color:#f92672">(</span>response<span style="color:#f92672">)</span>;
+                                                                <span style="color:#f92672">}</span>
+                                                            <span style="color:#f92672">)</span>;
+
+                                                    <span style="color:#f92672">}</span>
+                                                <span style="color:#f92672">)</span>
+                                                    .catch<span style="color:#f92672">(</span>
+                                                        <span style="color:#f92672">(</span>err<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                            <span style="color:#66d9ef">return</span> response;
+                                                        <span style="color:#f92672">}</span>
+                                                    <span style="color:#f92672">)</span>;
+                                            <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                                <span style="color:#66d9ef">return</span> response;
+                                            <span style="color:#f92672">}</span>
+
+                                        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                            <span style="color:#66d9ef">return</span> response;
+                                        <span style="color:#f92672">}</span>
+
+                                    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                        <span style="color:#66d9ef">return</span> null;
+                                    <span style="color:#f92672">}</span>
+                                <span style="color:#f92672">}</span>
+                            <span style="color:#f92672">)</span>
+                            .then<span style="color:#f92672">(</span>
+                                <span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                        <span style="color:#66d9ef">return</span> response;
+                                    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                        <span style="color:#66d9ef">return</span> fetch<span style="color:#f92672">(</span>event.request<span style="color:#f92672">)</span> 
+                                            .then<span style="color:#f92672">(</span>
+                                                <span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+                                                    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>response.status &lt; 400<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                                        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>~SUPPORTED_METHODS.indexOf<span style="color:#f92672">(</span>event.request.method<span style="color:#f92672">)</span> <span style="color:#f92672">&amp;&amp;</span> !isBlacklisted<span style="color:#f92672">(</span>event.request.url<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+                                                            cache.put<span style="color:#f92672">(</span>event.request, response.clone<span style="color:#f92672">())</span>;
+                                                        <span style="color:#f92672">}</span>
+                                                        <span style="color:#66d9ef">return</span> response;
+                                                    <span style="color:#f92672">}</span> 
+                                                    <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+                                                        <span style="color:#66d9ef">return</span> caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.notFound<span style="color:#f92672">)</span>.then<span style="color:#f92672">((</span>cache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                            <span style="color:#66d9ef">return</span> cache.match<span style="color:#f92672">(</span>NOT_FOUND_PAGE<span style="color:#f92672">)</span>;
+                                                        <span style="color:#f92672">})</span>
+                                                    <span style="color:#f92672">}</span>
+                                                <span style="color:#f92672">}</span>
+                                            <span style="color:#f92672">)</span>
+                                            .then<span style="color:#f92672">((</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>response<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                                                    <span style="color:#66d9ef">return</span> response;
+                                                <span style="color:#f92672">}</span>
+                                            <span style="color:#f92672">})</span>
+                                            .catch<span style="color:#f92672">(</span>
+                                                <span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+
+                                                    <span style="color:#66d9ef">return</span> caches.open<span style="color:#f92672">(</span>CACHE_VERSIONS.offline<span style="color:#f92672">)</span>
+                                                        .then<span style="color:#f92672">(</span>
+                                                            <span style="color:#f92672">(</span>offlineCache<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                                                <span style="color:#66d9ef">return</span> offlineCache.match<span style="color:#f92672">(</span>OFFLINE_PAGE<span style="color:#f92672">)</span>
+                                                            <span style="color:#f92672">}</span>
+                                                        <span style="color:#f92672">)</span>
+
+                                                <span style="color:#f92672">}</span>
+                                            <span style="color:#f92672">)</span>
+                                        
+                                    <span style="color:#f92672">}</span>
+                                <span style="color:#f92672">}</span>
+                            <span style="color:#f92672">)</span>
+                            .catch<span style="color:#f92672">(</span>
+                                <span style="color:#f92672">(</span>error<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; <span style="color:#f92672">{</span>
+                                    console.error<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;  Error in fetch handler:&#39;</span>, error<span style="color:#f92672">)</span>;
+                                    throw error;
+                                <span style="color:#f92672">}</span>
+                            <span style="color:#f92672">)</span>;
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">)</span>
+        <span style="color:#f92672">)</span>;
+
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">)</span>;
+</code></pre></div><p><strong>Tambahkan Service Worker</strong></p>
+<p>Untuk meload service worker, biasanya ditaruh di footer dari template yang anda gunakan. Berikut potongan kodenya :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;script&gt;
+  <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;serviceWorker&#39;</span> in navigator<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+      navigator.serviceWorker
+          .register<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/sw.js&#39;</span>, <span style="color:#f92672">{</span> scope: <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">})</span>
+          .then<span style="color:#f92672">(</span><span style="color:#66d9ef">function</span><span style="color:#f92672">(</span>registration<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+              //console.log<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;Service Worker Registered&#39;</span><span style="color:#f92672">)</span>;
+          <span style="color:#f92672">})</span>;
+
+      navigator.serviceWorker
+          .ready
+          .then<span style="color:#f92672">(</span><span style="color:#66d9ef">function</span><span style="color:#f92672">(</span>registration<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+              //console.log<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;Service Worker Ready&#39;</span><span style="color:#f92672">)</span>;
+          <span style="color:#f92672">})</span>;
+  <span style="color:#f92672">}</span>
+&lt;/script&gt;
+</code></pre></div><p><strong>Lihat hasilnya</strong></p>
+<p>Sekarang situs kita secara otomatis menjadi PWA. Sangat mudah bukan?</p>
+<p>Untuk mengujinya, bila menggunakan browser Google Chrome, kita dapat memanfaatkan <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools</a> untuk memantau aktivitas aplikasi webmu. Kamu dapat menampilkan DevTools pada browser Chrome dengan menekan tombol keyboard Ctrl+Shift+i atau mengklik kanan pada layar browser dan memilih opsi Inspect pada menu popup.</p>
+<p><img src="/images/membuat-blog-pwa/1.png" alt="gambar"></p>
+<p>Pada tab Aplikasi, kita bisa melihat detail yang disediakan dalam manifes termasuk ikon yang berbeda. Kita juga akan melihat berbagai file yang kita tentukan di bagian Penyimpanan Cache.</p>
+<p>Buka tab Audit dan lakukan audit Lighthouse dan lihat hasilnya.
+<img src="/images/membuat-blog-pwa/2.png" alt="gambar"></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/hugo/">hugo</a><a class="tag" href="/tags/golang/">golang</a><a class="tag" href="/tags/pwa/">pwa</a><a class="tag" href="/tags/blog/">blog</a></span>
+
+      </div>
+    </div>
+
+    
+    <div id="fb_comments_container">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rifkyfuady-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>       
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>

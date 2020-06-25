@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light"><head>
+    <title> Rifky Fuady | Panduan Lengkap Membangun Sms Gateway dengan Gammu </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:url" content="https://rifkyfuady.github.io/"> 
+    <meta property="og:title" content="Decode Ideas, Discover Potential"> 
+    <meta property="og:description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:image" content="https://rifkyfuady.github.io/images/preview.png"> 
+    <meta property="og:site_name" content="Rifky Fuady"> 
+    <meta property="og:ttl" content="3600">
+    <meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk" /><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://rifkyfuady.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rifkyfuady.github.io/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Rifky&nbsp;Fuady"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://rifkyfuady.github.io/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://rifkyfuady.github.io/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://rifkyfuady.github.io/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://rifkyfuady.github.io/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://rifkyfuady.github.io/favicons/mstile-310x310.png" />
+    <link rel="canonical" href="https://rifkyfuady.github.io/post/gammu-sms-gateway/">
+    
+    
+    <script type="text/javascript" src="https://rifkyfuady.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://rifkyfuady.github.io/images/profil.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Rifky Fuady</a></h3>
+        <div class="description">
+          <p>Good programmer with great habits</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/rifkyfu32" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:mi.rifky.fuady@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.dicoding.com/users/57163" rel="me" aria-label="dicoding">
+          <i class="fa fa-2x fa-glide-g" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/Fuu_ady" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.instagram.com/fuadyrifky" rel="me" aria-label="instagram">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Rifky Fuady 2020 &ndash; <a href="/privacy-policy" class="text-secondary"> Privacy Policy</a></div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/portofolio/" title="">Portofolio</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Panduan Lengkap Membangun Sms Gateway dengan Gammu
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Thu, Mar 14, 2019</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">3-minute read</span>
+        </div>
+        
+        </div>
+
+    <p><strong>Apa itu SMS-Gateway?</strong></p>
+<p>Secara sederhana <code>SMS-Gateway</code> adalah suatu layanan <code>SMS</code> <em>(Short Message Service)</em> yang memungkinkan untuk melakukan pengiriman <code>SMS</code>, maupun penerimaan <code>SMS</code> melalui komputer. Kita bisa dengan mudah melakukan menejemen <code>SMS</code> dengan komputer kita.</p>
+<p>Pada kesempatan kali ini saya akan berbagi cara membangun <code>SMS-Gateway</code> dengan <a href="https://wammu.eu/gammu/">Gammu</a>. Spesifikasi sistem operasi komputer saya menggunakan <a href="http://releases.ubuntu.com/18.04/">Ubuntu 18.04 LTS</a> dan modem <code>Wavecom Fastrack M1306B</code>.</p>
+<p>Berikut langkah-langkah instalasinya :</p>
+<ul>
+<li>Install <code>gammu</code> dan juga <code>gammu-smsd</code> menggunakan terminal, pastikan terhubung dengan internet. Masukkan perintah di <code>terminal</code> :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get update
+sudo apt-get install gammu gammu-smsd
+</code></pre></div><p><img src="/images/gammu-sms-gateway/1.png" alt="gambar"></p>
+<ul>
+<li>Kemudian setting <code>gammu</code>-nya. Masukkan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gammu-config
+</code></pre></div><p><img src="/images/gammu-sms-gateway/2.png" alt="gambar"></p>
+<p>Akan tampil menu untuk konfigurasi <code>gammu</code>. Kita akan mengubah ini dengan kongurasi yang <code>benar</code> sesuai <code>modem</code> yang digunakan.</p>
+<ul>
+<li>Buka tab baru di terminal, lalu masukkan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dmesg | grep tty
+</code></pre></div><p><img src="/images/gammu-sms-gateway/3.png" alt="gambar"></p>
+<p>Nanti akan muncul <code>port</code> yang terhubung dengan modem. Jika tidak muncul, mungkin modem <code>belum ditancapkan</code> atau anda perlu <code>menginstall driver</code> modem tersebut. Langkah ini bertujuan untuk melihat apakah modem <code>sudah</code> <code>terdeteksi</code> pada komputer atau <code>belum</code>.</p>
+<ul>
+<li>Jika kita sudah mengetahui <code>port</code> yang terhubung dengan <code>modem</code>, isikan pada konfigurasi <code>gammu</code>. Yaitu pada bagian :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">port <span style="color:#f92672">=</span> /dev/ttyUSB0
+</code></pre></div><p><img src="/images/gammu-sms-gateway/4.png" alt="gambar"></p>
+<p><code>ttyUSB0</code> disesuaikan dengan hasil <code>dmesg | grep tty</code>.</p>
+<ul>
+<li>Untuk <code>connection</code> saya pilih <code>at115200</code> karena saya menggunakan <code>modem</code> <code>Wavecom Fastrack M1306B</code>, jika anda menggunakan <code>modem</code> yang <code>berbeda</code>, sesuaikan konfigurasi <code>connection</code> dengan <code>jenis modem</code> anda.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">connection <span style="color:#f92672">=</span> at115200
+</code></pre></div><p><img src="/images/gammu-sms-gateway/5.png" alt="gambar"></p>
+<ul>
+<li><code>Logfile</code> kita isi dengan <code>path</code> di mana kita ingin menyimpan <code>log</code> <em>(informasi)</em> dari <code>gammu</code>. Saya taruh di <code>/var/log/gammulog</code></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">logfile <span style="color:#f92672">=</span> /var/log/gammulog
+</code></pre></div><p><img src="/images/gammu-sms-gateway/6.png" alt="gambar"></p>
+<ul>
+<li>Untuk <code>logformat</code> saya pilih <code>textdate</code>. Nantinya, <code>log</code> <code>gammu</code> akan menyimpan informasi <code>teks</code> beserta <code>tanggal</code> dan <code>jam</code> kejadianya.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">logformat <span style="color:#f92672">=</span> textdate
+</code></pre></div><p><img src="/images/gammu-sms-gateway/7.png" alt="gambar"></p>
+<ul>
+<li>Setelah itu <code>save</code>, dan konfigurasi <code>gammu</code> tersebut akan tersimpan di file <code>.gammurc</code> pada direktori home user yang kita gunakan.</li>
+</ul>
+<p><img src="/images/gammu-sms-gateway/8.png" alt="gambar"></p>
+<p><img src="/images/gammu-sms-gateway/9.png" alt="gambar"></p>
+<ul>
+<li>Kita matikan dulu <code>service</code> <code>gammu-smsd</code>. Kenapa? Karena jika <code>service</code> tersebut berjalan, kita tidak bisa menggunakan perintah <code>gammu</code> di <code>terminal</code>. Masukkan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo /etc/init.d/gammu-smsd stop
+</code></pre></div><ul>
+<li>Kita cek apakah settingan <code>gammu</code> dengan <code>modem</code> tersebut sudah <code>benar</code> atau belum. Masukkan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gammu --identify
+</code></pre></div><ul>
+<li>Jika sudah muncul <code>informasi</code> dari <code>modem</code> yang menancap pada komputer kita, berarti settingan <code>benar</code>. Kita periksa dengan cara mencoba mengirim <code>SMS</code> menggunakan perintah <code>sudo gammu sendsms TEXT no_tujuan -text &quot;isi sms&quot;</code>. Contohnya:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gammu sendsms TEXT +6285326967372 -text <span style="color:#e6db74">&#34;ini pesan gammu&#34;</span>
+</code></pre></div><p><img src="/images/gammu-sms-gateway/10.png" alt="gambar"></p>
+<p>Jika <code>berhasil</code> mengirim <code>SMS</code>, berarti semua settingan <code>berhasil</code>. Tapi bila kita <code>gagal</code> mengirim <code>SMS</code>, coba <code>periksa</code> settingan <code>port</code> pada konfigurasi <code>gammu</code>. Atau ulangi cara di atas dari <code>dmesg | grep tty</code> dan jangan lupa ganti <code>port</code>-nya. Jika semua <code>port</code> yang ada sudah kita coba tetapi masih <code>gagal</code>, coba ganti <code>connection</code>-nya.</p>
+<ul>
+<li>Kemudian kita setting <code>gammu-smsd</code>-nya agar <code>service</code> <code>gammu</code> bisa terhubung dengan <code>database</code>. Edit file <code>/etc/gammu-smsdrc</code> dengan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gedit /etc/gammu-smsdrc
+</code></pre></div><p><img src="/images/gammu-sms-gateway/11.png" alt="gambar"></p>
+<ul>
+<li>Sesuaikan <code>konfigurasi</code> seperti ini :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Configuration file for Gammu SMS Daemon</span>
+
+<span style="color:#75715e"># Gammu library configuration, see gammurc(5)</span>
+<span style="color:#f92672">[</span>gammu<span style="color:#f92672">]</span>
+port <span style="color:#f92672">=</span> /dev/ttyUSB0
+connection <span style="color:#f92672">=</span> at115200
+logformat <span style="color:#f92672">=</span> textdate
+logfile <span style="color:#f92672">=</span> /var/log/gammulog
+
+<span style="color:#75715e"># SMSD configuration, see gammu-smsdrc(5)</span>
+<span style="color:#f92672">[</span>smsd<span style="color:#f92672">]</span>
+service <span style="color:#f92672">=</span> SQL
+driver <span style="color:#f92672">=</span> native_mysql
+logfile <span style="color:#f92672">=</span> /var/log/smsdlog
+commtimeout <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
+sendtimeout <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
+checksecurity <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+checksignal <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+
+<span style="color:#75715e">#Database sesuaikan sendiri</span>
+pc <span style="color:#f92672">=</span> localhost
+user <span style="color:#f92672">=</span> root
+password <span style="color:#f92672">=</span> rahasia
+database <span style="color:#f92672">=</span> terserah
+</code></pre></div><p><img src="/images/gammu-sms-gateway/12.png" alt="gambar"></p>
+<ul>
+<li><code>Simpan</code> dan jangan lupa untuk <code>menjalankan</code> kembali <code>service</code> <code>gammu</code> dengan perintah :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo /etc/init.d/gammu-smsd start
+</code></pre></div>
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/gammu/">gammu</a><a class="tag" href="/tags/ubuntu/">ubuntu</a></span>
+
+      </div>
+    </div>
+
+    
+    <div id="fb_comments_container">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rifkyfuady-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>       
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>

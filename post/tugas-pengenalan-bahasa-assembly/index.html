@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light"><head>
+    <title> Rifky Fuady | Tugas Arsitektur dan Organsasi Komputerpengenalan Bahasa Assembly </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:url" content="https://rifkyfuady.github.io/"> 
+    <meta property="og:title" content="Decode Ideas, Discover Potential"> 
+    <meta property="og:description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:image" content="https://rifkyfuady.github.io/images/preview.png"> 
+    <meta property="og:site_name" content="Rifky Fuady"> 
+    <meta property="og:ttl" content="3600">
+    <meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk" /><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://rifkyfuady.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rifkyfuady.github.io/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Rifky&nbsp;Fuady"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://rifkyfuady.github.io/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://rifkyfuady.github.io/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://rifkyfuady.github.io/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://rifkyfuady.github.io/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://rifkyfuady.github.io/favicons/mstile-310x310.png" />
+    <link rel="canonical" href="https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/">
+    
+    
+    <script type="text/javascript" src="https://rifkyfuady.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://rifkyfuady.github.io/images/profil.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Rifky Fuady</a></h3>
+        <div class="description">
+          <p>Good programmer with great habits</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/rifkyfu32" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:mi.rifky.fuady@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.dicoding.com/users/57163" rel="me" aria-label="dicoding">
+          <i class="fa fa-2x fa-glide-g" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/Fuu_ady" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.instagram.com/fuadyrifky" rel="me" aria-label="instagram">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Rifky Fuady 2020 &ndash; <a href="/privacy-policy" class="text-secondary"> Privacy Policy</a></div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/portofolio/" title="">Portofolio</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Tugas Arsitektur dan Organsasi Komputerpengenalan Bahasa Assembly
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, Dec 12, 2012</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">5-minute read</span>
+        </div>
+        
+        </div>
+
+    <p><a href="http://4.bp.blogspot.com/-NpWBCFFtjFY/UMdqPlu5oDI/AAAAAAAAAZM/NlncE3p-iys/s1600/asemmbly.jpg"><img src="http://4.bp.blogspot.com/-NpWBCFFtjFY/UMdqPlu5oDI/AAAAAAAAAZM/NlncE3p-iys/s320/asemmbly.jpg" alt=""></a></p>
+<p><a href="http://1.bp.blogspot.com/-beftZiDfHNE/UMdwQaqPXjI/AAAAAAAAAZc/6HebV2GnTRg/s1600/logo_stmik_png.png"><img src="http://1.bp.blogspot.com/-beftZiDfHNE/UMdwQaqPXjI/AAAAAAAAAZc/6HebV2GnTRg/s200/logo_stmik_png.png" alt=""></a></p>
+<p>For  **Bpk. **<strong>Sattriedi W.B,S.Si,M.Kom</strong></p>
+<h2 id="pengenalan-bahasa-assembly"><strong>PENGENALAN BAHASA ASSEMBLY</strong></h2>
+<p><strong>BAB I . PENDAHULUAN</strong></p>
+<p><strong>1.1 LATAR BELAKANG</strong></p>
+<p>Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.</p>
+<p>Untuk  file  yang  diakhiri  dengan  extension  Com,  berarti  file  itu  paling  banyak  hanya  akan  memakan  luas  64  kilobyte  yang  disebut  1  segment,  sedangkan  untuk  file  berekstensi EXE  tidak dibatasi berapa segment  yang dapat dipakai. Dapat 1 segment, 2  segment,  3  segment  atau  lebih  dari  3  segment.  Oleh  karena  COM  hanya  memiliki  1  segment, Maka file Com memiliki kelebihan dan kekurangan sebagai  berikut :</p>
+<p>a. Stack yang telah dibuat sendiri oleh program di akhir Segment</p>
+<p>b. Hanya terdapat satu segment, sehingga tidak perlu mengatur DS, CS, SS, kecuali</p>
+<p>bila diinginkan.</p>
+<p>c. Karena hanya satu segment, maka tidak mungkin membuat program lebih dari 64</p>
+<p>kb.</p>
+<p>d. Butuh ruangan di awal program sebanyak 100 hexa byte untuk keperluan program</p>
+<p>segment prefix (PSP).</p>
+<p>e. Karena PSP  diketahui  dengan  pasti,  maka perlu dilakukan  operasi  ke  PSP lebih</p>
+<p>mudah karena masih berada dalam 1 segment.</p>
+<p>f. Dapat menggunakan utility DEBUG untuk membuat program.</p>
+<p>Kelebihan dan kekurangan program EXE, sebagai berikut :</p>
+<p>a. Hasil Program panjang</p>
+<p>b. Tidak perlu menyediakan tempat untuk PSP.</p>
+<p>c. Pembagian segmen diatur sendiri</p>
+<p>d. Membuat stack sendiri</p>
+<p>e. Tidak dapat membuat progr am dengan Debug.</p>
+<p><strong>1.2. Rumusan Masalah</strong>Permasalahan yang akan dibahas dalam penulisan makalah ini, adalah definisi dari bahasa assembly dan assembler; penjelasan mengenai system bilangan dan konversi bilangan; elemen dasar bahasa assembly.</p>
+<p><strong>1.3. Tujuan.</strong><br>
+Tujuan dari penulisan makalah ini ialah untuk menyelesaikan tugas mata kuliah BAHASA ASSEMBLY,dan untuk mendapatkan pengetahuan mengenai bahasa assembly baik bagi penulis maupun pembaca.</p>
+<p><strong>1.4. Manfaat.</strong><br>
+Manfaat Penulisan Makalah ini adalah sebagai sarana untuk menambah pengetahuan dan sebagai media pembelajaran.</p>
+<p><strong>BAB II PEMBAHASAN</strong></p>
+<p><strong>2.1. Elemen Bahasa Asembly</strong></p>
+<p>Dalam  pemrograman  bahasa  assembly  lebih  ditekankan  pada  system  operasi Microsoft Intel yang seiring dengan perkembangan mikroprosesor 8088/8086. Perkembangan bahasa assembly tergantung pada linker yang mengubah file *.obj menjadi *.exe atau *.com. Bahasa assembly dikategorikan sebagai bahasa tingkat rendah. Hal ini untuk menggambarkan spesifikasi sebagai bahasa yang berorientasi</p>
+<p>pada machine dependent. Untuk membandingkan bahasa mesin dan bahasa assembly menurut karakteristik dibagi 2 bagian :</p>
+<p>· Mnemonic Operation Code</p>
+<p>· Simbolic Operand Spesification</p>
+<p><strong>2.2. Proses Assembly</strong></p>
+<p>Untuk  membangun  skema  proses  translasi  dari  satu  bahasa  ke  bentuk  lain,  maka yang perlu diperhatikan adalah mengidentifikasi tugas dasar yang dikerjakan dalam proses translasi .</p>
+<p><strong>2.3. Skema Assembly</strong></p>
+<p>Proses penerjemahan secara sederhana dapat dikelompokkan dalam dua fase, yaitu:</p>
+<p>· <strong>Fase Analisa</strong></p>
+<p>a. Memisahkan label, mnemonic operation code dan operand field yang ada pada</p>
+<p>statement.</p>
+<p>b. Memasukkan symbol yang ditemukan pada label field dan alamat yang dituju</p>
+<p>machine word ke dalam symbol table.</p>
+<p>c. Melakukan validasi mnemonic operation code dengan melihat pada mnemonic</p>
+<p>table</p>
+<p>d. Menentukan  alamat  yang  dibutuhkan  oleh  statement  berdasarkan  pada</p>
+<p>mnem</p>
+<p>onic operation code dan operand field pada statement.</p>
+<p>·** Fase analisis dapat dikelompokkan menjadi beberapa tahap, yaitu :**</p>
+<p> a. Lexical Analisys</p>
+<p>Lexical  Analisys  adalah  menjalankan  mikro  level  examination  dari  teks</p>
+<p>masukan  untuk  mengenal  lexial  unit  yang  ada  didalamnya  dan  menentukan</p>
+<p>kategori syntax.</p>
+<p> b. Syntax Analisys</p>
+<p>Proses  Syntac  Analisys  dilakukan  terhadap  descriptor  dari  lexical  analisys</p>
+<p>untuk  menentukan  struktur  syntax  dari  statement  masukan.  Proses  tersebut</p>
+<p>dikenal  dengan  PARSING.  Output  dari  parsing  adalah  representasi  dari</p>
+<p>struktur syntac suatu statement.</p>
+<p>  c. Semantic Analisys</p>
+<p>Proses  semantic  analisys  dapat  diklasifikasikan  kedalam  proses  declarative</p>
+<p>statement dan proses eksekusi.</p>
+<p>· <strong>Fase Syntesis</strong></p>
+<p>a. Menghasilkan machine operation code yang berkorespodensi dengan</p>
+<p>mnemonic operation code yang telah dicari pada mnemonic table.</p>
+<p>b. Menghasilkan alamat operand dari symbol table</p>
+<p>c. Melakukan syntesis instruksi machine.</p>
+<p>Pada fase sysntesis dilakukan pemilihan machine operation code yang sesuai</p>
+<p>dengan mnemonic Load  dan menempatkan pada  machine  instruction opcode</p>
+<p>field.  Evaluasi  korespodensi  pengalamatan  dilakukan  untuk  operand</p>
+<p>expression ‘ Result + 4.</p>
+<p><strong>2.4. Proses Assembly</strong></p>
+<p>Unit  dalam sources program digunakan untuk  menterjemah semua bagian program.</p>
+<p>Ketika  fase  analisys  statement  program  pertama  kali  dilakukan,  maka  proses  LC</p>
+<p>akan dikerjakan dan symbol yang didefinisikan dalam program dimasukkan ke dalam</p>
+<p>symbol table. Untuk mengurangi pengulangan, maka hasil analisis sources statement</p>
+<p>dari  first  pass  direpresentasikan  dalam  internal  form  pada  sources  statement  yang</p>
+<p>disebut  intermediate  code. Selain  membentuk  intermediate  code,  suatu  proses</p>
+<p>assembler juga membangun struktur database yang digunakan oleh subsequent pass.</p>
+<p><strong>2.5. Spesifikasi Komputer</strong></p>
+<p>Dalam  pemrograman  bahasa  assembly,  ada  beberapa  aspek  utama  yang  minimal</p>
+<p>harus ada persyaratan yang menunjang, meliputi :</p>
+<p>Langkah Pasti Menuju Sukses</p>
+<p>A. Perangkat Keras (Hardware) yang diperlukan:</p>
+<p>1. Prosesor Intel, minimal Intel Pentium I, Intel Pentium II dan Pentium III</p>
+<p>2. Monitor CGA, EGA atau VGA</p>
+<p>3. Keyboard dan Mouse</p>
+<p>4. USB Port</p>
+<p>5. Harddisk</p>
+<p>B. Perangkat Lunak (Software) yang diperlukan :</p>
+<p>1. Microsoft Windows XP</p>
+<p>2. Turbo Assembler</p>
+<p>3. Linker : Tlink ver 3 minimal</p>
+<p>4. Text Editor : Edit atau bahasa pemrograman</p>
+<p><strong>BAB III  PENUTUP</strong></p>
+<dl>
+<dt>3.1. Kesimpulan.</dt>
+<dt>Bahasa Assembly adalah bahasa yang memudahkan pemahaman bagian computer yang paling rendah, mendekati mesin. Bahasa assembly sebaiknya dipelajari secara kontektual sehingga interaksi perangkat keras dan perangkat lunak computer mungkin lebih mudah dipahami.</dt>
+<dt>Bahasa assembly adalah bahasa pemrograman dengan korespondensi satu-satu antara perintah-perintah/pertanyaannya dan bahasa mesin computer.</dt>
+<dt>Assembler adalah program yang mengonversi kode program sumber ke dalam bahasa mesin</dt>
+<dt>System bilangan (number system) adalah suatu cara untuk mewakili besaran dari suatu item fisik. System bilangan terdiri dari: bilangan biner, bilangan decimal, bilangan octal dan hexadesimal.</dt>
+<dt>Kumpulan karakter dalam assembly</dt>
+<dt>Letter : A-Z, a-z</dt>
+<dt>Digit : 0-9</dt>
+<dt>Karakter khusus:</dt>
+<dt>? , (koma)</dt>
+<dt>@ “</dt>
+<dt>_ &amp;</dt>
+<dt>$ %</dt>
+<dd>!<br>
+. ‘<br>
+[] ~<br>
+() |<br>
+{} =<br>
++ #<br>
+- ^<br>
+/ ;<br>
+* `</dd>
+</dl>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/bahasa-pemrograman/">Bahasa Pemrograman</a><a class="tag" href="/tags/tugas/">Tugas</a></span>
+
+      </div>
+    </div>
+
+    
+    <div id="fb_comments_container">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rifkyfuady-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>       
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>

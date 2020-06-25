@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light"><head>
+    <title> Rifky Fuady | Aplikasi Dragon Ball dengan Animasi di Flutter </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:url" content="https://rifkyfuady.github.io/"> 
+    <meta property="og:title" content="Decode Ideas, Discover Potential"> 
+    <meta property="og:description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
+    <meta property="og:image" content="https://rifkyfuady.github.io/images/preview.png"> 
+    <meta property="og:site_name" content="Rifky Fuady"> 
+    <meta property="og:ttl" content="3600">
+    <meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk" /><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://rifkyfuady.github.io/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://rifkyfuady.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rifkyfuady.github.io/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://rifkyfuady.github.io/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://rifkyfuady.github.io/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Rifky&nbsp;Fuady"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://rifkyfuady.github.io/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://rifkyfuady.github.io/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://rifkyfuady.github.io/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://rifkyfuady.github.io/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://rifkyfuady.github.io/favicons/mstile-310x310.png" />
+    <link rel="canonical" href="https://rifkyfuady.github.io/post/flutter-animasi-dragonball/">
+    
+    
+    <script type="text/javascript" src="https://rifkyfuady.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://rifkyfuady.github.io/images/profil.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Rifky Fuady</a></h3>
+        <div class="description">
+          <p>Good programmer with great habits</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/rifkyfu32" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:mi.rifky.fuady@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.dicoding.com/users/57163" rel="me" aria-label="dicoding">
+          <i class="fa fa-2x fa-glide-g" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/Fuu_ady" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.instagram.com/fuadyrifky" rel="me" aria-label="instagram">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Rifky Fuady 2020 &ndash; <a href="/privacy-policy" class="text-secondary"> Privacy Policy</a></div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/portofolio/" title="">Portofolio</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Aplikasi Dragon Ball dengan Animasi di Flutter
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Mon, Apr 1, 2019</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">6-minute read</span>
+        </div>
+        
+        </div>
+
+    <p><strong>Siapa yang gak tau Dragon Ball hayoo?</strong></p>
+<p>Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.00 WIB di Indosiar setia menonton film animasi <code>Dragon Ball</code>, televisi saat itu masih berbentuk tabung dan nonton bareng sama tetangga saya dekat rumah.</p>
+<p>Kali ini kita akan belajar bikin aplikasi karakter <code>Dragon Ball</code> dengan animasi sederhana di <a href="https://flutter.dev/">Flutter</a> sambil ber-<em>nostalgia</em> mengingat karakter-karakter yang ada di film animasi <code>Dragon Ball</code>.</p>
+<p><strong># Persiapan</strong></p>
+<p>Seperti biasa, buka visual studio code, bikin projek baru. Kemudian bikin folder assets/images untuk menaruh gambar dari karakter <code>Dragon Ball</code>.</p>
+<p>Download gambar karakter dibawah dan taruh di folder assets/images.</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/boo.png">Boo</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/broly.png">Broly</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/cell.png">Cell</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/frieza.png">Frieza</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/gohan.png">Gohan</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/goku.png">Goku</a></li>
+<li><a href="https://raw.githubusercontent.com/rifkyfu32/Dragon-Ball-Flutter/master/assets/images/vegeta.png">Vegeta</a></li>
+</ul>
+<p><strong># Ubah pubspec.yaml</strong></p>
+<p>Deklarasikan file-file tadi pada file <code>pubspec.yaml</code> agar dapat digunakan, berikut ini <code>snippet code</code>-nya :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">name: dragonball_flutter
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: <span style="color:#e6db74">&#34;&gt;=2.1.0 &lt;3.0.0&#34;</span>
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
+</code></pre></div><p><strong># Bikin Class Karakter</strong></p>
+<p>Buat file baru dengan klik kanan pada folder lib selanjutnya beri nama <code>karakter.dart</code>, berikut ini <code>snippet code</code>-nya :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">class Karakter <span style="color:#f92672">{</span>
+  final String avatar;
+  final String title;
+  final String description;
+  final int color;
+
+  Karakter<span style="color:#f92672">({</span>
+    this.avatar,
+    this.title,
+    this.description,
+    this.color,
+  <span style="color:#f92672">})</span>;
+<span style="color:#f92672">}</span>
+
+//sumber: https://www.giantbomb.com/dragon-ball-z/3025-159/characters/
+final karakters <span style="color:#f92672">=</span> &lt;Karakter&gt;<span style="color:#f92672">[</span>
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Goku&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Goku adalah pemeran utama protagonis dalam franchise Dragon Ball dan salah satu pejuang terkuat di alam semesta. Dia adalah seorang prajurit Saiyan yang nama aslinya adalah Kakarot, putra Bardock. Dia adalah suami dari Chi Chi, dan ayah dari Gohan dan Goten. Dia juga Kakek ke Pan.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/goku.png&#34;</span>,
+    color: 0xFFE83835,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Vegeta&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Pangeran dari semua Saiyan, Vegeta adalah pejuang Saiyan elit yang sangat kuat. Dalam perjuangan konstannya untuk melampaui saingannya yang abadi Goku, ia telah menjadi salah satu pejuang paling kuat di alam semesta.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/vegeta.png&#34;</span>,
+    color: 0xFF238BD0,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Gohan&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Gohan adalah putra Goku dan salah satu pahlawan di alam semesta Dragon Ball Z. Dia juga protagonis dari Cell Saga, di mana dia adalah orang pertama yang mencapai bentuk Super Saiyan 2, melalui kemarahan dan emosi yang luar biasa. Dalam bentuk Ultimate kemudian, ia dianggap sebagai prajurit paling kuat di Dragon Ball Z. Dia adalah kakak Goten dan ayah Pan. Istrinya adalah Videl dan kakeknya adalah Bardock.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/gohan.png&#34;</span>,
+    color: 0xFF354C6C,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Frieza&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Di Dragon Ball Z universe, Frieza adalah salah satu penjahat pertama yang benar-benar menguji Goku.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/frieza.png&#34;</span>,
+    color: 0xFF6F2B62,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Cell&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Cell adalah android yang dibangun dari sel-sel yang diambil dari beberapa pejuang dalam Dragon Ball Z universe. Dia adalah antagonis utama dari Saga Android Dragon Ball.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/cell.png&#34;</span>,
+    color: 0xFF447C12,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Majin Buu&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Salah satu karakter Dragon Ball Z yang paling ganas dan senang transformasi, Majin Buu adalah musuh besar terakhir dalam alur cerita Dragon Ball Z. Dengan kemampuan untuk menyerap musuh, belajar bergerak, dan memberikan pukulan serius, Majin Buu adalah salah satu musuh Goku dan teman yang paling menantang.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/boo.png&#34;</span>,
+    color: 0xFFE7668E,
+  <span style="color:#f92672">)</span>,
+  Karakter<span style="color:#f92672">(</span>
+    title: <span style="color:#e6db74">&#34;Broly&#34;</span>,
+    description:
+        <span style="color:#e6db74">&#34;Sang Legendaris Super Saiyan, Broly adalah salah satu penjahat Saiyan Dragon Ball Z yang paling kuat dan destruktif.&#34;</span>,
+    avatar: <span style="color:#e6db74">&#34;assets/images/broly.png&#34;</span>,
+    color: 0xFFBD9158,
+  <span style="color:#f92672">)</span>,
+<span style="color:#f92672">]</span>;
+</code></pre></div><p><strong># Halaman Detail</strong></p>
+<p>Selanjutnya kita akan membuat halaman detail informasi dari setiap karakter yang dipilih, buat file baru dengan nama <code>detail.dart</code>, berikut ini <code>snippet code</code>-nya :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">import <span style="color:#e6db74">&#39;package:flutter/material.dart&#39;</span>;
+import <span style="color:#e6db74">&#39;karakter.dart&#39;</span>;
+
+class Detail extends StatefulWidget <span style="color:#f92672">{</span>
+  final Karakter karakter;
+
+  const Detail<span style="color:#f92672">({</span>
+    Key key,
+    @required this.karakter,
+  <span style="color:#f92672">})</span> : super<span style="color:#f92672">(</span>key: key<span style="color:#f92672">)</span>;
+
+  @override
+  _DetailState createState<span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; _DetailState<span style="color:#f92672">()</span>;
+<span style="color:#f92672">}</span>
+
+class _DetailState extends State&lt;Detail&gt;
+    with SingleTickerProviderStateMixin <span style="color:#f92672">{</span>
+  AnimationController _controller;
+
+  @override
+  void initState<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    _controller <span style="color:#f92672">=</span>
+        AnimationController<span style="color:#f92672">(</span>vsync: this, duration: Duration<span style="color:#f92672">(</span>milliseconds: 500<span style="color:#f92672">))</span>;
+    _controller.forward<span style="color:#f92672">()</span>;
+    super.initState<span style="color:#f92672">()</span>;
+  <span style="color:#f92672">}</span>
+
+  @override
+  void dispose<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    _controller.dispose<span style="color:#f92672">()</span>;
+    super.dispose<span style="color:#f92672">()</span>;
+  <span style="color:#f92672">}</span>
+
+  @override
+  Widget build<span style="color:#f92672">(</span>BuildContext context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> Stack<span style="color:#f92672">(</span>
+      children: <span style="color:#f92672">[</span>
+        Hero<span style="color:#f92672">(</span>
+          tag: <span style="color:#e6db74">&#34;background_</span><span style="color:#e6db74">${</span>widget.karakter.title<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>,
+          child: Container<span style="color:#f92672">(</span>
+            color: Color<span style="color:#f92672">(</span>widget.karakter.color<span style="color:#f92672">)</span>,
+          <span style="color:#f92672">)</span>,
+        <span style="color:#f92672">)</span>,
+        Scaffold<span style="color:#f92672">(</span>
+          backgroundColor: Colors.transparent,
+          appBar: AppBar<span style="color:#f92672">(</span>
+            backgroundColor: Color<span style="color:#f92672">(</span>widget.karakter.color<span style="color:#f92672">)</span>,
+            elevation: 0,
+            title: Text<span style="color:#f92672">(</span>widget.karakter.title<span style="color:#f92672">)</span>,
+            leading: CloseButton<span style="color:#f92672">()</span>,
+          <span style="color:#f92672">)</span>,
+          body: SingleChildScrollView<span style="color:#f92672">(</span>
+            child: Column<span style="color:#f92672">(</span>
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <span style="color:#f92672">[</span>
+                Hero<span style="color:#f92672">(</span>
+                  tag: <span style="color:#e6db74">&#34;image_</span><span style="color:#e6db74">${</span>widget.karakter.title<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>,
+                  child: Image.asset<span style="color:#f92672">(</span>
+                    widget.karakter.avatar,
+                    height: MediaQuery.of<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span>.size.height / 2,
+                  <span style="color:#f92672">)</span>,
+                <span style="color:#f92672">)</span>,
+                AnimatedBuilder<span style="color:#f92672">(</span>
+                  animation: _controller,
+                  builder: <span style="color:#f92672">(</span>context, widget<span style="color:#f92672">)</span> <span style="color:#f92672">=</span>&gt; Transform.translate<span style="color:#f92672">(</span>
+                        transformHitTests: false,
+                        offset: Offset.lerp<span style="color:#f92672">(</span>
+                            Offset<span style="color:#f92672">(</span>0.0, 200.0<span style="color:#f92672">)</span>, Offset.zero, _controller.value<span style="color:#f92672">)</span>,
+                        child: widget,
+                      <span style="color:#f92672">)</span>,
+                  child: Padding<span style="color:#f92672">(</span>
+                    padding: EdgeInsets.all<span style="color:#f92672">(</span>10<span style="color:#f92672">)</span>,
+                    child: Text<span style="color:#f92672">(</span>
+                      widget.karakter.description,
+                      style: TextStyle<span style="color:#f92672">(</span>
+                        fontSize: 18,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w400,
+                      <span style="color:#f92672">)</span>,
+                    <span style="color:#f92672">)</span>,
+                  <span style="color:#f92672">)</span>,
+                <span style="color:#f92672">)</span>,
+              <span style="color:#f92672">]</span>,
+            <span style="color:#f92672">)</span>,
+          <span style="color:#f92672">)</span>,
+        <span style="color:#f92672">)</span>
+      <span style="color:#f92672">]</span>,
+    <span style="color:#f92672">)</span>;
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p><strong># Sentuhan Terakhir</strong></p>
+<p>Selanjutnya kita ubah main.dart, hapus semua kemudian ganti dengan <code>snippet code</code> berikut ini :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">import <span style="color:#e6db74">&#39;package:flutter/material.dart&#39;</span>;
+import <span style="color:#e6db74">&#39;detail.dart&#39;</span>;
+import <span style="color:#e6db74">&#39;karakter.dart&#39;</span>;
+
+void main<span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; runApp<span style="color:#f92672">(</span>MyApp<span style="color:#f92672">())</span>;
+
+class MyApp extends StatelessWidget <span style="color:#f92672">{</span>
+  @override
+  Widget build<span style="color:#f92672">(</span>BuildContext context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> MaterialApp<span style="color:#f92672">(</span>
+      title: <span style="color:#e6db74">&#39;Flutter Dragon Ball&#39;</span>,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData<span style="color:#f92672">(</span>
+        primarySwatch: Colors.blue,
+      <span style="color:#f92672">)</span>,
+      home: ListPage<span style="color:#f92672">()</span>,
+    <span style="color:#f92672">)</span>;
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+
+class ListPage extends StatefulWidget <span style="color:#f92672">{</span>
+  @override
+  _ListPageState createState<span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; _ListPageState<span style="color:#f92672">()</span>;
+<span style="color:#f92672">}</span>
+
+class _ListPageState extends State&lt;ListPage&gt; <span style="color:#f92672">{</span>
+  PageController _controller;
+
+  _goToDetail<span style="color:#f92672">(</span>Karakter karakter<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    final page <span style="color:#f92672">=</span> Detail<span style="color:#f92672">(</span>karakter: karakter<span style="color:#f92672">)</span>;
+    Navigator.of<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span>.push<span style="color:#f92672">(</span>
+      PageRouteBuilder&lt;Null&gt;<span style="color:#f92672">(</span>
+          pageBuilder: <span style="color:#f92672">(</span>BuildContext context, Animation&lt;double&gt; animation,
+              Animation&lt;double&gt; secondaryAnimation<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> AnimatedBuilder<span style="color:#f92672">(</span>
+                animation: animation,
+                builder: <span style="color:#f92672">(</span>BuildContext context, Widget child<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                  <span style="color:#66d9ef">return</span> Opacity<span style="color:#f92672">(</span>
+                    opacity: animation.value,
+                    child: page,
+                  <span style="color:#f92672">)</span>;
+                <span style="color:#f92672">})</span>;
+          <span style="color:#f92672">}</span>,
+          transitionDuration: Duration<span style="color:#f92672">(</span>milliseconds: 400<span style="color:#f92672">))</span>,
+    <span style="color:#f92672">)</span>;
+  <span style="color:#f92672">}</span>
+
+  _pageListener<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    setState<span style="color:#f92672">(()</span> <span style="color:#f92672">{})</span>;
+  <span style="color:#f92672">}</span>
+
+  @override
+  void initState<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    _controller <span style="color:#f92672">=</span> PageController<span style="color:#f92672">(</span>viewportFraction: 0.6<span style="color:#f92672">)</span>;
+    _controller.addListener<span style="color:#f92672">(</span>_pageListener<span style="color:#f92672">)</span>;
+    super.initState<span style="color:#f92672">()</span>;
+  <span style="color:#f92672">}</span>
+
+  @override
+  void dispose<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    _controller.removeListener<span style="color:#f92672">(</span>_pageListener<span style="color:#f92672">)</span>;
+    _controller.dispose<span style="color:#f92672">()</span>;
+    super.dispose<span style="color:#f92672">()</span>;
+  <span style="color:#f92672">}</span>
+
+  @override
+  Widget build<span style="color:#f92672">(</span>BuildContext context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> Scaffold<span style="color:#f92672">(</span>
+      appBar: AppBar<span style="color:#f92672">(</span>
+        title: Text<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Dragon Ball&#34;</span><span style="color:#f92672">)</span>,
+        backgroundColor: Colors.black54,
+      <span style="color:#f92672">)</span>,
+      body: PageView.builder<span style="color:#f92672">(</span>
+          scrollDirection: Axis.vertical,
+          controller: _controller,
+          itemCount: karakters.length,
+          itemBuilder: <span style="color:#f92672">(</span>context, index<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            double currentPage <span style="color:#f92672">=</span> 0;
+            try <span style="color:#f92672">{</span>
+              currentPage <span style="color:#f92672">=</span> _controller.page;
+            <span style="color:#f92672">}</span> catch <span style="color:#f92672">(</span>_<span style="color:#f92672">)</span> <span style="color:#f92672">{}</span>
+
+            final resizeFactor <span style="color:#f92672">=</span>
+                <span style="color:#f92672">(</span><span style="color:#ae81ff">1</span> - <span style="color:#f92672">(((</span>currentPage - index<span style="color:#f92672">)</span>.abs<span style="color:#f92672">()</span> * 0.3<span style="color:#f92672">)</span>.clamp<span style="color:#f92672">(</span>0.0, 1.0<span style="color:#f92672">)))</span>;
+            final karakterSekarang <span style="color:#f92672">=</span> karakters<span style="color:#f92672">[</span>index<span style="color:#f92672">]</span>;
+            <span style="color:#66d9ef">return</span> ListItem<span style="color:#f92672">(</span>
+              karakter: karakterSekarang,
+              resizeFactor: resizeFactor,
+              onTap: <span style="color:#f92672">()</span> <span style="color:#f92672">=</span>&gt; _goToDetail<span style="color:#f92672">(</span>karakterSekarang<span style="color:#f92672">)</span>,
+            <span style="color:#f92672">)</span>;
+          <span style="color:#f92672">})</span>,
+    <span style="color:#f92672">)</span>;
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+
+class ListItem extends StatelessWidget <span style="color:#f92672">{</span>
+  final Karakter karakter;
+  final double resizeFactor;
+  final VoidCallback onTap;
+
+  const ListItem<span style="color:#f92672">({</span>
+    Key key,
+    @required this.karakter,
+    @required this.resizeFactor,
+    @required this.onTap,
+  <span style="color:#f92672">})</span> : super<span style="color:#f92672">(</span>key: key<span style="color:#f92672">)</span>;
+
+  @override
+  Widget build<span style="color:#f92672">(</span>BuildContext context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    double height <span style="color:#f92672">=</span> MediaQuery.of<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span>.size.height * 0.4;
+    double width <span style="color:#f92672">=</span> MediaQuery.of<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span>.size.width * 0.85;
+    <span style="color:#66d9ef">return</span> InkWell<span style="color:#f92672">(</span>
+      onTap: onTap,
+      child: Align<span style="color:#f92672">(</span>
+        alignment: Alignment.topCenter,
+        child: Container<span style="color:#f92672">(</span>
+            width: width * resizeFactor,
+            height: height * resizeFactor,
+            child: Stack<span style="color:#f92672">(</span>
+              children: <span style="color:#f92672">[</span>
+                Positioned<span style="color:#f92672">(</span>
+                  left: 0,
+                  right: 0,
+                  top: height / 4,
+                  bottom: 0,
+                  child: Hero<span style="color:#f92672">(</span>
+                    tag: <span style="color:#e6db74">&#34;background_</span><span style="color:#e6db74">${</span>karakter.title<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>,
+                    child: Card<span style="color:#f92672">(</span>
+                      clipBehavior: Clip.antiAliasWithSaveLayer,
+                      elevation: 10,
+                      shape: RoundedRectangleBorder<span style="color:#f92672">(</span>
+                          borderRadius: BorderRadius.circular<span style="color:#f92672">(</span>15<span style="color:#f92672">))</span>,
+                      child: DecoratedBox<span style="color:#f92672">(</span>
+                        decoration: BoxDecoration<span style="color:#f92672">(</span>
+                            gradient: LinearGradient<span style="color:#f92672">(</span>
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: <span style="color:#f92672">[</span>
+                              Color<span style="color:#f92672">(</span>karakter.color<span style="color:#f92672">)</span>,
+                              Colors.white,
+                            <span style="color:#f92672">]</span>,
+                                stops: <span style="color:#f92672">[</span>
+                              0.4,
+                              1.0,
+                            <span style="color:#f92672">]))</span>,
+                        child: Container<span style="color:#f92672">(</span>
+                          alignment: Alignment.bottomLeft,
+                          margin: EdgeInsets.only<span style="color:#f92672">(</span>
+                            left: 20,
+                            bottom: 10,
+                          <span style="color:#f92672">)</span>,
+                          child: Text<span style="color:#f92672">(</span>
+                            karakter.title,
+                            style: TextStyle<span style="color:#f92672">(</span>
+                              fontSize: <span style="color:#ae81ff">24</span> * resizeFactor,
+                              fontWeight: FontWeight.w600,
+                            <span style="color:#f92672">)</span>,
+                          <span style="color:#f92672">)</span>,
+                        <span style="color:#f92672">)</span>,
+                      <span style="color:#f92672">)</span>,
+                    <span style="color:#f92672">)</span>,
+                  <span style="color:#f92672">)</span>,
+                <span style="color:#f92672">)</span>,
+                Align<span style="color:#f92672">(</span>
+                  alignment: Alignment.topRight,
+                  child: Hero<span style="color:#f92672">(</span>
+                    tag: <span style="color:#e6db74">&#34;image_</span><span style="color:#e6db74">${</span>karakter.title<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>,
+                    child: Image.asset<span style="color:#f92672">(</span>
+                      karakter.avatar,
+                      width: width / 2,
+                      height: height,
+                    <span style="color:#f92672">)</span>,
+                  <span style="color:#f92672">)</span>,
+                <span style="color:#f92672">)</span>,
+              <span style="color:#f92672">]</span>,
+            <span style="color:#f92672">))</span>,
+      <span style="color:#f92672">)</span>,
+    <span style="color:#f92672">)</span>;
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Selesai. sekarang jalankan aplikasi <code>Dragon Ball</code> dengan menekan tombol F5, namun sebelumnya jangan lupa start Android Emulator atau iOS Simulator.</p>
+<p>Hasilnya akan terlihat seperti berikut ini:</p>
+<p><img src="/images/flutter-animasi-dragonball/dragon-ball.gif" alt="gambar"></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/flutter/">flutter</a><a class="tag" href="/tags/android/">android</a></span>
+
+      </div>
+    </div>
+
+    
+    <div id="fb_comments_container">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rifkyfuady-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>       
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://rifkyfuady.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-168512473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>
