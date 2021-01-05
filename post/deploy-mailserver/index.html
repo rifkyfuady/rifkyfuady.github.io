@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="id" data-theme="light"><head>
-    <title> Rifky Fuady | Mudah Bikin Cloud Storage (Dropbox/GDrive) Sendiri </title>
+    <title> Rifky Fuady | Deploy Mailserver </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Rifky Fuady Programmer Web Developer Android Developer"> 
@@ -38,7 +38,7 @@
     <meta name="msapplication-square150x150logo" content="https://rifkyfuady.github.io/favicons/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="https://rifkyfuady.github.io/favicons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="https://rifkyfuady.github.io/favicons/mstile-310x310.png" />
-    <link rel="canonical" href="https://rifkyfuady.github.io/post/deploy-owncloud/">
+    <link rel="canonical" href="https://rifkyfuady.github.io/post/deploy-mailserver/">
     
     
     <script type="text/javascript" src="https://rifkyfuady.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -136,147 +136,158 @@ if (!doNotTrack) {
     <div class="post-content">
 
       <div class="post-title">
-        <h3>Mudah Bikin Cloud Storage (Dropbox/GDrive) Sendiri
+        <h3>Deploy Mailserver
         </h3>
         
         <div class="info">
-          <i class="fa fa-sun-o"></i><span class="date">Tue, Dec 15, 2020</span>
+          <i class="fa fa-sun-o"></i><span class="date">Tue, Jan 5, 2021</span>
           <i class="fa fa-clock-o"></i><span class="reading-time">3-minute read</span>
         </div>
         
         </div>
 
-    <p>Berawal dari kisah sekelas Google yang tadi malam bisa <code>down</code> gara-gara kehabisan <code>storage</code>, saya tidak bisa mengakses file di Google Drive dan akhirnya beberapa pekerjaan terhambat. 😔 🤕</p>
-<p><img src="/images/deploy-owncloud/1.jpg" alt="gambar"></p>
-<p>Belajar dari kejadian tersebut, akhirnya saya berusaha untuk mencari cara agar bisa membuat <code>cloud storage</code> sendiri, akhirnya menemukan satu perangkat lunak <code>CMS(Content Management System)</code> berbagi berkas gratis dan bebas seperti Google Drive/Dropbox bernama <a href="https://owncloud.com/">Owncloud</a>.</p>
-<p>Dengan menggunakan <code>owncloud</code>, kita dapat mengatur layanan cloud storage mulai dari user, group user, limited akses, size quota user dan lain sebagainya. Owncloud bisa kita jadikan sebagai salah satu bahan testing untuk cloud computing dikarenakan owncloud termasuk salah satu kategori dari model layanan cloud computing.</p>
-<p><strong>Deploy OwnCloud</strong></p>
-<p>Seperti biasa, agar mudah kita akan menggunakan <a href="https://docs.docker.com/compose/">docker-compose</a>. Pada dasarnya <code>docker-compose</code> adalah sebuah tool untuk menjalankan aplikasi docker yang menggunakan banyak container, yang dibagi-bagi menjadi/sebagai sebuah services.</p>
+    <p>Menjelang akhir tahun saya mendapat project yang sedikit berhubungan dengan <code>Mail Server</code>, yah walupun saya tidak mendapat task membangun <code>Mail Server</code> karena bukan team email, saya jadi agak penasaran bagaimana kalau membangun <code>Mail Server</code> sendiri.</p>
+<p>Pertama kita harus beli domain tentunya, beli saja domain my.id yang tergolong sangat murah. Saya beli di <a href="cloudkilat.com">Cloud Kilat</a></p>
 <p>Oh iya, sebelumnya saya akan menjabarkan spec service/docker image apa saja yang akan kita gunakan, berikut daftarnya:</p>
 <ul>
 <li><a href="https://doc.traefik.io/traefik/">Traefik</a>, jika belum tahu apa itu traefik bisa baca tulisan <a href="/post/apa-itu-traefik/">Apa Itu Traefik</a>.</li>
-<li><a href="https://hub.docker.com/_/owncloud">Owncloud</a></li>
-<li><a href="https://hub.docker.com/r/webhippie/mariadb/">Mariadb</a> untuk database di disk</li>
-<li><a href="https://hub.docker.com/r/webhippie/redis">Redis</a> untuk database memory</li>
+<li><a href="https://github.com/tomav/docker-mailserver">docker-mailserver</a>, simple mail server</li>
+<li><a href="https://github.com/youtous/docker-mailserver-traefik">cert-renewer-traefik</a>, karena saya masih menggunakan traefik v1</li>
+<li><a href="https://hub.docker.com/r/roundcube/roundcubemail/">roundcubemail</a> untuk email client webmailnya</li>
+<li><a href="mailjet.com">Mail Jet</a> untuk SMTP Relay</li>
 </ul>
-<p>Petama kita akan buat direktori terlebih dahulu:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir owncloud-docker
-cd owncloud-docker
-</code></pre></div><p>Lalu kita bikin file konfigurasi environment dan file docker-compose.yml, sesuaikan dengan preferensi teman-teman ya:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat <span style="color:#e6db74">&lt;&lt; EOF &gt; .env
-</span><span style="color:#e6db74">OWNCLOUD_VERSION=10.6
-</span><span style="color:#e6db74">OWNCLOUD_DOMAIN=localhost:8080
-</span><span style="color:#e6db74">ADMIN_USERNAME=admin
-</span><span style="color:#e6db74">ADMIN_PASSWORD=admin
-</span><span style="color:#e6db74">HTTP_PORT=8080
-</span><span style="color:#e6db74">EOF</span>
+<p>Kita akan buat direktori terlebih dahulu:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir mailserver
+cd mailserver
+</code></pre></div><p>Lalu download tools yang dibutuhkan dan membuat file docker-compose.yml</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget https://raw.githubusercontent.com/tomav/docker-mailserver/master/setup.sh
+wget https://raw.githubusercontent.com/tomav/docker-mailserver/master/mailserver.env
+wget -O .env https://raw.githubusercontent.com/tomav/docker-mailserver/master/compose.env
 
+chmod a+x ./setup.sh
 touch docker-compose.yml
-</code></pre></div><p>Kemudian docker-compose.yml edit dan sesuaikan. Saya ada sample dibawah dengan integrasi traefik:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">version: <span style="color:#e6db74">&#39;3.6&#39;</span>
-
-volumes:
-  files:
-    driver: local
-  mysql:
-    driver: local
-  backup:
-    driver: local
-  redis:
-    driver: local
+</code></pre></div><p>Jangan lupa untuk membuat akun <a href="mailjet.com">Mail Jet</a>, di halaman <a href="https://app.mailjet.com/account/setup">Setup SMTP</a> copy dan simpan Credentials (API and SMTP) host, username dan password, nanti akan kita gunakan pada mailserver sebagai relay SMTP.</p>
+<p>edit file <code>.env</code>, sesuaikan dengan preferensi teman-teman:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">HOSTNAME<span style="color:#f92672">=</span>mail
+DOMAINNAME<span style="color:#f92672">=</span>belidomaintadi.my.id <span style="color:#75715e">#domain yang tadi dibeli</span>
+CONTAINER_NAME<span style="color:#f92672">=</span>mailserver
+</code></pre></div><p>edit file <code>mailserver.env</code>, sesuaikan dengan preferensi teman-teman:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ENABLE_SPAMASSASSIN<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+SPAMASSASSIN_SPAM_TO_INBOX<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+ENABLE_CLAMAV<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+ENABLE_FAIL2BAN<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+ENABLE_POSTGREY<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+ENABLE_SASLAUTHD<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+ONE_DIR<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+DMS_DEBUG<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+ENABLE_POP3<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+SSL_TYPE<span style="color:#f92672">=</span>manual
+SSL_CERT_PATH<span style="color:#f92672">=</span>/var/mail-state/manual-ssl/cert
+SSL_KEY_PATH<span style="color:#f92672">=</span>/var/mail-state/manual-ssl/key
+RELAY_HOST<span style="color:#f92672">=</span>in-v3.mailjet.com <span style="color:#75715e"># isi host dari Mail Jet</span>
+RELAY_PORT<span style="color:#f92672">=</span><span style="color:#ae81ff">587</span> <span style="color:#75715e"># isi port dari Mail Jet</span>
+RELAY_USER<span style="color:#f92672">=</span>a65752c21111f5f7b154c44867b228f5 <span style="color:#75715e"># isi user dari Mail Jet</span>
+RELAY_PASSWORD<span style="color:#f92672">=</span>e458c30dc3ecb70d1e1c5c1bdde331cc <span style="color:#75715e"># isi password dari Mail Jet</span>
+</code></pre></div><p>edit file <code>docker-compose.yml</code>, sesuaikan dengan preferensi teman-teman:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">version: <span style="color:#e6db74">&#39;3.8&#39;</span>
 
 services:
-  owncloud:
-    image: owncloud/server:<span style="color:#e6db74">${</span>OWNCLOUD_VERSION<span style="color:#e6db74">}</span>
-    restart: always
-    ports:
-      - <span style="color:#e6db74">${</span>HTTP_PORT<span style="color:#e6db74">}</span>:8080
-    depends_on:
-      - db
-      - redis
-    environment:
-      - OWNCLOUD_DOMAIN<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>OWNCLOUD_DOMAIN<span style="color:#e6db74">}</span>
-      - OWNCLOUD_DB_TYPE<span style="color:#f92672">=</span>mysql
-      - OWNCLOUD_DB_NAME<span style="color:#f92672">=</span>owncloud
-      - OWNCLOUD_DB_USERNAME<span style="color:#f92672">=</span>owncloud
-      - OWNCLOUD_DB_PASSWORD<span style="color:#f92672">=</span>owncloud
-      - OWNCLOUD_DB_HOST<span style="color:#f92672">=</span>db
-      - OWNCLOUD_ADMIN_USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>ADMIN_USERNAME<span style="color:#e6db74">}</span>
-      - OWNCLOUD_ADMIN_PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>ADMIN_PASSWORD<span style="color:#e6db74">}</span>
-      - OWNCLOUD_MYSQL_UTF8MB4<span style="color:#f92672">=</span>true
-      - OWNCLOUD_REDIS_ENABLED<span style="color:#f92672">=</span>true
-      - OWNCLOUD_REDIS_HOST<span style="color:#f92672">=</span>redis
-    healthcheck:
-      test: <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;CMD&#34;</span>, <span style="color:#e6db74">&#34;/usr/bin/healthcheck&#34;</span><span style="color:#f92672">]</span>
-      interval: 30s
-      timeout: 10s
-      retries: <span style="color:#ae81ff">5</span>
+  
+  cert-renewer-traefik:
+    container_name: cert-renewer-traefik
+    image: youtous/mailserver-traefik:latest
     volumes:
-      - files:/mnt/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ../traefik/acme.json:/tmp/traefik/acme.json:ro
+    environment:
+      - TRAEFIK_VERSION<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+      - CERTS_SOURCE<span style="color:#f92672">=</span>file
+      - DOMAINS<span style="color:#f92672">=</span>mail.example.com
+
+  mail:
+    image: tvial/docker-mailserver:latest
+    hostname: <span style="color:#e6db74">${</span>HOSTNAME<span style="color:#e6db74">}</span>
+    domainname: <span style="color:#e6db74">${</span>DOMAINNAME<span style="color:#e6db74">}</span>
+    container_name: <span style="color:#e6db74">${</span>CONTAINER_NAME<span style="color:#e6db74">}</span>
+    labels:
+      - <span style="color:#e6db74">&#34;mailserver-traefik.renew.domain=mail.example.com&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.frontend.rule=Host:mail.example.com&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.frontend.redirect.replacement=https://webmail.example.com/&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.frontend.redirect.regex=.*&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.enable=true&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.docker.network=web&#34;</span>
+    ports:
+      - <span style="color:#e6db74">&#34;25:25&#34;</span>
+      - <span style="color:#e6db74">&#34;143:143&#34;</span>
+      - <span style="color:#e6db74">&#34;587:587&#34;</span>
+      - <span style="color:#e6db74">&#34;993:993&#34;</span>
+    volumes:
+      - maildata:/var/mail
+      - mailstate:/var/mail-state
+      - maillogs:/var/log/mail
+      - ./config/:/tmp/docker-mailserver/<span style="color:#e6db74">${</span>SELINUX_LABEL<span style="color:#e6db74">}</span>
+    env_file:
+      - mailserver.env
+    cap_add:
+      - NET_ADMIN
+      - SYS_PTRACE
+    restart: always
     networks:
       - web
-      - owncloud
+  
+  roundcubemail:
+    image: roundcube/roundcubemail:latest
+    container_name: roundcubemail
+    restart: unless-stopped
+    volumes:
+      - ./www:/var/www/html
+      - ./db/sqlite:/var/roundcube/db
     labels:
-      - traefik.enable<span style="color:#f92672">=</span>true
-      - traefik.frontend.rule<span style="color:#f92672">=</span>Host:own.example.com
-      - traefik.port<span style="color:#f92672">=</span><span style="color:#ae81ff">8080</span>
-      - traefik.docker.network<span style="color:#f92672">=</span>web
-
-  db:
-    image: webhippie/mariadb:latest
-    restart: always
+      - <span style="color:#e6db74">&#34;traefik.frontend.rule=Host:webmail.example.com&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.enable=true&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.port=80&#34;</span>
+      - <span style="color:#e6db74">&#34;traefik.docker.network=web&#34;</span>
     environment:
-      - MARIADB_ROOT_PASSWORD<span style="color:#f92672">=</span>owncloud
-      - MARIADB_USERNAME<span style="color:#f92672">=</span>owncloud
-      - MARIADB_PASSWORD<span style="color:#f92672">=</span>owncloud
-      - MARIADB_DATABASE<span style="color:#f92672">=</span>owncloud
-      - MARIADB_MAX_ALLOWED_PACKET<span style="color:#f92672">=</span>128M
-      - MARIADB_INNODB_LOG_FILE_SIZE<span style="color:#f92672">=</span>64M
-    healthcheck:
-      test: <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;CMD&#34;</span>, <span style="color:#e6db74">&#34;/usr/bin/healthcheck&#34;</span><span style="color:#f92672">]</span>
-      interval: 30s
-      timeout: 10s
-      retries: <span style="color:#ae81ff">5</span>
-    volumes:
-      - mysql:/var/lib/mysql
-      - backup:/var/lib/backup
+      - ROUNDCUBEMAIL_DB_TYPE<span style="color:#f92672">=</span>sqlite
+      - ROUNDCUBEMAIL_SKIN<span style="color:#f92672">=</span>elastic
+      - ROUNDCUBEMAIL_DEFAULT_HOST<span style="color:#f92672">=</span>tls://mail.example.com
+      - ROUNDCUBEMAIL_SMTP_SERVER<span style="color:#f92672">=</span>tls://mail.example.com
     networks:
-      - owncloud
+      - web
 
-  redis:
-    image: webhippie/redis:latest
-    restart: always
-    environment:
-      - REDIS_DATABASES<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-    healthcheck:
-      test: <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;CMD&#34;</span>, <span style="color:#e6db74">&#34;/usr/bin/healthcheck&#34;</span><span style="color:#f92672">]</span>
-      interval: 30s
-      timeout: 10s
-      retries: <span style="color:#ae81ff">5</span>
-    volumes:
-      - redis:/var/lib/redis
-    networks:
-      - owncloud
+volumes:
+  maildata:
+    driver: local
+  mailstate:
+    driver: local
+  maillogs:
+    driver: local
 
 networks:
   web:
     external: true
-  owncloud:
-</code></pre></div><p>Mari kita <code>deploy</code> dengan cara seperti biasa:</p>
+</code></pre></div><p>Mari kita <code>deploy</code> dan config <code>Mail Server</code>-nya:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker-compose up -d
-</code></pre></div><p>Coba kita akses ke own.example.com atau dengan IP Address server:8080 maka cloud storage kita sudah jadi!
-<img src="/images/deploy-owncloud/2.png" alt="gambar"></p>
-<p>Untuk login pertama, seperti yang didefinisikan di file .env tadi, yaitu admin admin jangan lupa untuk mengubahnya dan tambahkan user lainnya juga.</p>
-<p>Oh iya, owncloud juga tersedia versi mobile, jika teman-teman menggunkan smarphone android ada di <a href="https://play.google.com/store/apps/details?id=com.owncloud.android&amp;hl=en&amp;gl=US">Playstore</a>.</p>
-<p><img src="/images/deploy-owncloud/3.jpg" alt="gambar"></p>
-<p>Lumayankan teman-teman? Saya bisa bebas upload file sesuka saya selama storage server belum penuh. 🥳</p>
+./setup.sh email add rifky@example.com rahasia123
+./setup.sh alias add postmaster@example.com rifky@example.com
+./setup.sh email add user1@example.com user123
+./setup.sh config dkim
+</code></pre></div><p>Sekarang setelah kunci DNS - DKIM dibuat, kita dapat mengkonfigurasi server DNS kita hanya dengan meng-<code>copy</code> isi config/opendkim/keys/example.com/mail.txt ke zona DNS example.com kita. Sekalian kita bikin subdomain untuk service mail dan webmail kita.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat config/opendkim/keys/example.com/mail.txt
+</code></pre></div><p><img src="/images/deploy-mailserver/1.png" alt="gambar"></p>
+<p>Kemudian jangan lupa untuk menambahkan <code>MX record</code>, <code>Spf MX Mail Server</code> kita dan juga <code>SPF DKIM</code> untuk <code>Mail Jet</code>.</p>
+<p><img src="/images/deploy-mailserver/2.png" alt="gambar"></p>
+<p>Untuk melakukan tes pengiriman email bisa menggunakan aplikasi CLI <code>swaks</code> yang ringan jika anda menggunakan sistem operasi <code>Linux</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">swaks --from user1@example.com --to rifky@example.com --server mail.example.com:587 -tlso -au user1@example.com -ap user123 --header <span style="color:#e6db74">&#34;Subject: admin from user1&#34;</span> --body <span style="color:#e6db74">&#34;testing user1 sending email&#34;</span>
+</code></pre></div><p>Atau kita bisa melakukan tes pengiriman GUI yang enak dipandang dengan <a href="https://roundcube.net/">Roundcube</a> dengan mengakses <code>subdomain</code> <a href="https://webmail.example.com">webmail.example.com</a> kita tadi.</p>
+<p><img src="/images/deploy-mailserver/3.png" alt="gambar"></p>
 
     </div>
     <div class="post-footer">
       <div class="info">
         
         
-    <span class="separator"><a class="tag" href="/tags/owncloud/">owncloud</a><a class="tag" href="/tags/traefik/">traefik</a><a class="tag" href="/tags/cloud-storage/">cloud storage</a><a class="tag" href="/tags/devops/">devops</a><a class="tag" href="/tags/docker/">docker</a></span>
+    <span class="separator"><a class="tag" href="/tags/mailserver/">mailserver</a><a class="tag" href="/tags/traefik/">traefik</a><a class="tag" href="/tags/devops/">devops</a><a class="tag" href="/tags/docker/">docker</a></span>
 
       </div>
     </div>

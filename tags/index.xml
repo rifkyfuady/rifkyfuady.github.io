@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Website of Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Tue, 15 Dec 2020 22:05:34 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2021 23:19:02 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfuady.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>devops</title>
+      <link>https://rifkyfuady.github.io/tags/devops/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://rifkyfuady.github.io/tags/docker/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mailserver</title>
+      <link>https://rifkyfuady.github.io/tags/mailserver/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/mailserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traefik</title>
+      <link>https://rifkyfuady.github.io/tags/traefik/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/traefik/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cloud storage</title>
@@ -21,38 +57,11 @@
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://rifkyfuady.github.io/tags/devops/</link>
-      <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
-      
-      <guid>https://rifkyfuady.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://rifkyfuady.github.io/tags/docker/</link>
-      <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
-      
-      <guid>https://rifkyfuady.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>owncloud</title>
       <link>https://rifkyfuady.github.io/tags/owncloud/</link>
       <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
       
       <guid>https://rifkyfuady.github.io/tags/owncloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>traefik</title>
-      <link>https://rifkyfuady.github.io/tags/traefik/</link>
-      <pubDate>Sat, 27 Jun 2020 20:56:57 +0700</pubDate>
-      
-      <guid>https://rifkyfuady.github.io/tags/traefik/</guid>
       <description></description>
     </item>
     
