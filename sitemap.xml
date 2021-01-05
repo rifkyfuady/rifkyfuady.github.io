@@ -3,37 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rifkyfuady.github.io/tags/cloud-storage/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/tags/devops/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/tags/docker/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/post/deploy-owncloud/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/tags/owncloud/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/post/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/tags/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rifkyfuady.github.io/</loc>
+    <lastmod>2020-12-15T22:05:34+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rifkyfuady.github.io/post/deploy-traefik/</loc>
     <lastmod>2020-06-27T20:56:57+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rifkyfuady.github.io/tags/devops/</loc>
-    <lastmod>2020-06-27T20:56:57+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rifkyfuady.github.io/tags/docker/</loc>
-    <lastmod>2020-06-27T20:56:57+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rifkyfuady.github.io/post/</loc>
-    <lastmod>2020-06-27T20:56:57+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rifkyfuady.github.io/tags/</loc>
-    <lastmod>2020-06-27T20:56:57+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rifkyfuady.github.io/tags/traefik/</loc>
-    <lastmod>2020-06-27T20:56:57+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rifkyfuady.github.io/</loc>
     <lastmod>2020-06-27T20:56:57+07:00</lastmod>
   </url>
   
