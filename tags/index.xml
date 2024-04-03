@@ -6,6 +6,7 @@
     <description>Recent content in Tags on Website of Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
+<<<<<<< HEAD
     <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -106,17 +107,267 @@
       <guid>https://rifkyfuady.github.io/tags/github/</guid>
       <description></description>
     </item>
+=======
+    <lastBuildDate>Fri, 29 Jan 2021 20:59:15 +0700</lastBuildDate>
+    
+	<atom:link href="https://rifkyfuady.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DER</title>
+      <link>https://rifkyfuady.github.io/tags/der/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/der/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dividen</title>
+      <link>https://rifkyfuady.github.io/tags/dividen/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/dividen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investasi</title>
+      <link>https://rifkyfuady.github.io/tags/investasi/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/investasi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PBV</title>
+      <link>https://rifkyfuady.github.io/tags/pbv/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/pbv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROE</title>
+      <link>https://rifkyfuady.github.io/tags/roe/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/roe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>saham</title>
+      <link>https://rifkyfuady.github.io/tags/saham/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/saham/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://rifkyfuady.github.io/tags/devops/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://rifkyfuady.github.io/tags/docker/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mailserver</title>
+      <link>https://rifkyfuady.github.io/tags/mailserver/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/mailserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traefik</title>
+      <link>https://rifkyfuady.github.io/tags/traefik/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/traefik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud storage</title>
+      <link>https://rifkyfuady.github.io/tags/cloud-storage/</link>
+      <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/cloud-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>owncloud</title>
+      <link>https://rifkyfuady.github.io/tags/owncloud/</link>
+      <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/owncloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://rifkyfuady.github.io/tags/blog/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://rifkyfuady.github.io/tags/golang/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://rifkyfuady.github.io/tags/hugo/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwa</title>
+      <link>https://rifkyfuady.github.io/tags/pwa/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://rifkyfuady.github.io/tags/ubuntu/</link>
+      <pubDate>Sun, 04 Aug 2019 23:46:41 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://rifkyfuady.github.io/tags/android/</link>
+      <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flutter</title>
+      <link>https://rifkyfuady.github.io/tags/flutter/</link>
+      <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stackoverflow</title>
+      <link>https://rifkyfuady.github.io/tags/stackoverflow/</link>
+      <pubDate>Mon, 01 Apr 2019 19:39:00 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/stackoverflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactnative</title>
+      <link>https://rifkyfuady.github.io/tags/reactnative/</link>
+      <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/reactnative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dinkes</title>
+      <link>https://rifkyfuady.github.io/tags/dinkes/</link>
+      <pubDate>Mon, 25 Mar 2019 21:04:31 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/dinkes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programmer</title>
+      <link>https://rifkyfuady.github.io/tags/programmer/</link>
+      <pubDate>Sat, 16 Mar 2019 04:15:55 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/programmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gammu</title>
+      <link>https://rifkyfuady.github.io/tags/gammu/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/gammu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://rifkyfuady.github.io/tags/php/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:33 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://rifkyfuady.github.io/tags/github/</link>
+      <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Bahasa Pemrograman</title>
       <link>https://rifkyfuady.github.io/tags/bahasa-pemrograman/</link>
       <pubDate>Wed, 09 Jan 2013 04:02:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tags/bahasa-pemrograman/</guid>
       <description></description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tags/bahasa-pemrograman/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tugas</title>
       <link>https://rifkyfuady.github.io/tags/tugas/</link>
       <pubDate>Wed, 09 Jan 2013 04:02:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tags/tugas/</guid>
       <description></description>
     </item>
@@ -127,24 +378,57 @@
       <guid>https://rifkyfuady.github.io/tags/tips-dan-trick/</guid>
       <description></description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tags/tugas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips dan Trick</title>
+      <link>https://rifkyfuady.github.io/tags/tips-dan-trick/</link>
+      <pubDate>Wed, 02 Jan 2013 21:00:00 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/tips-dan-trick/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Info</title>
       <link>https://rifkyfuady.github.io/tags/info/</link>
       <pubDate>Wed, 02 Jan 2013 20:27:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tags/info/</guid>
       <description></description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tags/info/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Lirik Lagu</title>
       <link>https://rifkyfuady.github.io/tags/lirik-lagu/</link>
       <pubDate>Fri, 27 Apr 2012 22:33:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tags/lirik-lagu/</guid>
       <description></description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tags/lirik-lagu/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Curahan Hati</title>
       <link>https://rifkyfuady.github.io/tags/curahan-hati/</link>
       <pubDate>Sat, 17 Mar 2012 19:00:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tags/curahan-hati/</guid>
       <description></description>
     </item>
@@ -157,3 +441,21 @@
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tags/curahan-hati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips dan Trik</title>
+      <link>https://rifkyfuady.github.io/tags/tips-dan-trik/</link>
+      <pubDate>Mon, 12 Mar 2012 23:49:00 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/tags/tips-dan-trik/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master

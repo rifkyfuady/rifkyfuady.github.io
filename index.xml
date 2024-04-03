@@ -6,166 +6,407 @@
     <description>Recent content on Website of Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
+<<<<<<< HEAD
     <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <lastBuildDate>Fri, 29 Jan 2021 20:59:15 +0700</lastBuildDate>
+    
+	<atom:link href="https://rifkyfuady.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analogi Sederhana PBV DER ROE &amp; Dividen</title>
+      <link>https://rifkyfuady.github.io/post/analogi-pbv-der-roe-dividen/</link>
+      <pubDate>Fri, 29 Jan 2021 20:59:15 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/analogi-pbv-der-roe-dividen/</guid>
+      <description>PBV – Price to Book Value (Nilai Buku) Tahun lalu saya membeli sebidang tanah seharga 500.</description>
+    </item>
+    
+    <item>
+      <title>Deploy Mail Server</title>
+      <link>https://rifkyfuady.github.io/post/deploy-mail-server/</link>
+      <pubDate>Tue, 05 Jan 2021 23:19:02 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/deploy-mail-server/</guid>
+      <description>Menjelang akhir tahun saya mendapat project yang sedikit berhubungan dengan Mail Server, yah walupun saya tidak mendapat task membangun Mail Server karena bukan team email, saya jadi agak penasaran bagaimana kalau membangun Mail Server sendiri.</description>
+    </item>
+    
+    <item>
+      <title>Mudah Bikin Cloud Storage (Dropbox/GDrive) Sendiri</title>
+      <link>https://rifkyfuady.github.io/post/deploy-owncloud/</link>
+      <pubDate>Tue, 15 Dec 2020 22:05:34 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/deploy-owncloud/</guid>
+      <description>Berawal dari kisah sekelas Google yang tadi malam bisa down gara-gara kehabisan storage, saya tidak bisa mengakses file di Google Drive dan akhirnya beberapa pekerjaan terhambat.</description>
+    </item>
+    
+    <item>
+      <title>Deploy Traefik</title>
+      <link>https://rifkyfuady.github.io/post/deploy-traefik/</link>
+      <pubDate>Sat, 27 Jun 2020 20:56:57 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/deploy-traefik/</guid>
+      <description>Jika teman-teman belum mengerti apa itu traefik, sebelumnya saya pernah menulis Apa Itu Traefik silahkan dibaca terlebih dahulu.</description>
+    </item>
+    
+    <item>
+      <title>Apa Itu Traefik</title>
+      <link>https://rifkyfuady.github.io/post/apa-itu-traefik/</link>
+      <pubDate>Thu, 25 Jun 2020 20:21:44 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/apa-itu-traefik/</guid>
+      <description>Apa sih traefik itu?
+ A reverse proxy / load balancer that’s easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membuat Blog menjadi PWA</title>
       <link>https://rifkyfuady.github.io/post/membuat-blog-pwa/</link>
       <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
       <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
+      <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04</title>
       <link>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</link>
       <pubDate>Sun, 04 Aug 2019 23:46:41 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</guid>
       <description>Catatan pribadi :&#xA;SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data fstab buka fstab sudo gedit /etc/fstab matikan update tanggal file noatime,nodiratime : UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1 pindah file log ke RAM : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0 Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</guid>
+      <description>Catatan pribadi :
+ SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab  matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1  pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0 Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tentang</title>
       <link>https://rifkyfuady.github.io/tentang/</link>
       <pubDate>Fri, 12 Apr 2019 18:22:57 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/tentang/</guid>
       <description>Halo, saya Akhmad Fuady Rifkiyanto, Sering dipanggil Rifki (di rumah) dan Fuad (di kampus).</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/tentang/</guid>
+      <description>Halo, saya Akhmad Fuady Rifkiyanto, Sering dipanggil Rifki (di rumah) dan Fuad (di kampus).</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membuat aplikasi konverter youtube ke Mp3 mutiplatform</title>
       <link>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</link>
       <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</guid>
       <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</guid>
+      <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
       <link>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</link>
       <pubDate>Mon, 01 Apr 2019 21:58:46 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</guid>
       <description>Siapa yang gak tau Dragon Ball hayoo?&#xA;Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</guid>
+      <description>Siapa yang gak tau Dragon Ball hayoo?
+Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Stackoverflow Kena Deface ?</title>
       <link>https://rifkyfuady.github.io/post/stackoverflow-kena-deface/</link>
       <pubDate>Mon, 01 Apr 2019 19:39:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/stackoverflow-kena-deface/</guid>
       <description>Ada yang aneh dengan tampilan web Stack Overflow hari ini, yaitu tanggal 1 April 2019.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/stackoverflow-kena-deface/</guid>
+      <description>Ada yang aneh dengan tampilan web Stack Overflow hari ini, yaitu tanggal 1 April 2019.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Enakan Android Native, Flutter atau React Native?</title>
       <link>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</link>
       <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
       <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
+      <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Dinkes Batang Luncurkan Aplikasi Mobile Multiplatform</title>
       <link>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</link>
       <pubDate>Mon, 25 Mar 2019 21:04:31 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</guid>
       <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</guid>
+      <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Wawasan wajib yang harus dikuasai Programmer</title>
       <link>https://rifkyfuady.github.io/post/wawasan-programmer/</link>
       <pubDate>Sat, 16 Mar 2019 04:15:55 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/wawasan-programmer/</guid>
       <description>Sekedar catatan pribadi, berbagi sedikit pengalaman.&#xA;Menurut saya seorang yang mau menjadi programmer harus mempunyai wawasan sebagai berikut :</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/wawasan-programmer/</guid>
+      <description>Sekedar catatan pribadi, berbagi sedikit pengalaman.
+Menurut saya seorang yang mau menjadi programmer harus mempunyai wawasan sebagai berikut :</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tutorial Membuat Aplikasi Pemutar Musik Android dan IOS dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</link>
       <pubDate>Sat, 16 Mar 2019 01:48:31 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</guid>
       <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</guid>
+      <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membangun Aplikasi Toko Buku Multiplatform dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/toko-buku-flutter/</link>
       <pubDate>Fri, 15 Mar 2019 21:40:35 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/toko-buku-flutter/</guid>
       <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?&#xA;Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/toko-buku-flutter/</guid>
+      <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?
+Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Panduan Lengkap Membangun Sms Gateway dengan Gammu</title>
       <link>https://rifkyfuady.github.io/post/gammu-sms-gateway/</link>
       <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/gammu-sms-gateway/</guid>
       <description>Apa itu SMS-Gateway?&#xA;Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) yang memungkinkan untuk melakukan pengiriman SMS, maupun penerimaan SMS melalui komputer.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/gammu-sms-gateway/</guid>
+      <description>Apa itu SMS-Gateway?
+Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) yang memungkinkan untuk melakukan pengiriman SMS, maupun penerimaan SMS melalui komputer.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Laporan PDF cantik, Auto Wrap Content Table dengan FPDF</title>
       <link>https://rifkyfuady.github.io/post/fpdf-wrap-cell/</link>
       <pubDate>Thu, 14 Mar 2019 22:47:33 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/fpdf-wrap-cell/</guid>
       <description>Pernah gak sih, pas lagi bikin laporan dengan FPDF, ternyata hasilnya tidak sesuai harapan?</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/fpdf-wrap-cell/</guid>
+      <description>Pernah gak sih, pas lagi bikin laporan dengan FPDF, ternyata hasilnya tidak sesuai harapan?</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/flutter-login-ciamik/</link>
       <pubDate>Wed, 13 Mar 2019 22:02:53 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/flutter-login-ciamik/</guid>
       <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/flutter-login-ciamik/</guid>
+      <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Privacy Policy</title>
       <link>https://rifkyfuady.github.io/privacy-policy/</link>
       <pubDate>Wed, 13 Mar 2019 11:27:43 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/privacy-policy/</guid>
       <description>This blog does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/privacy-policy/</guid>
+      <description>This blog does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Cara Cepat Deploy Hugo ke Github Pages</title>
       <link>https://rifkyfuady.github.io/post/hugo-deploy-github/</link>
       <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/hugo-deploy-github/</guid>
       <description>Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/hugo-deploy-github/</guid>
+      <description>Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Mudahnya Mengisi Artikel Hugo dari Blogger</title>
       <link>https://rifkyfuady.github.io/post/hugo-import-blogger/</link>
       <pubDate>Tue, 12 Mar 2019 22:18:15 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/hugo-import-blogger/</guid>
       <description>Dalam rangka mengisi konten Github Pages, saya harus melakukan impor artikel dari Blogger lama ke Hugo.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/hugo-import-blogger/</guid>
+      <description>Dalam rangka mengisi konten Github Pages, saya harus melakukan impor artikel dari Blogger lama ke Hugo.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Portofolio</title>
       <link>https://rifkyfuady.github.io/portofolio/</link>
       <pubDate>Tue, 12 Mar 2019 17:34:44 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/portofolio/</guid>
       <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/portofolio/</guid>
+      <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Hello Word, Hello Hugo! (Ngeblog dari Teks Editor dan Terminal ala Programmer)</title>
       <link>https://rifkyfuady.github.io/post/hello-word/</link>
       <pubDate>Tue, 12 Mar 2019 17:29:51 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/hello-word/</guid>
       <description>Hello World!&#xA;Saya punya blog,&#xA;CMS-nya menggunakan Blogger…&#xA;…tapi tidak pernah terurus.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/hello-word/</guid>
+      <description>Hello World!
+Saya punya blog,
+CMS-nya menggunakan Blogger…
+…tapi tidak pernah terurus.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Pemrograman Pascal dengan Function (Tugas Algoritma Dan Pemrograman)</title>
       <link>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</link>
       <pubDate>Wed, 09 Jan 2013 04:02:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</guid>
       <description>PEMROGRAMAN PASCAL DENGAN FUNCTION&#xA;Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</guid>
+      <description>PEMROGRAMAN PASCAL DENGAN FUNCTION
+
+Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tutorial Dasar Pemrograman Batch File</title>
       <link>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</link>
       <pubDate>Wed, 02 Jan 2013 21:00:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
       <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
+      <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Perintah Dasar DOS</title>
       <link>https://rifkyfuady.github.io/post/perintah-dasar-dos/</link>
       <pubDate>Wed, 02 Jan 2013 20:27:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
       <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
+      <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tugas Algoritma dan Pemrograman - Array Dimensi Banyak</title>
       <link>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</link>
       <pubDate>Mon, 17 Dec 2012 15:55:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</guid>
       <description>For Pak Wahyu Setianto, M.Kom&#xA;BAB I&#xA;PEMBAHASAN&#xA;A. Pendahuluan</description>
     </item>
@@ -176,96 +417,229 @@
       <guid>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</guid>
       <description>For **Bpk. **Sattriedi W.B,S.Si,M.Kom&#xA;PENGENALAN BAHASA ASSEMBLY BAB I .</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</guid>
+      <description>For Pak Wahyu Setianto, M.Kom
+BAB I
+PEMBAHASAN
+A. Pendahuluan</description>
+    </item>
+    
+    <item>
+      <title>Tugas Arsitektur dan Organsasi Komputer Pengenalan Bahasa Assembly</title>
+      <link>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</link>
+      <pubDate>Wed, 12 Dec 2012 00:46:00 +0700</pubDate>
+      
+      <guid>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</guid>
+      <description>For **Bpk. **Sattriedi W.B,S.Si,M.Kom
+PENGENALAN BAHASA ASSEMBLY BAB I .</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tugas Soal Ujian Praktek Dan Latihan UTS</title>
       <link>https://rifkyfuady.github.io/post/tugas-soal-ujian-praktek-dan-latihan-uts/</link>
       <pubDate>Wed, 24 Oct 2012 14:19:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/tugas-soal-ujian-praktek-dan-latihan-uts/</guid>
       <description>For Pak Wahyu Setianto M.Kom&#xA;Karena saya lihat teman-teman banyak yang pada bingung buat ngerjain tugasnya pak wahyu yg super disiplin, maka hati sanubari saya terguagah untuk berbagi pada teman-teman saya, terutama 1M42&amp;hellip;</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/tugas-soal-ujian-praktek-dan-latihan-uts/</guid>
+      <description>For Pak Wahyu Setianto M.Kom
+Karena saya lihat teman-teman banyak yang pada bingung buat ngerjain tugasnya pak wahyu yg super disiplin, maka hati sanubari saya terguagah untuk berbagi pada teman-teman saya, terutama 1M42&amp;hellip;</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Respon Sistem Operasi</title>
       <link>https://rifkyfuady.github.io/post/respon-sistem-operasi-kelas-1m42/</link>
       <pubDate>Sun, 21 Oct 2012 22:57:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/respon-sistem-operasi-kelas-1m42/</guid>
       <description>for Pak M. Rifqi Maulana M.Kom&#xA;1. Jelaskan mengenai Multiprogramming, Multiprocessing dan Distributed Processing!</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/respon-sistem-operasi-kelas-1m42/</guid>
+      <description>for Pak M. Rifqi Maulana M.Kom
+1. Jelaskan mengenai Multiprogramming, Multiprocessing dan Distributed Processing!</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tugas Algoritma dan Pemrograman</title>
       <link>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemprograman/</link>
       <pubDate>Fri, 12 Oct 2012 11:19:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemprograman/</guid>
       <description>For Pak Wahyu Setianto, M.Kom&#xA;-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;BUAT SEBUAH MENU HIDANGAN RUMAH MAKAN &amp;ldquo;KENYANG&amp;rdquo;</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemprograman/</guid>
+      <description>For Pak Wahyu Setianto, M.Kom
+-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-
+BUAT SEBUAH MENU HIDANGAN RUMAH MAKAN &amp;ldquo;KENYANG&amp;rdquo;</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Lirik dan Cord Lagu Prapatan Mbanjar - MarQpat Band</title>
       <link>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</link>
       <pubDate>Fri, 27 Apr 2012 22:33:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</guid>
       <description>Intro: A C#m Bm E 2x&#xA;A C#m&#xA;malam minggu mlaku-mlaku nang prapatan mbanjar</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</guid>
+      <description>Intro: A C#m Bm E 2x
+A C#m
+malam minggu mlaku-mlaku nang prapatan mbanjar</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Sistem Operasi</title>
       <link>https://rifkyfuady.github.io/post/sistem-operasi/</link>
       <pubDate>Thu, 12 Apr 2012 20:59:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/sistem-operasi/</guid>
       <description>2.1.1 TUJUAN DARI SISTEM OPERASI&#xA;Sistem komponen dan periferal, dengan sendirinya, tidak lebih dari sebuah koleksi elektronik dan bagian mekanik.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/sistem-operasi/</guid>
+      <description>2.1.1 TUJUAN DARI SISTEM OPERASI
+Sistem komponen dan periferal, dengan sendirinya, tidak lebih dari sebuah koleksi elektronik dan bagian mekanik.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Trik Cara Mengatasi Modem Smartfren yang Lelet</title>
       <link>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</link>
       <pubDate>Sat, 17 Mar 2012 19:00:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
       <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
+      <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Cara Membuat Virus (Source Code Virus)</title>
       <link>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</link>
       <pubDate>Thu, 15 Mar 2012 13:59:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
       <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
+      <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Cara Setting CCTV Online</title>
       <link>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</link>
       <pubDate>Mon, 12 Mar 2012 23:49:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</guid>
       <description>Di postingan ini saya akan berbagi ilmu cara setting CCTV online.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</guid>
+      <description>Di postingan ini saya akan berbagi ilmu cara setting CCTV online.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Interrupt dan Register pada Bahasa Pemrograman Assembly</title>
       <link>https://rifkyfuady.github.io/post/intrupsi-dan-register-pada-bahasa/</link>
       <pubDate>Fri, 09 Mar 2012 23:06:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/intrupsi-dan-register-pada-bahasa/</guid>
       <description>Pada postingan kali ini saya akan menjelaskan sedikit tentang Interrupt dan Register di Bahasa Pemrograman Assembly.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/intrupsi-dan-register-pada-bahasa/</guid>
+      <description>Pada postingan kali ini saya akan menjelaskan sedikit tentang Interrupt dan Register di Bahasa Pemrograman Assembly.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Mengenal Memori Bahasa Pemrograman Assembly</title>
       <link>https://rifkyfuady.github.io/post/mengenal-memori-di-bahasa-pemrograman/</link>
       <pubDate>Fri, 09 Mar 2012 21:14:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/mengenal-memori-di-bahasa-pemrograman/</guid>
       <description>Memori dengan komputer memiliki hubungan yang tak dapat dipisahkan,karena setiap komputer memerlukan memori sebagai tempat kerjanya.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/mengenal-memori-di-bahasa-pemrograman/</guid>
+      <description>Memori dengan komputer memiliki hubungan yang tak dapat dipisahkan,karena setiap komputer memerlukan memori sebagai tempat kerjanya.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Belajar Mengenal Bilangan pada Assembler</title>
       <link>https://rifkyfuady.github.io/post/pada-zaman-sekarangintensitas/</link>
       <pubDate>Fri, 09 Mar 2012 20:34:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/pada-zaman-sekarangintensitas/</guid>
       <description>Pada zaman sekarang intensitas perkembangan bahasa tingkat tinggi terus berkembang dengan segala fasilitas dan kemudahannya, walaupun begitu peranan bahasa pemrograman tingkat rendah tetap tidak dapat digantikan.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/pada-zaman-sekarangintensitas/</guid>
+      <description>Pada zaman sekarang intensitas perkembangan bahasa tingkat tinggi terus berkembang dengan segala fasilitas dan kemudahannya, walaupun begitu peranan bahasa pemrograman tingkat rendah tetap tidak dapat digantikan.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tips dan Trik Hidup 1000 Tahun Lebih</title>
       <link>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</link>
       <pubDate>Fri, 09 Mar 2012 08:49:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</guid>
       <description>Di postingan ini saya akan membuka tips Rahasia Besarsaya. Jujur saya sudah merasakan Hidup lebih dari 1000 tahun.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</guid>
+      <description>Di postingan ini saya akan membuka tips Rahasia Besarsaya. Jujur saya sudah merasakan Hidup lebih dari 1000 tahun.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Cara Mudah Membuat Kabel USB Extender dengan Kabel UTP</title>
       <link>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</link>
       <pubDate>Wed, 07 Mar 2012 15:32:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</guid>
       <description>Cara membuat USB Extender dengan kabel UTP untuk dapat menempatkan USB Modem atau USB WiFi pada ketinggian yang berjarak agak jauh dari komputer, diperlukan adanya perpanjangan kabel USB atau yang sering disebut USB Extender .</description>
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</guid>
+      <description>Cara membuat USB Extender dengan kabel UTP untuk dapat menempatkan USB Modem atau USB WiFi pada ketinggian yang berjarak agak jauh dari komputer, diperlukan adanya perpanjangan kabel USB atau yang sering disebut USB Extender .</description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master

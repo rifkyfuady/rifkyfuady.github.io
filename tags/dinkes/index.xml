@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Dinkes on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/dinkes/</link>
     <description>Recent content in Dinkes on Website of Rifky Fuady</description>
@@ -8,12 +9,34 @@
     <language>id-id</language>
     <lastBuildDate>Mon, 25 Mar 2019 21:04:31 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/dinkes/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <title>dinkes on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/dinkes/</link>
+    <description>Recent content in dinkes on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Mon, 25 Mar 2019 21:04:31 +0700</lastBuildDate>
+    
+	<atom:link href="https://rifkyfuady.github.io/tags/dinkes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+>>>>>>> master
     <item>
       <title>Dinkes Batang Luncurkan Aplikasi Mobile Multiplatform</title>
       <link>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</link>
       <pubDate>Mon, 25 Mar 2019 21:04:31 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</guid>
       <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.</description>
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</guid>
+      <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.</description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master

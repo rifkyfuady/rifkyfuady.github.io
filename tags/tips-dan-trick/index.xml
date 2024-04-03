@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Tips Dan Trick on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/tips-dan-trick/</link>
     <description>Recent content in Tips Dan Trick on Website of Rifky Fuady</description>
@@ -8,33 +9,79 @@
     <language>id-id</language>
     <lastBuildDate>Wed, 02 Jan 2013 21:00:00 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/tips-dan-trick/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <title>Tips dan Trick on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/tips-dan-trick/</link>
+    <description>Recent content in Tips dan Trick on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Wed, 02 Jan 2013 21:00:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://rifkyfuady.github.io/tags/tips-dan-trick/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+>>>>>>> master
     <item>
       <title>Tutorial Dasar Pemrograman Batch File</title>
       <link>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</link>
       <pubDate>Wed, 02 Jan 2013 21:00:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
       <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
+      <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Perintah Dasar DOS</title>
       <link>https://rifkyfuady.github.io/post/perintah-dasar-dos/</link>
       <pubDate>Wed, 02 Jan 2013 20:27:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
       <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
+      <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Trik Cara Mengatasi Modem Smartfren yang Lelet</title>
       <link>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</link>
       <pubDate>Sat, 17 Mar 2012 19:00:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
       <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
+      <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Cara Membuat Virus (Source Code Virus)</title>
       <link>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</link>
       <pubDate>Thu, 15 Mar 2012 13:59:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
       <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
+      <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master

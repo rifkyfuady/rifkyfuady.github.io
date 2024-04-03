@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Android on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/android/</link>
     <description>Recent content in Android on Website of Rifky Fuady</description>
@@ -8,47 +9,111 @@
     <language>id-id</language>
     <lastBuildDate>Mon, 08 Apr 2019 20:29:06 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <title>android on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/android/</link>
+    <description>Recent content in android on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Mon, 08 Apr 2019 20:29:06 +0700</lastBuildDate>
+    
+	<atom:link href="https://rifkyfuady.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+>>>>>>> master
     <item>
       <title>Membuat aplikasi konverter youtube ke Mp3 mutiplatform</title>
       <link>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</link>
       <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</guid>
       <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</guid>
+      <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
       <link>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</link>
       <pubDate>Mon, 01 Apr 2019 21:58:46 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</guid>
       <description>Siapa yang gak tau Dragon Ball hayoo?&#xA;Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</guid>
+      <description>Siapa yang gak tau Dragon Ball hayoo?
+Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Enakan Android Native, Flutter atau React Native?</title>
       <link>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</link>
       <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
       <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
+      <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Tutorial Membuat Aplikasi Pemutar Musik Android dan IOS dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</link>
       <pubDate>Sat, 16 Mar 2019 01:48:31 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</guid>
       <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</guid>
+      <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membangun Aplikasi Toko Buku Multiplatform dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/toko-buku-flutter/</link>
       <pubDate>Fri, 15 Mar 2019 21:40:35 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/toko-buku-flutter/</guid>
       <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?&#xA;Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.</description>
     </item>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/toko-buku-flutter/</guid>
+      <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?
+Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.</description>
+    </item>
+    
+>>>>>>> master
     <item>
       <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
       <link>https://rifkyfuady.github.io/post/flutter-login-ciamik/</link>
       <pubDate>Wed, 13 Mar 2019 22:02:53 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/flutter-login-ciamik/</guid>
       <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</description>
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/flutter-login-ciamik/</guid>
+      <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master

@@ -7,13 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Fri, 27 Apr 2012 22:33:00 +0700</lastBuildDate>
+<<<<<<< HEAD
     <atom:link href="https://rifkyfuady.github.io/tags/lirik-lagu/index.xml" rel="self" type="application/rss+xml" />
+=======
+    
+	<atom:link href="https://rifkyfuady.github.io/tags/lirik-lagu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+>>>>>>> master
     <item>
       <title>Lirik dan Cord Lagu Prapatan Mbanjar - MarQpat Band</title>
       <link>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</link>
       <pubDate>Fri, 27 Apr 2012 22:33:00 +0700</pubDate>
+<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</guid>
       <description>Intro: A C#m Bm E 2x&#xA;A C#m&#xA;malam minggu mlaku-mlaku nang prapatan mbanjar</description>
     </item>
   </channel>
 </rss>
+=======
+      
+      <guid>https://rifkyfuady.github.io/post/lirik-lagu-prapatan-mbanjar-marqpat/</guid>
+      <description>Intro: A C#m Bm E 2x
+A C#m
+malam minggu mlaku-mlaku nang prapatan mbanjar</description>
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> master
