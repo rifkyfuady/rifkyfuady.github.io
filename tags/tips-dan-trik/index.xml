@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Tips Dan Trik on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/tips-dan-trik/</link>
     <description>Recent content in Tips Dan Trik on Website of Rifky Fuady</description>
@@ -9,64 +8,26 @@
     <language>id-id</language>
     <lastBuildDate>Mon, 12 Mar 2012 23:49:00 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/tips-dan-trik/index.xml" rel="self" type="application/rss+xml" />
-=======
-    <title>Tips dan Trik on Website of Rifky Fuady</title>
-    <link>https://rifkyfuady.github.io/tags/tips-dan-trik/</link>
-    <description>Recent content in Tips dan Trik on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Mon, 12 Mar 2012 23:49:00 +0700</lastBuildDate>
-    
-	<atom:link href="https://rifkyfuady.github.io/tags/tips-dan-trik/index.xml" rel="self" type="application/rss+xml" />
-    
-    
->>>>>>> master
     <item>
       <title>Cara Setting CCTV Online</title>
       <link>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</link>
       <pubDate>Mon, 12 Mar 2012 23:49:00 +0700</pubDate>
-<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</guid>
       <description>Di postingan ini saya akan berbagi ilmu cara setting CCTV online.</description>
     </item>
-=======
-      
-      <guid>https://rifkyfuady.github.io/post/cara-setting-cctv-online/</guid>
-      <description>Di postingan ini saya akan berbagi ilmu cara setting CCTV online.</description>
-    </item>
-    
->>>>>>> master
     <item>
       <title>Tips dan Trik Hidup 1000 Tahun Lebih</title>
       <link>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</link>
       <pubDate>Fri, 09 Mar 2012 08:49:00 +0700</pubDate>
-<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</guid>
       <description>Di postingan ini saya akan membuka tips Rahasia Besarsaya. Jujur saya sudah merasakan Hidup lebih dari 1000 tahun.</description>
     </item>
-=======
-      
-      <guid>https://rifkyfuady.github.io/post/tips-dan-trick-hidup-1000-tahun-lebih/</guid>
-      <description>Di postingan ini saya akan membuka tips Rahasia Besarsaya. Jujur saya sudah merasakan Hidup lebih dari 1000 tahun.</description>
-    </item>
-    
->>>>>>> master
     <item>
       <title>Cara Mudah Membuat Kabel USB Extender dengan Kabel UTP</title>
       <link>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</link>
       <pubDate>Wed, 07 Mar 2012 15:32:00 +0700</pubDate>
-<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</guid>
       <description>Cara membuat USB Extender dengan kabel UTP untuk dapat menempatkan USB Modem atau USB WiFi pada ketinggian yang berjarak agak jauh dari komputer, diperlukan adanya perpanjangan kabel USB atau yang sering disebut USB Extender .</description>
     </item>
   </channel>
 </rss>
-=======
-      
-      <guid>https://rifkyfuady.github.io/post/cara-mudah-membuat-kabel-usb-extender/</guid>
-      <description>Cara membuat USB Extender dengan kabel UTP untuk dapat menempatkan USB Modem atau USB WiFi pada ketinggian yang berjarak agak jauh dari komputer, diperlukan adanya perpanjangan kabel USB atau yang sering disebut USB Extender .</description>
-    </item>
-    
-  </channel>
-</rss>
->>>>>>> master

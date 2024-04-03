@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Pwa on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/pwa/</link>
     <description>Recent content in Pwa on Website of Rifky Fuady</description>
@@ -9,34 +8,12 @@
     <language>id-id</language>
     <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
-=======
-    <title>pwa on Website of Rifky Fuady</title>
-    <link>https://rifkyfuady.github.io/tags/pwa/</link>
-    <description>Recent content in pwa on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
-    
-	<atom:link href="https://rifkyfuady.github.io/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
->>>>>>> master
     <item>
       <title>Membuat Blog menjadi PWA</title>
       <link>https://rifkyfuady.github.io/post/membuat-blog-pwa/</link>
       <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
-<<<<<<< HEAD
       <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
       <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
     </item>
   </channel>
 </rss>
-=======
-      
-      <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
-      <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
-    </item>
-    
-  </channel>
-</rss>
->>>>>>> master
