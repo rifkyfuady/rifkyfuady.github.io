@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat Blog menjadi PWA</title>
+      <link>https://rifkyfuady.github.io/post/membuat-blog-pwa/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
+      <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
+    </item>
+    <item>
+      <title>Cara Cepat Deploy Hugo ke Github Pages</title>
+      <link>https://rifkyfuady.github.io/post/hugo-deploy-github/</link>
+      <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/post/hugo-deploy-github/</guid>
+      <description>Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.</description>
+    </item>
+    <item>
+      <title>Mudahnya Mengisi Artikel Hugo dari Blogger</title>
+      <link>https://rifkyfuady.github.io/post/hugo-import-blogger/</link>
+      <pubDate>Tue, 12 Mar 2019 22:18:15 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/post/hugo-import-blogger/</guid>
+      <description>Dalam rangka mengisi konten Github Pages, saya harus melakukan impor artikel dari Blogger lama ke Hugo.</description>
+    </item>
+    <item>
+      <title>Hello Word, Hello Hugo! (Ngeblog dari Teks Editor dan Terminal ala Programmer)</title>
+      <link>https://rifkyfuady.github.io/post/hello-word/</link>
+      <pubDate>Tue, 12 Mar 2019 17:29:51 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/post/hello-word/</guid>
+      <description>Hello World!&#xA;Saya punya blog,&#xA;CMS-nya menggunakan Blogger…&#xA;…tapi tidak pernah terurus.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gammu on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/gammu/</link>
+    <description>Recent content in Gammu on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Thu, 14 Mar 2019 22:47:52 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/gammu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Panduan Lengkap Membangun Sms Gateway dengan Gammu</title>
+      <link>https://rifkyfuady.github.io/post/gammu-sms-gateway/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/post/gammu-sms-gateway/</guid>
+      <description>Apa itu SMS-Gateway?&#xA;Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) yang memungkinkan untuk melakukan pengiriman SMS, maupun penerimaan SMS melalui komputer.</description>
+    </item>
+  </channel>
+</rss>
