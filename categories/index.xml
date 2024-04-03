@@ -6,9 +6,15 @@
     <description>Recent content in Categories on Website of Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
+<<<<<<< HEAD
+    <atom:link href="https://rifkyfuady.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
+=======
     
 	<atom:link href="https://rifkyfuady.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
 </rss>
+>>>>>>> master

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
+    <title>Ubuntu on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sun, 04 Aug 2019 23:46:41 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+=======
     <title>ubuntu on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/ubuntu/</link>
     <description>Recent content in ubuntu on Website of Rifky Fuady</description>
@@ -11,20 +20,34 @@
 	<atom:link href="https://rifkyfuady.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
+>>>>>>> master
     <item>
       <title>Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04</title>
       <link>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</link>
       <pubDate>Sun, 04 Aug 2019 23:46:41 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</guid>
+      <description>Catatan pribadi :&#xA;SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data fstab buka fstab sudo gedit /etc/fstab matikan update tanggal file noatime,nodiratime : UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1 pindah file log ke RAM : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0 Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.</description>
+    </item>
+=======
       
       <guid>https://rifkyfuady.github.io/post/optimasi-ssd-ubuntu-lts/</guid>
       <description>Catatan pribadi :
  SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab  matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1  pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0 Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.</description>
     </item>
     
+>>>>>>> master
     <item>
       <title>Panduan Lengkap Membangun Sms Gateway dengan Gammu</title>
       <link>https://rifkyfuady.github.io/post/gammu-sms-gateway/</link>
       <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/gammu-sms-gateway/</guid>
+      <description>Apa itu SMS-Gateway?&#xA;Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) yang memungkinkan untuk melakukan pengiriman SMS, maupun penerimaan SMS melalui komputer.</description>
+    </item>
+  </channel>
+</rss>
+=======
       
       <guid>https://rifkyfuady.github.io/post/gammu-sms-gateway/</guid>
       <description>Apa itu SMS-Gateway?
@@ -33,3 +56,4 @@ Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) ya
     
   </channel>
 </rss>
+>>>>>>> master

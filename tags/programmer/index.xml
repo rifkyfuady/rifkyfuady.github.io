@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
+    <title>Programmer on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/programmer/</link>
+    <description>Recent content in Programmer on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sat, 16 Mar 2019 04:15:55 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
+=======
     <title>programmer on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/programmer/</link>
     <description>Recent content in programmer on Website of Rifky Fuady</description>
@@ -11,10 +20,18 @@
 	<atom:link href="https://rifkyfuady.github.io/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
     
     
+>>>>>>> master
     <item>
       <title>Wawasan wajib yang harus dikuasai Programmer</title>
       <link>https://rifkyfuady.github.io/post/wawasan-programmer/</link>
       <pubDate>Sat, 16 Mar 2019 04:15:55 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/wawasan-programmer/</guid>
+      <description>Sekedar catatan pribadi, berbagi sedikit pengalaman.&#xA;Menurut saya seorang yang mau menjadi programmer harus mempunyai wawasan sebagai berikut :</description>
+    </item>
+  </channel>
+</rss>
+=======
       
       <guid>https://rifkyfuady.github.io/post/wawasan-programmer/</guid>
       <description>Sekedar catatan pribadi, berbagi sedikit pengalaman.
@@ -23,3 +40,4 @@ Menurut saya seorang yang mau menjadi programmer harus mempunyai wawasan sebagai
     
   </channel>
 </rss>
+>>>>>>> master

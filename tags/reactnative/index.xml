@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
+    <title>Reactnative on Website of Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/reactnative/</link>
+    <description>Recent content in Reactnative on Website of Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Mon, 25 Mar 2019 21:45:47 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/reactnative/index.xml" rel="self" type="application/rss+xml" />
+=======
     <title>reactnative on Website of Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/reactnative/</link>
     <description>Recent content in reactnative on Website of Rifky Fuady</description>
@@ -11,10 +20,18 @@
 	<atom:link href="https://rifkyfuady.github.io/tags/reactnative/index.xml" rel="self" type="application/rss+xml" />
     
     
+>>>>>>> master
     <item>
       <title>Enakan Android Native, Flutter atau React Native?</title>
       <link>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</link>
       <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
+      <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
+    </item>
+  </channel>
+</rss>
+=======
       
       <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
       <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
@@ -22,3 +39,4 @@
     
   </channel>
 </rss>
+>>>>>>> master

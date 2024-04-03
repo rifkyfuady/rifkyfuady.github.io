@@ -7,33 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Wed, 02 Jan 2013 20:27:00 +0700</lastBuildDate>
+<<<<<<< HEAD
+    <atom:link href="https://rifkyfuady.github.io/tags/info/index.xml" rel="self" type="application/rss+xml" />
+=======
     
 	<atom:link href="https://rifkyfuady.github.io/tags/info/index.xml" rel="self" type="application/rss+xml" />
     
     
+>>>>>>> master
     <item>
       <title>Perintah Dasar DOS</title>
       <link>https://rifkyfuady.github.io/post/perintah-dasar-dos/</link>
       <pubDate>Wed, 02 Jan 2013 20:27:00 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
+      <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
+    </item>
+=======
       
       <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
       <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
     </item>
     
+>>>>>>> master
     <item>
       <title>Sistem Operasi</title>
       <link>https://rifkyfuady.github.io/post/sistem-operasi/</link>
       <pubDate>Thu, 12 Apr 2012 20:59:00 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/sistem-operasi/</guid>
+      <description>2.1.1 TUJUAN DARI SISTEM OPERASI&#xA;Sistem komponen dan periferal, dengan sendirinya, tidak lebih dari sebuah koleksi elektronik dan bagian mekanik.</description>
+    </item>
+=======
       
       <guid>https://rifkyfuady.github.io/post/sistem-operasi/</guid>
       <description>2.1.1 TUJUAN DARI SISTEM OPERASI
 Sistem komponen dan periferal, dengan sendirinya, tidak lebih dari sebuah koleksi elektronik dan bagian mekanik.</description>
     </item>
     
+>>>>>>> master
     <item>
       <title>Trik Cara Mengatasi Modem Smartfren yang Lelet</title>
       <link>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</link>
       <pubDate>Sat, 17 Mar 2012 19:00:00 +0700</pubDate>
+<<<<<<< HEAD
+      <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
+      <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
+    </item>
+  </channel>
+</rss>
+=======
       
       <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
       <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
@@ -41,3 +64,4 @@ Sistem komponen dan periferal, dengan sendirinya, tidak lebih dari sebuah koleks
     
   </channel>
 </rss>
+>>>>>>> master
