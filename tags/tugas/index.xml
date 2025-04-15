@@ -1,54 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tugas on Website of Rifky Fuady</title>
+    <title>Tugas on Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/tugas/</link>
-    <description>Recent content in Tugas on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
+    <description>Recent content in Tugas on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
     <lastBuildDate>Wed, 09 Jan 2013 04:02:00 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/tugas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pemrograman Pascal dengan Function (Tugas Algoritma Dan Pemrograman)</title>
-      <link>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</link>
+      <title>PEMROGRAMAN PASCAL DENGAN FUNCTION (TUGAS ALGORITMA DAN PEMROGRAMAN)</title>
+      <link>https://rifkyfuady.github.io/2013/01/pemrograman-pascal-dengan-function.html</link>
       <pubDate>Wed, 09 Jan 2013 04:02:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</guid>
-      <description>PEMROGRAMAN PASCAL DENGAN FUNCTION&#xA;Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.</description>
+      <guid>https://rifkyfuady.github.io/2013/01/pemrograman-pascal-dengan-function.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;PEMROGRAMAN PASCAL DENGAN FUNCTION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYyQ_WuCCa1U2Tb9Z9gYtKShw8rZK0eZAwyM2s03nVLwNshhgKWXCf9c2pNvvedv1PsONRAvH3Kfu9u8LtNXnHG_d21rtPknE3pFxgCoblSUiMoV53N5rngJhnkwidRnOKqZZOiUuj4uw/s1600/T.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYyQ_WuCCa1U2Tb9Z9gYtKShw8rZK0eZAwyM2s03nVLwNshhgKWXCf9c2pNvvedv1PsONRAvH3Kfu9u8LtNXnHG_d21rtPknE3pFxgCoblSUiMoV53N5rngJhnkwidRnOKqZZOiUuj4uw/s200/T.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.&lt;br&gt;
+Tugas ini diperintahkan oleh Pak Wahyu Setianto, S.Kom YTH dan harus dikumpulkan sebelum UTS, ini tugasnya :&lt;/p&gt;
+&lt;p&gt;1. tampilkan bilangan yang bisa dibagi 4 dan 6&lt;br&gt;
+2. hitung luas segitiga&lt;br&gt;
+3. menentukan bilangan apakah genap atau ganjil&lt;/p&gt;
+&lt;p&gt;Semua dengan Function,&lt;/p&gt;
+&lt;p&gt;Saya tidak akan menjelaskan panjang lebar apa itu Function, karena mungkin anda bisa mencari sendiri di mbah Google yah&amp;hellip;??? Heheheh&amp;hellip;:D&lt;br&gt;
+langsung saja to the point, saya ingin membagikan ke teman-teman yang mungkin kesulitan untuk membuat program pascal dengan Function&amp;hellip;.&lt;br&gt;
+dan semoga saja dapat membantu&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tugas Algoritma dan Pemrograman - Array Dimensi Banyak</title>
-      <link>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</link>
+      <title>TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK</title>
+      <link>https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html</link>
       <pubDate>Mon, 17 Dec 2012 15:55:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</guid>
-      <description>For Pak Wahyu Setianto, M.Kom&#xA;BAB I&#xA;PEMBAHASAN&#xA;A. Pendahuluan</description>
+      <guid>https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Pak &lt;strong&gt;Wahyu Setianto, M.Kom&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BAB I&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PEMBAHASAN&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A.      Pendahuluan&lt;/p&gt;
+&lt;p&gt;Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.&lt;/p&gt;
+&lt;p&gt;Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tugas Arsitektur dan Organsasi Komputerpengenalan Bahasa Assembly</title>
-      <link>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</link>
+      <title>TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY</title>
+      <link>https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html</link>
       <pubDate>Wed, 12 Dec 2012 00:46:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</guid>
-      <description>For **Bpk. **Sattriedi W.B,S.Si,M.Kom&#xA;PENGENALAN BAHASA ASSEMBLY BAB I .</description>
-    </item>
-    <item>
-      <title>Tugas Soal Ujian Praktek Dan Latihan UTS</title>
-      <link>https://rifkyfuady.github.io/post/tugas-soal-ujian-praktek-dan-latihan-uts/</link>
-      <pubDate>Wed, 24 Oct 2012 14:19:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-soal-ujian-praktek-dan-latihan-uts/</guid>
-      <description>For Pak Wahyu Setianto M.Kom&#xA;Karena saya lihat teman-teman banyak yang pada bingung buat ngerjain tugasnya pak wahyu yg super disiplin, maka hati sanubari saya terguagah untuk berbagi pada teman-teman saya, terutama 1M42&amp;hellip;</description>
-    </item>
-    <item>
-      <title>Respon Sistem Operasi</title>
-      <link>https://rifkyfuady.github.io/post/respon-sistem-operasi-kelas-1m42/</link>
-      <pubDate>Sun, 21 Oct 2012 22:57:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/respon-sistem-operasi-kelas-1m42/</guid>
-      <description>for Pak M. Rifqi Maulana M.Kom&#xA;1. Jelaskan mengenai Multiprogramming, Multiprocessing dan Distributed Processing!</description>
+      <guid>https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s1600/asemmbly.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s320/asemmbly.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s1600/logo_stmik_png.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s200/logo_stmik_png.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For  **Bpk. **&lt;strong&gt;Sattriedi W.B,S.Si,M.Kom&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pengenalan-bahasa-assembly&#34;&gt;&lt;strong&gt;PENGENALAN BAHASA ASSEMBLY&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;BAB I . PENDAHULUAN&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.1 LATAR BELAKANG&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tugas Algoritma dan Pemrograman</title>
-      <link>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemprograman/</link>
+      <link>https://rifkyfuady.github.io/2012/10/tugas-algoritma-dan-pemprograman.html</link>
       <pubDate>Fri, 12 Oct 2012 11:19:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemprograman/</guid>
-      <description>For Pak Wahyu Setianto, M.Kom&#xA;-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&#xA;BUAT SEBUAH MENU HIDANGAN RUMAH MAKAN &amp;ldquo;KENYANG&amp;rdquo;</description>
+      <guid>https://rifkyfuady.github.io/2012/10/tugas-algoritma-dan-pemprograman.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgatahgNVNOkeTkngwjev3WYNbEuE-IVCXnWC8tqjrPIw7GjmgEbVFlQXGXzQUVmvYQM_EiKMVRX6PidPmd6TWATgVBho0ZMLOnMxFJMkI8hVHQfZC_zk_cH-3qOk0XZykH4f5ZqXuyAM4/s1600/T.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgatahgNVNOkeTkngwjev3WYNbEuE-IVCXnWC8tqjrPIw7GjmgEbVFlQXGXzQUVmvYQM_EiKMVRX6PidPmd6TWATgVBho0ZMLOnMxFJMkI8hVHQfZC_zk_cH-3qOk0XZykH4f5ZqXuyAM4/s1600/T.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For &lt;em&gt;Pak Wahyu Setianto, M.Kom&lt;/em&gt;&lt;br&gt;
+-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;br&gt;
+BUAT SEBUAH MENU HIDANGAN RUMAH MAKAN &amp;ldquo;KENYANG&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;PILIHAN MENU RM &amp;ldquo;KENYANG&amp;rdquo;&lt;br&gt;
+-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;br&gt;
+  A. NASI GORENG&lt;br&gt;
+1. NG DAGING&lt;br&gt;
+2. NG TELUR&lt;br&gt;
+3. NG BABAT&lt;br&gt;
+  B. MIE&lt;br&gt;
+1. MIE GORENG&lt;br&gt;
+2. MIE KUAH&lt;br&gt;
+  C. CAPCAY&lt;br&gt;
+1. CAPCAY KUAH&lt;br&gt;
+2. CAPCAY GORENG&lt;/p&gt;
+&lt;p&gt;PILIH MENU ?&lt;br&gt;
+-&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;br&gt;
+JIKA DI PILIH  B MAKA AKAN TAMPIL MENU SEPERTI DI BAWAH INI :&lt;br&gt;
+    MENU MIE&lt;br&gt;
+        1 . MIE GORENG&lt;br&gt;
+        2 . MIE KUAH&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

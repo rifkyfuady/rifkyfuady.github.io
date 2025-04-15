@@ -1,68 +1,141 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Bahasa Pemrograman on Website of Rifky Fuady</title>
+    <title>Bahasa Pemrograman on Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/bahasa-pemrograman/</link>
-    <description>Recent content in Bahasa Pemrograman on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Wed, 09 Jan 2013 04:02:00 +0700</lastBuildDate>
+    <description>Recent content in Bahasa Pemrograman on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 08 Apr 2019 20:29:06 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/bahasa-pemrograman/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pemrograman Pascal dengan Function (Tugas Algoritma Dan Pemrograman)</title>
-      <link>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</link>
+      <title>Membuat aplikasi konverter youtube ke Mp3 mutiplatform</title>
+      <link>https://rifkyfuady.github.io/posts/konverter-youtube-mp3/</link>
+      <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/konverter-youtube-mp3/</guid>
+      <description>&lt;p&gt;Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di &lt;a href=&#34;https://youtube.com&#34;&gt;Youtube&lt;/a&gt;, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.&lt;/p&gt;
+&lt;p&gt;Alih-alih ingin menghemat kuota internet dirumah (Indihome berkuota &amp;#x1f602;), saya sering melakukan konvert youtube ke mp3 dengan aplikasi web ini &lt;a href=&#34;https://www.onlinevideoconverter.com/mp3-converter&#34;&gt;Online Video Converter&lt;/a&gt; kalo saya sedang memakai komputer&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bagaimana kalo di smartphone?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beberapa kali saya mencoba donwload aplikasi dari Apps Store ada dua jenis aplikasi, yaitu aplikasi gratis tetapi banyak iklan atau yang tidak ada iklan tetapi berbayar, hehe&amp;hellip; &amp;#x1f605;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
+      <link>https://rifkyfuady.github.io/posts/flutter-animasi-dragonball/</link>
+      <pubDate>Mon, 01 Apr 2019 21:58:46 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/flutter-animasi-dragonball/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Siapa yang gak tau Dragon Ball hayoo?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.00 WIB di Indosiar setia menonton film animasi &lt;code&gt;Dragon Ball&lt;/code&gt;, televisi saat itu masih berbentuk tabung dan nonton bareng sama tetangga saya dekat rumah.&lt;/p&gt;
+&lt;p&gt;Kali ini kita akan belajar bikin aplikasi karakter &lt;code&gt;Dragon Ball&lt;/code&gt; dengan animasi sederhana di &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; sambil ber-&lt;em&gt;nostalgia&lt;/em&gt; mengingat karakter-karakter yang ada di film animasi &lt;code&gt;Dragon Ball&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial Membuat Aplikasi Pemutar Musik Android dan IOS dengan Flutter</title>
+      <link>https://rifkyfuady.github.io/posts/pemutar-musik-flutter/</link>
+      <pubDate>Sat, 16 Mar 2019 01:48:31 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/pemutar-musik-flutter/</guid>
+      <description>&lt;p&gt;Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita. Harmoni suara ini bisa menjadi media penyembuhan, mengusir kecemasan, menenangkan, hingga mendongkrak semangat.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;ngoding-tanpa-dengerin-musik-seperti-makan-sayur-kurang-micin-hambar-sweat_smile&#34;&gt;&lt;strong&gt;Ngoding&lt;/strong&gt; tanpa dengerin &lt;strong&gt;musik&lt;/strong&gt;, seperti makan sayur kurang &lt;em&gt;&lt;code&gt;micin&lt;/code&gt;&lt;/em&gt; &lt;em&gt;(hambar)&lt;/em&gt;&amp;hellip; &amp;#x1f605;&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;Bagi saya medengarkan musik tak hanya bisa menghibur, saat malam hari sunyi sepi &lt;strong&gt;ngoding&lt;/strong&gt; &lt;code&gt;sendiri&lt;/code&gt; &lt;em&gt;(jodoh undefined )&lt;/em&gt; &amp;#x1f602; kode program bermasalah gak ketemu-ketemu solusinya, dengan mendengarkan musik yang saya sukai terkadang bisa mendatangkan inspirasi ide solusi dari masalah tersebut. &lt;em&gt;(Hilihhh&amp;hellip; malah curcol)&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Membangun Aplikasi Toko Buku Multiplatform dengan Flutter</title>
+      <link>https://rifkyfuady.github.io/posts/toko-buku-flutter/</link>
+      <pubDate>Fri, 15 Mar 2019 21:40:35 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/toko-buku-flutter/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Siapa bilang membuat aplikasi mobile multiplatform itu sulit?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dengan &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; semua terasa mudah, karena &lt;code&gt;everything is a widget&lt;/code&gt;, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke &lt;code&gt;Android&lt;/code&gt; dan &lt;code&gt;iOS&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Kali ini kita akan membuat aplikasi sederhana toko buku, sebelum itu bagi anda yang belum pernah ngoding dengan &lt;code&gt;flutter&lt;/code&gt; sebaiknya anda membaca artikel saya sebelumnya yang berjudul &lt;a href=&#34;https://rifkyfuady.github.io/flutter-login-ciamik&#34;&gt;Membuat Tampilan Login Ciamik dengan Flutter&lt;/a&gt; agar lebih mudah mengikuti tutorial kali ini.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
+      <link>https://rifkyfuady.github.io/posts/flutter-login-ciamik/</link>
+      <pubDate>Wed, 13 Mar 2019 22:02:53 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/flutter-login-ciamik/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-flutter&#34;&gt;Apa itu Flutter?&lt;/h2&gt;
+&lt;p&gt;Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.&lt;/p&gt;
+&lt;p&gt;Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?&lt;/p&gt;
+&lt;p&gt;Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PEMROGRAMAN PASCAL DENGAN FUNCTION (TUGAS ALGORITMA DAN PEMROGRAMAN)</title>
+      <link>https://rifkyfuady.github.io/2013/01/pemrograman-pascal-dengan-function.html</link>
       <pubDate>Wed, 09 Jan 2013 04:02:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/pemrograman-pascal-dengan-function/</guid>
-      <description>PEMROGRAMAN PASCAL DENGAN FUNCTION&#xA;Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.</description>
+      <guid>https://rifkyfuady.github.io/2013/01/pemrograman-pascal-dengan-function.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;PEMROGRAMAN PASCAL DENGAN FUNCTION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYyQ_WuCCa1U2Tb9Z9gYtKShw8rZK0eZAwyM2s03nVLwNshhgKWXCf9c2pNvvedv1PsONRAvH3Kfu9u8LtNXnHG_d21rtPknE3pFxgCoblSUiMoV53N5rngJhnkwidRnOKqZZOiUuj4uw/s1600/T.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYyQ_WuCCa1U2Tb9Z9gYtKShw8rZK0eZAwyM2s03nVLwNshhgKWXCf9c2pNvvedv1PsONRAvH3Kfu9u8LtNXnHG_d21rtPknE3pFxgCoblSUiMoV53N5rngJhnkwidRnOKqZZOiUuj4uw/s200/T.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.&lt;br&gt;
+Tugas ini diperintahkan oleh Pak Wahyu Setianto, S.Kom YTH dan harus dikumpulkan sebelum UTS, ini tugasnya :&lt;/p&gt;
+&lt;p&gt;1. tampilkan bilangan yang bisa dibagi 4 dan 6&lt;br&gt;
+2. hitung luas segitiga&lt;br&gt;
+3. menentukan bilangan apakah genap atau ganjil&lt;/p&gt;
+&lt;p&gt;Semua dengan Function,&lt;/p&gt;
+&lt;p&gt;Saya tidak akan menjelaskan panjang lebar apa itu Function, karena mungkin anda bisa mencari sendiri di mbah Google yah&amp;hellip;??? Heheheh&amp;hellip;:D&lt;br&gt;
+langsung saja to the point, saya ingin membagikan ke teman-teman yang mungkin kesulitan untuk membuat program pascal dengan Function&amp;hellip;.&lt;br&gt;
+dan semoga saja dapat membantu&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutorial Dasar Pemrograman Batch File</title>
-      <link>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</link>
+      <link>https://rifkyfuady.github.io/2013/01/maaf-ini-sebelumnyasahabat-blogger-lama.html</link>
       <pubDate>Wed, 02 Jan 2013 21:00:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
-      <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
+      <guid>https://rifkyfuady.github.io/2013/01/maaf-ini-sebelumnyasahabat-blogger-lama.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7AqdaA86Xm1c3t_ZrHUjKBmCBm0z57xealnOz5tbwwvtPcOv3ELmj487MbIY6NGw9h4jAYZrFAlZWJMcJGev28-ho_1PorCLvB62uvOtxuUce2EWWKsN4LJcNjEAi6Qnn05uC9hi478/s1600/G_127.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7AqdaA86Xm1c3t_ZrHUjKBmCBm0z57xealnOz5tbwwvtPcOv3ELmj487MbIY6NGw9h4jAYZrFAlZWJMcJGev28-ho_1PorCLvB62uvOtxuUce2EWWKsN4LJcNjEAi6Qnn05uC9hi478/s200/G_127.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Oke. Sekarang kita langsung saja masuk ke Judul posting di atas, kemaren makul Sistem Operasi Praktek yang di ajarkan Oleh &lt;em&gt;Bpk. &lt;strong&gt;M. Rifqi Maulana M.Kom&lt;/strong&gt;&lt;/em&gt; adalah Pemrograman Batch File di Windows, setelah mengajarkan cara mengoprek-oprek registry tools di Windows. Dan sekarang saya ingin men-sharing apa yang diajarkan &lt;strong&gt;&lt;em&gt;Beliau.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Udah pada tau Perintah-perintah dasar di DOS belum? Kalo belum bisa lihat &lt;a href=&#34;http://rifky-fuady.blogspot.com/2013/01/perintah-dasar-dos.html&#34;&gt;disini.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tugas Algoritma dan Pemrograman - Array Dimensi Banyak</title>
-      <link>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</link>
+      <title>TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK</title>
+      <link>https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html</link>
       <pubDate>Mon, 17 Dec 2012 15:55:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</guid>
-      <description>For Pak Wahyu Setianto, M.Kom&#xA;BAB I&#xA;PEMBAHASAN&#xA;A. Pendahuluan</description>
+      <guid>https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Pak &lt;strong&gt;Wahyu Setianto, M.Kom&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BAB I&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PEMBAHASAN&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A.      Pendahuluan&lt;/p&gt;
+&lt;p&gt;Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.&lt;/p&gt;
+&lt;p&gt;Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tugas Arsitektur dan Organsasi Komputerpengenalan Bahasa Assembly</title>
-      <link>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</link>
+      <title>TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY</title>
+      <link>https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html</link>
       <pubDate>Wed, 12 Dec 2012 00:46:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</guid>
-      <description>For **Bpk. **Sattriedi W.B,S.Si,M.Kom&#xA;PENGENALAN BAHASA ASSEMBLY BAB I .</description>
-    </item>
-    <item>
-      <title>Cara Membuat Virus (Source Code Virus)</title>
-      <link>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</link>
-      <pubDate>Thu, 15 Mar 2012 13:59:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
-      <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
+      <guid>https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s1600/asemmbly.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s320/asemmbly.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s1600/logo_stmik_png.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s200/logo_stmik_png.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For  **Bpk. **&lt;strong&gt;Sattriedi W.B,S.Si,M.Kom&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pengenalan-bahasa-assembly&#34;&gt;&lt;strong&gt;PENGENALAN BAHASA ASSEMBLY&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;BAB I . PENDAHULUAN&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.1 LATAR BELAKANG&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interrupt dan Register pada Bahasa Pemrograman Assembly</title>
-      <link>https://rifkyfuady.github.io/post/intrupsi-dan-register-pada-bahasa/</link>
+      <link>https://rifkyfuady.github.io/2012/03/intrupsi-dan-register-pada-bahasa.html</link>
       <pubDate>Fri, 09 Mar 2012 23:06:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/intrupsi-dan-register-pada-bahasa/</guid>
-      <description>Pada postingan kali ini saya akan menjelaskan sedikit tentang Interrupt dan Register di Bahasa Pemrograman Assembly.</description>
+      <guid>https://rifkyfuady.github.io/2012/03/intrupsi-dan-register-pada-bahasa.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgavcHbgFelGzAPYX94QfR-EjECb65oXq1LbZQbgZLsAw6rBGJi00iU4_XlWXA7-W1rpnsxAlfELSRywPZZxUnHHRf7H5Lng_YzfEfOdQMufWmbQQ89r-7Z__W4nm4LfCY8wn0IvyEsHco/s1600/asemmbly.bmp&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgavcHbgFelGzAPYX94QfR-EjECb65oXq1LbZQbgZLsAw6rBGJi00iU4_XlWXA7-W1rpnsxAlfELSRywPZZxUnHHRf7H5Lng_YzfEfOdQMufWmbQQ89r-7Z__W4nm4LfCY8wn0IvyEsHco/s200/asemmbly.bmp&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pada postingan kali ini saya akan menjelaskan sedikit tentang &lt;em&gt;Interrupt dan Register di Bahasa Pemrograman Assembly&lt;/em&gt;. Sebelum kita memulai menulis dengan bahasa Assembly, kita harus terlebih dahulu mengetahui bagian-bagian dari bahasa Assembler, berikut penjelasan Interupt dan Register :&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I&lt;/strong&gt;**. INTERRUPT**&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. PENGERTIAN INTERRUPT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Interupsi adalah suatu permintaan khusus kepada mikroposesor untuk melakukan sesuatu. Bila terjadi interupsi, maka komputer akan menghentikan dahulu apa yang sedang dikerjakannya dan melakukan apa yang diminta oleh yang menginterupsi.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mengenal Memori Bahasa Pemrograman Assembly</title>
-      <link>https://rifkyfuady.github.io/post/mengenal-memori-di-bahasa-pemrograman/</link>
+      <title>Mengenal Memori  di Bahasa Pemrograman Assembly</title>
+      <link>https://rifkyfuady.github.io/2012/03/mengenal-memori-di-bahasa-pemrograman.html</link>
       <pubDate>Fri, 09 Mar 2012 21:14:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/mengenal-memori-di-bahasa-pemrograman/</guid>
-      <description>Memori dengan komputer memiliki hubungan yang tak dapat dipisahkan,karena setiap komputer memerlukan memori sebagai tempat kerjanya.</description>
+      <guid>https://rifkyfuady.github.io/2012/03/mengenal-memori-di-bahasa-pemrograman.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItSf-xkMS3UYlBGryEUh5nWL5a3SPMxFBcoJazc-rshOPL5_vmxA8B5SzdatAKDWlzuJ10yfYrhIkH_Kh-lJWYK9gn143clnGGMlNklTeNiOkvTChFLJ4-EfWzfe-av_pHkS2i4XYjYU/s1600/asemmbly.bmp&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItSf-xkMS3UYlBGryEUh5nWL5a3SPMxFBcoJazc-rshOPL5_vmxA8B5SzdatAKDWlzuJ10yfYrhIkH_Kh-lJWYK9gn143clnGGMlNklTeNiOkvTChFLJ4-EfWzfe-av_pHkS2i4XYjYU/s200/asemmbly.bmp&#34;&gt;&lt;/a&gt;Memori dengan komputer memiliki hubungan yang tak dapat dipisahkan,karena setiap komputer memerlukan memori sebagai tempat kerjanya. Memori ini dapat berfungsi untuk memuat program dan juga sebagai tempat untuk menampunghasil proses.&lt;/p&gt;
+&lt;p&gt;Yang perlu kita perhatikan bahwa memori untuk menyimpan program maupun hasil dari pekerjaan bersifat volatile yang berarti bahwa data yang disimpan cuma sebatas adanya aliran listrik. Jadi bila listrik mati maka hilang pulalah semua data yang ada di dalamnya. Hal ini mengakibatkan diperlukannya media penyimpan kedua yang biasanya berupa disket maupun hard disk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Belajar Mengenal Bilangan pada Assembler</title>
-      <link>https://rifkyfuady.github.io/post/pada-zaman-sekarangintensitas/</link>
+      <link>https://rifkyfuady.github.io/2012/03/pada-zaman-sekarangintensitas.html</link>
       <pubDate>Fri, 09 Mar 2012 20:34:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/pada-zaman-sekarangintensitas/</guid>
-      <description>Pada zaman sekarang intensitas perkembangan bahasa tingkat tinggi terus berkembang dengan segala fasilitas dan kemudahannya, walaupun begitu peranan bahasa pemrograman tingkat rendah tetap tidak dapat digantikan.</description>
+      <guid>https://rifkyfuady.github.io/2012/03/pada-zaman-sekarangintensitas.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitlEoo2HISapi7RU0zlGI7MD1X2pcJfG4xePLlCDT9-dtuzhg2JD6RYJshD-po9kZmELuYM-SQtRdJlEF3n-AzRTshckk-z1RysbhJiC78bFHF3zOU798YAejyTS6W03VE3vc7D0TqKKc/s1600/asemmbly.bmp&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitlEoo2HISapi7RU0zlGI7MD1X2pcJfG4xePLlCDT9-dtuzhg2JD6RYJshD-po9kZmELuYM-SQtRdJlEF3n-AzRTshckk-z1RysbhJiC78bFHF3zOU798YAejyTS6W03VE3vc7D0TqKKc/s200/asemmbly.bmp&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pada zaman sekarang intensitas perkembangan bahasa tingkat tinggi terus berkembang dengan segala fasilitas dan kemudahannya, walaupun begitu peranan bahasa pemrograman tingkat rendah tetap tidak dapat digantikan. Misalnya bahasa pemrograman &lt;strong&gt;Assembly&lt;/strong&gt; mempunyai keunggulan yang tidak mungkin diikuti oleh bahasa tingkat apapun dalam hal kecepatan, ukuran file yang kecil serta kemudahan dalam manipulasi sistem komputer. Dan kali ini saya akan memperkenal kan Jenis bilangan dalam bahasa pemrograman &lt;strong&gt;Assembly&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Didalam pemrograman dengan bahasa &lt;strong&gt;Assembler&lt;/strong&gt;, bisa digunakan berbagai jenis bilangan. Jenis bilanganyang bisa digunakan, yaitu: Bilangan biner, oktal, desimal dan hexadesimal. Pemahaman terhadap jenis-jenis bilangan ini adalah penting, karena akan sangat membantu kita dalam pemrograman yang sesungguhnya.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

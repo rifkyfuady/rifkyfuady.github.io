@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="id" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Membuat Tampilan Login Ciamik dengan Flutter | Rifky Fuady</title>
+<meta name="keywords" content="Flutter, Bahasa Pemrograman">
+<meta name="description" content="Apa itu Flutter?
+Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.
+Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?
+Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.">
+<meta name="author" content="Rifky Fuady">
+<link rel="canonical" href="https://rifkyfuady.github.io/posts/flutter-login-ciamik/">
+<meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://rifkyfuady.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://rifkyfuady.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://rifkyfuady.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://rifkyfuady.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://rifkyfuady.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="id" href="https://rifkyfuady.github.io/posts/flutter-login-ciamik/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://rifkyfuady.github.io/posts/flutter-login-ciamik/">
+  <meta property="og:site_name" content="Rifky Fuady">
+  <meta property="og:title" content="Membuat Tampilan Login Ciamik dengan Flutter">
+  <meta property="og:description" content="Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.
+Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?
+Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.">
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-03-13T22:02:53+07:00">
+    <meta property="article:modified_time" content="2019-03-13T22:02:53+07:00">
+    <meta property="article:tag" content="Flutter">
+    <meta property="article:tag" content="Bahasa Pemrograman">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Membuat Tampilan Login Ciamik dengan Flutter">
+<meta name="twitter:description" content="Apa itu Flutter?
+Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.
+Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?
+Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://rifkyfuady.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Membuat Tampilan Login Ciamik dengan Flutter",
+      "item": "https://rifkyfuady.github.io/posts/flutter-login-ciamik/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Membuat Tampilan Login Ciamik dengan Flutter",
+  "name": "Membuat Tampilan Login Ciamik dengan Flutter",
+  "description": "Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.\nAplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?\nMembuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.\n",
+  "keywords": [
+    "Flutter", "Bahasa Pemrograman"
+  ],
+  "articleBody": "Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.\nAplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?\nMembuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.\nSedikit informasi bagi yang masih ragu-ragu untuk mengadopsi Flutter :\nFramework satu ini menjamin performa yang sangat mulus yaitu 60fps. Satu-satunya multi platform reactive SDK yang tidak menggunakan Javascript. Memiliki fitur Hot Reload yang sangat membantu dalam proses development, ngoding android terasa seperti ngoding web. Kode di-compile ke native binary saat build untuk release. Dan masih banyak lagi fitur menarik lainnya. Sebenarnya saya ingin membuat tulisan cara instalasi flutter, berhubung sudah terlebih dahulu menginstall flutter sebelum bikin blog, maka saya skip, tetapi jangan khawatir mudah kok, kalo bingung bisa mengikuti panduan pada halaman ini, kemudian jangan lupa install juga editor VS Code dan ekstensi Dart disini.\nPersiapan Pertama-tama siapkan beberapa asset untuk gambar foto profil, logo, dan font.\nFoto profile (profil.jpg) Logo aplikasi (butterfly.png) Nunito font family (Nunito.ttf) Membuat Projek Jalankan editor VS Code, Selanjutnya buat projek baru dengan menekan kombinasi tombol CTRL+SHIFT+P dan tulis nama projeknya misalnya login_cantik. Untuk nama aplikasi harus huruf kecil semua dan tidak boleh mengandung spasi.\nSelanjutnya buat folder assets pada direktori projek dan salin semua file persiapan (profil.jpg, butterfly.png, nunito.ttf) ke dalam folder assets tersebut.\nFile-file ini harus dijelaskan terlebih dahulu pada file pubspec.yaml agar dapat digunakan, tambahkan baris berikut ini tepat di bawah konfigurasi flutter seperti ini.\nflutter: uses-material-design: true assets: - assets/butterfly.png - assets/profil.jpg fonts: - family: Nunito fonts: - asset: assets/Nunito.ttf Kemudian pada file main.dart hapus semua code hingga yang tersisa hanya class MyApp seperti ini:\nimport 'package:flutter/material.dart'; void main() =\u003e runApp(MyApp()); Halaman Login Buat file baru dengan klik kanan pada folder lib selanjutnya beri nama login_page.dart. Pada halaman login ini kita membutuhkan beberapa widget yaitu widget gambar untuk logo, field untuk email, field untuk password, tombol login, dan terakhir adalah tombol flat untuk lupa password. Selengkapnya code untuk login_page.dart seperti ini:\nimport 'package:flutter/material.dart'; import 'home_page.dart'; class LoginPage extends StatefulWidget { static String tag = 'login-page'; @override _LoginPageState createState() =\u003e new _LoginPageState(); } class _LoginPageState extends State { @override Widget build(BuildContext context) { final logo = Hero( tag: 'hero', child: CircleAvatar( backgroundColor: Colors.transparent, radius: 48.0, child: Image.asset('assets/butterfly.png'), ), ); final email = TextFormField( keyboardType: TextInputType.emailAddress, autofocus: false, initialValue: 'profil@gmail.com', decoration: InputDecoration( hintText: 'Email', contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0), border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)), ), ); final password = TextFormField( autofocus: false, initialValue: 'terserah', obscureText: true, decoration: InputDecoration( hintText: 'Password', contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0), border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)), ), ); final loginButton = Padding( padding: EdgeInsets.symmetric(vertical: 16.0), child: RaisedButton( shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(24), ), onPressed: () { Navigator.of(context).pushNamed(HomePage.tag); }, padding: EdgeInsets.all(12), color: Colors.lightBlueAccent, child: Text('Log In', style: TextStyle(color: Colors.white)), ), ); final forgotLabel = FlatButton( child: Text( 'Lupa password?', style: TextStyle(color: Colors.black54), ), onPressed: () {}, ); return Scaffold( backgroundColor: Colors.white, body: Center( child: ListView( shrinkWrap: true, padding: EdgeInsets.only(left: 24.0, right: 24.0), children: [ logo, SizedBox(height: 48.0), email, SizedBox(height: 8.0), password, SizedBox(height: 24.0), loginButton, forgotLabel ], ), ), ); } } Halaman Utama Berikutnya buat file baru untuk halaman utama dengan nama home_page.dart. Pada halaman ini kita hanya akan menampikan widget foto profil dari aset profil.jpg dan sebuah widget text untuk informasi tambahan. Widget foto profil tersebut akan dibungkus oleh widget Hero, dengan nama tag yang sama seperti tag hero logo pada login_page.dart. Tuliskan kodenya seperti ini:\nimport 'package:flutter/material.dart'; class HomePage extends StatelessWidget { static String tag = 'home-page'; @override Widget build(BuildContext context) { final profil = Hero( tag: 'hero', child: Padding( padding: EdgeInsets.all(16.0), child: CircleAvatar( radius: 72.0, backgroundColor: Colors.transparent, backgroundImage: AssetImage('assets/profil.jpg'), ), ), ); final welcome = Padding( padding: EdgeInsets.all(8.0), child: Text( 'Selamat datang', style: TextStyle(fontSize: 28.0, color: Colors.white), ), ); final paragraf1 = Padding( padding: EdgeInsets.all(8.0), child: Text( 'Halo, nama saya Akhmad Fuady Rifkiyanto, Sering dipanggil Rifki (di rumah) dan Fuad (di kampus).', style: TextStyle(fontSize: 16.0, color: Colors.white), ), ); final paragraf2 = Padding( padding: EdgeInsets.all(8.0), child: Text( 'Saat ini, saya adalah freelance di salah satu instansi di Kabupaten Batang.', style: TextStyle(fontSize: 16.0, color: Colors.white), ), ); final paragraf3 = Padding( padding: EdgeInsets.all(8.0), child: Text( 'Pernah menempuh pendidikan di STMIK Widya Pratama Pekalongan mengambil program studi Teknik Informatika.', style: TextStyle(fontSize: 16.0, color: Colors.white), ), ); final body = Container( width: MediaQuery.of(context).size.width, padding: EdgeInsets.all(28.0), decoration: BoxDecoration( gradient: LinearGradient(colors: [ Colors.blue, Colors.lightBlueAccent, ]), ), child: Column( children: [profil, welcome, paragraf1,paragraf2,paragraf3], ), ); return Scaffold( body: body, ); } } Sentuhan Terakhir Selanjutnya kembali pada kembali pada main.dart, tambahkan kode untuk navigasi router, atur atribut routes widget MaterialApp dengan objek routes diatas, atur juga untuk property home menjadi objek dari login_page seperti ini LoginPage(). Sehingga kode lengkap untuk main sebagai berikut:\nimport 'package:flutter/material.dart'; import 'login_page.dart'; import 'home_page.dart'; void main() =\u003e runApp(MyApp()); class MyApp extends StatelessWidget { final routes = { LoginPage.tag: (context) =\u003e LoginPage(), HomePage.tag: (context) =\u003e HomePage(), }; @override Widget build(BuildContext context) { return MaterialApp( title: 'Kodeversitas', debugShowCheckedModeBanner: false, theme: ThemeData( primarySwatch: Colors.lightBlue, fontFamily: 'Nunito', ), home: LoginPage(), routes: routes, ); } } Selesai. sekarang jalankan aplikasi Flutter dengan menekan tombol F5 namun sebelumnya jangan lupa start Android Emulator atau iOS Simulator.\nHasilnya akan terlihat seperti berikut ini:\n",
+  "wordCount" : "903",
+  "inLanguage": "id",
+  "datePublished": "2019-03-13T22:02:53+07:00",
+  "dateModified": "2019-03-13T22:02:53+07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Rifky Fuady"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rifkyfuady.github.io/posts/flutter-login-ciamik/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rifky Fuady",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rifkyfuady.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://rifkyfuady.github.io/" accesskey="h" title="Home (Alt + H)">🏠</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://rifkyfuady.github.io/en/" title="English"
+                            aria-label=":gb:">🇬🇧</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://rifkyfuady.github.io/portfolio" title="Portofolio">
+                    <span>Portofolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/posts" title="Artikel">
+                    <span>Artikel</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/tags" title="Tagar">
+                    <span>Tagar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/search" title="Cari">
+                    <span>Cari</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/kebijakan-privasi" title="Kebijakan Privasi">
+                    <span>Kebijakan Privasi</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://rifkyfuady.github.io/">Beranda</a>&nbsp;»&nbsp;<a href="https://rifkyfuady.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Membuat Tampilan Login Ciamik dengan Flutter
+    </h1>
+    <div class="post-meta"><span title='2019-03-13 22:02:53 +0700 WIB'>Maret 13, 2019</span>&nbsp;·&nbsp;5 menit&nbsp;·&nbsp;903 kata&nbsp;·&nbsp;Rifky Fuady
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="apa-itu-flutter">Apa itu Flutter?<a hidden class="anchor" aria-hidden="true" href="#apa-itu-flutter">#</a></h2>
+<p>Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</p>
+<p>Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?</p>
+<p>Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan <a href="https://flutter.dev/">Flutter</a> SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.</p>
+<p>Sedikit informasi bagi yang masih ragu-ragu untuk mengadopsi Flutter :</p>
+<ol>
+<li>Framework satu ini menjamin performa yang sangat mulus yaitu 60fps.</li>
+<li>Satu-satunya multi platform reactive SDK yang tidak menggunakan Javascript.</li>
+<li>Memiliki fitur Hot Reload yang sangat membantu dalam proses development, ngoding android terasa seperti ngoding web.</li>
+<li>Kode di-compile ke native binary saat build untuk release.</li>
+<li>Dan masih banyak lagi fitur menarik lainnya.</li>
+</ol>
+<p>Sebenarnya saya ingin membuat tulisan cara instalasi flutter, berhubung sudah terlebih dahulu menginstall flutter sebelum bikin blog, maka saya skip, tetapi jangan khawatir mudah kok, kalo bingung bisa mengikuti panduan pada <a href="https://flutter.dev/docs/get-started/install">halaman ini</a>, kemudian jangan lupa install juga editor <a href="https://code.visualstudio.com/Download">VS Code</a> dan ekstensi Dart <a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code">disini</a>.</p>
+<h2 id="persiapan">Persiapan<a hidden class="anchor" aria-hidden="true" href="#persiapan">#</a></h2>
+<p>Pertama-tama siapkan beberapa asset untuk gambar foto profil, logo, dan font.</p>
+<ul>
+<li>Foto profile (<a href="https://raw.githubusercontent.com/rifkyfu32/flutter-login-cantik/master/assets/profil.jpg">profil.jpg</a>)</li>
+<li>Logo aplikasi (<a href="https://raw.githubusercontent.com/rifkyfu32/flutter-login-cantik/master/assets/butterfly.png">butterfly.png</a>)</li>
+<li>Nunito font family (<a href="https://raw.githubusercontent.com/rifkyfu32/flutter-login-cantik/master/assets/Nunito.ttf">Nunito.ttf</a>)</li>
+</ul>
+<h2 id="membuat-projek">Membuat Projek<a hidden class="anchor" aria-hidden="true" href="#membuat-projek">#</a></h2>
+<p>Jalankan editor VS Code, Selanjutnya buat projek baru dengan menekan kombinasi tombol <code>CTRL+SHIFT+P</code> dan tulis nama projeknya misalnya <code>login_cantik</code>. Untuk nama aplikasi harus huruf kecil semua dan tidak boleh mengandung spasi.</p>
+<p><img alt="Tampilan Login Ciamik dengan Flutter pertama" loading="lazy" src="/img/flutter-login-ciamik/1.png"></p>
+<p>Selanjutnya buat folder <code>assets</code> pada direktori projek dan salin semua file persiapan (profil.jpg, butterfly.png, nunito.ttf) ke dalam folder <code>assets</code> tersebut.</p>
+<p><img alt="Tampilan Login Ciamik dengan Flutter kedua" loading="lazy" src="/img/flutter-login-ciamik/2.png">
+<img alt="Tampilan Login Ciamik dengan Flutter ketiga" loading="lazy" src="/img/flutter-login-ciamik/3.png"></p>
+<p>File-file ini harus dijelaskan terlebih dahulu pada file <code>pubspec.yaml</code> agar dapat digunakan, tambahkan baris berikut ini tepat di bawah konfigurasi <code>flutter</code> seperti ini.</p>
+<p><img alt="Tampilan Login Ciamik dengan Flutter keempat" loading="lazy" src="/img/flutter-login-ciamik/4.png"></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">flutter:
+</span></span><span class="line"><span class="cl">  uses-material-design: <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">  assets:
+</span></span><span class="line"><span class="cl">    - assets/butterfly.png
+</span></span><span class="line"><span class="cl">    - assets/profil.jpg
+</span></span><span class="line"><span class="cl">  fonts:
+</span></span><span class="line"><span class="cl">    - family: Nunito
+</span></span><span class="line"><span class="cl">      fonts:
+</span></span><span class="line"><span class="cl">          - asset: assets/Nunito.ttf
+</span></span></code></pre></div><p>Kemudian pada file main.dart hapus semua code hingga yang tersisa hanya class MyApp seperti ini:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">import <span class="s1">&#39;package:flutter/material.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">void main<span class="o">()</span> <span class="o">=</span>&gt; runApp<span class="o">(</span>MyApp<span class="o">())</span><span class="p">;</span>
+</span></span></code></pre></div><h2 id="halaman-login">Halaman Login<a hidden class="anchor" aria-hidden="true" href="#halaman-login">#</a></h2>
+<p>Buat file baru dengan klik kanan pada folder lib selanjutnya beri nama <code>login_page.dart</code>. Pada halaman login ini kita membutuhkan beberapa widget yaitu widget gambar untuk logo, field untuk email, field untuk password, tombol login, dan terakhir adalah tombol flat untuk lupa password. Selengkapnya code untuk <code>login_page.dart</code> seperti ini:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">import <span class="s1">&#39;package:flutter/material.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">import <span class="s1">&#39;home_page.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">class LoginPage extends StatefulWidget <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  static String <span class="nv">tag</span> <span class="o">=</span> <span class="s1">&#39;login-page&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  @override
+</span></span><span class="line"><span class="cl">  _LoginPageState createState<span class="o">()</span> <span class="o">=</span>&gt; new _LoginPageState<span class="o">()</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">class _LoginPageState extends State&lt;LoginPage&gt; <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  @override
+</span></span><span class="line"><span class="cl">  Widget build<span class="o">(</span>BuildContext context<span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    final <span class="nv">logo</span> <span class="o">=</span> Hero<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      tag: <span class="s1">&#39;hero&#39;</span>,
+</span></span><span class="line"><span class="cl">      child: CircleAvatar<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        backgroundColor: Colors.transparent,
+</span></span><span class="line"><span class="cl">        radius: 48.0,
+</span></span><span class="line"><span class="cl">        child: Image.asset<span class="o">(</span><span class="s1">&#39;assets/butterfly.png&#39;</span><span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">email</span> <span class="o">=</span> TextFormField<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      keyboardType: TextInputType.emailAddress,
+</span></span><span class="line"><span class="cl">      autofocus: false,
+</span></span><span class="line"><span class="cl">      initialValue: <span class="s1">&#39;profil@gmail.com&#39;</span>,
+</span></span><span class="line"><span class="cl">      decoration: InputDecoration<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        hintText: <span class="s1">&#39;Email&#39;</span>,
+</span></span><span class="line"><span class="cl">        contentPadding: EdgeInsets.fromLTRB<span class="o">(</span>20.0, 10.0, 20.0, 10.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        border: OutlineInputBorder<span class="o">(</span>borderRadius: BorderRadius.circular<span class="o">(</span>32.0<span class="o">))</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">password</span> <span class="o">=</span> TextFormField<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      autofocus: false,
+</span></span><span class="line"><span class="cl">      initialValue: <span class="s1">&#39;terserah&#39;</span>,
+</span></span><span class="line"><span class="cl">      obscureText: true,
+</span></span><span class="line"><span class="cl">      decoration: InputDecoration<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        hintText: <span class="s1">&#39;Password&#39;</span>,
+</span></span><span class="line"><span class="cl">        contentPadding: EdgeInsets.fromLTRB<span class="o">(</span>20.0, 10.0, 20.0, 10.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        border: OutlineInputBorder<span class="o">(</span>borderRadius: BorderRadius.circular<span class="o">(</span>32.0<span class="o">))</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">loginButton</span> <span class="o">=</span> Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.symmetric<span class="o">(</span>vertical: 16.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: RaisedButton<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        shape: RoundedRectangleBorder<span class="o">(</span>
+</span></span><span class="line"><span class="cl">          borderRadius: BorderRadius.circular<span class="o">(</span>24<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        onPressed: <span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">          Navigator.of<span class="o">(</span>context<span class="o">)</span>.pushNamed<span class="o">(</span>HomePage.tag<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>,
+</span></span><span class="line"><span class="cl">        padding: EdgeInsets.all<span class="o">(</span>12<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        color: Colors.lightBlueAccent,
+</span></span><span class="line"><span class="cl">        child: Text<span class="o">(</span><span class="s1">&#39;Log In&#39;</span>, style: TextStyle<span class="o">(</span>color: Colors.white<span class="o">))</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">forgotLabel</span> <span class="o">=</span> FlatButton<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      child: Text<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Lupa password?&#39;</span>,
+</span></span><span class="line"><span class="cl">        style: TextStyle<span class="o">(</span>color: Colors.black54<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      onPressed: <span class="o">()</span> <span class="o">{}</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> Scaffold<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      backgroundColor: Colors.white,
+</span></span><span class="line"><span class="cl">      body: Center<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        child: ListView<span class="o">(</span>
+</span></span><span class="line"><span class="cl">          shrinkWrap: true,
+</span></span><span class="line"><span class="cl">          padding: EdgeInsets.only<span class="o">(</span>left: 24.0, right: 24.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">          children: &lt;Widget&gt;<span class="o">[</span>
+</span></span><span class="line"><span class="cl">            logo,
+</span></span><span class="line"><span class="cl">            SizedBox<span class="o">(</span>height: 48.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">            email,
+</span></span><span class="line"><span class="cl">            SizedBox<span class="o">(</span>height: 8.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">            password,
+</span></span><span class="line"><span class="cl">            SizedBox<span class="o">(</span>height: 24.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">            loginButton,
+</span></span><span class="line"><span class="cl">            forgotLabel
+</span></span><span class="line"><span class="cl">          <span class="o">]</span>,
+</span></span><span class="line"><span class="cl">        <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><h2 id="halaman-utama">Halaman Utama<a hidden class="anchor" aria-hidden="true" href="#halaman-utama">#</a></h2>
+<p>Berikutnya buat file baru untuk halaman utama dengan nama <code>home_page.dart</code>. Pada halaman ini kita hanya akan menampikan widget foto profil dari aset <code>profil.jpg</code> dan sebuah widget text untuk informasi tambahan. Widget foto profil tersebut akan dibungkus oleh widget <code>Hero</code>, dengan nama tag yang sama seperti tag hero logo pada <code>login_page.dart</code>. Tuliskan kodenya seperti ini:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">import <span class="s1">&#39;package:flutter/material.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">class HomePage extends StatelessWidget <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  static String <span class="nv">tag</span> <span class="o">=</span> <span class="s1">&#39;home-page&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  @override
+</span></span><span class="line"><span class="cl">  Widget build<span class="o">(</span>BuildContext context<span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    final <span class="nv">profil</span> <span class="o">=</span> Hero<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      tag: <span class="s1">&#39;hero&#39;</span>,
+</span></span><span class="line"><span class="cl">      child: Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        padding: EdgeInsets.all<span class="o">(</span>16.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        child: CircleAvatar<span class="o">(</span>
+</span></span><span class="line"><span class="cl">          radius: 72.0,
+</span></span><span class="line"><span class="cl">          backgroundColor: Colors.transparent,
+</span></span><span class="line"><span class="cl">          backgroundImage: AssetImage<span class="o">(</span><span class="s1">&#39;assets/profil.jpg&#39;</span><span class="o">)</span>,
+</span></span><span class="line"><span class="cl">        <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">welcome</span> <span class="o">=</span> Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.all<span class="o">(</span>8.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: Text<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Selamat datang&#39;</span>,
+</span></span><span class="line"><span class="cl">        style: TextStyle<span class="o">(</span>fontSize: 28.0, color: Colors.white<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">paragraf1</span> <span class="o">=</span> Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.all<span class="o">(</span>8.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: Text<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Halo, nama saya Akhmad Fuady Rifkiyanto, Sering dipanggil Rifki (di rumah) dan Fuad (di kampus).&#39;</span>,
+</span></span><span class="line"><span class="cl">        style: TextStyle<span class="o">(</span>fontSize: 16.0, color: Colors.white<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">paragraf2</span> <span class="o">=</span> Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.all<span class="o">(</span>8.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: Text<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Saat ini, saya adalah freelance di salah satu instansi di Kabupaten Batang.&#39;</span>,
+</span></span><span class="line"><span class="cl">        style: TextStyle<span class="o">(</span>fontSize: 16.0, color: Colors.white<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">paragraf3</span> <span class="o">=</span> Padding<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.all<span class="o">(</span>8.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: Text<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Pernah menempuh pendidikan di STMIK Widya Pratama Pekalongan mengambil program studi Teknik Informatika.&#39;</span>,
+</span></span><span class="line"><span class="cl">        style: TextStyle<span class="o">(</span>fontSize: 16.0, color: Colors.white<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    final <span class="nv">body</span> <span class="o">=</span> Container<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      width: MediaQuery.of<span class="o">(</span>context<span class="o">)</span>.size.width,
+</span></span><span class="line"><span class="cl">      padding: EdgeInsets.all<span class="o">(</span>28.0<span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      decoration: BoxDecoration<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        gradient: LinearGradient<span class="o">(</span>colors: <span class="o">[</span>
+</span></span><span class="line"><span class="cl">          Colors.blue,
+</span></span><span class="line"><span class="cl">          Colors.lightBlueAccent,
+</span></span><span class="line"><span class="cl">        <span class="o">])</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      child: Column<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        children: &lt;Widget&gt;<span class="o">[</span>profil, welcome, paragraf1,paragraf2,paragraf3<span class="o">]</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> Scaffold<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      body: body,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><h2 id="sentuhan-terakhir">Sentuhan Terakhir<a hidden class="anchor" aria-hidden="true" href="#sentuhan-terakhir">#</a></h2>
+<p>Selanjutnya kembali pada kembali pada main.dart, tambahkan kode untuk navigasi router, atur atribut routes widget MaterialApp dengan objek routes diatas, atur juga untuk property home menjadi objek dari login_page seperti ini LoginPage(). Sehingga kode lengkap untuk main sebagai berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">import <span class="s1">&#39;package:flutter/material.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">import <span class="s1">&#39;login_page.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">import <span class="s1">&#39;home_page.dart&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">void main<span class="o">()</span> <span class="o">=</span>&gt; runApp<span class="o">(</span>MyApp<span class="o">())</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">class MyApp extends StatelessWidget <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  final <span class="nv">routes</span> <span class="o">=</span> &lt;String, WidgetBuilder&gt;<span class="o">{</span>
+</span></span><span class="line"><span class="cl">    LoginPage.tag: <span class="o">(</span>context<span class="o">)</span> <span class="o">=</span>&gt; LoginPage<span class="o">()</span>,
+</span></span><span class="line"><span class="cl">    HomePage.tag: <span class="o">(</span>context<span class="o">)</span> <span class="o">=</span>&gt; HomePage<span class="o">()</span>,
+</span></span><span class="line"><span class="cl">  <span class="o">}</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  @override
+</span></span><span class="line"><span class="cl">  Widget build<span class="o">(</span>BuildContext context<span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> MaterialApp<span class="o">(</span>
+</span></span><span class="line"><span class="cl">      title: <span class="s1">&#39;Kodeversitas&#39;</span>,
+</span></span><span class="line"><span class="cl">      debugShowCheckedModeBanner: false,
+</span></span><span class="line"><span class="cl">      theme: ThemeData<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        primarySwatch: Colors.lightBlue,
+</span></span><span class="line"><span class="cl">        fontFamily: <span class="s1">&#39;Nunito&#39;</span>,
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>,
+</span></span><span class="line"><span class="cl">      home: LoginPage<span class="o">()</span>,
+</span></span><span class="line"><span class="cl">      routes: routes,
+</span></span><span class="line"><span class="cl">    <span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>Selesai. sekarang jalankan aplikasi Flutter dengan menekan tombol F5 namun sebelumnya jangan lupa start Android Emulator atau iOS Simulator.</p>
+<p><img alt="Tampilan Login Ciamik dengan Flutter kelima" loading="lazy" src="/img/flutter-login-ciamik/5.png"></p>
+<p>Hasilnya akan terlihat seperti berikut ini:</p>
+<p><img alt="Tampilan Login Ciamik dengan Flutter keenam" loading="lazy" src="/img/flutter-login-ciamik/6.png">
+<img alt="Tampilan Login Ciamik dengan Flutter ketujuh" loading="lazy" src="/img/flutter-login-ciamik/7.png"></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://rifkyfuady.github.io/tags/flutter/">Flutter</a></li>
+      <li><a href="https://rifkyfuady.github.io/tags/bahasa-pemrograman/">Bahasa Pemrograman</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://rifkyfuady.github.io/posts/fpdf-wrap-cell/">
+    <span class="title">« Sebelumnya</span>
+    <br>
+    <span>Laporan PDF cantik, Auto Wrap Content Table dengan FPDF</span>
+  </a>
+  <a class="next" href="https://rifkyfuady.github.io/posts/hugo-deploy-github/">
+    <span class="title">Selanjutnya »</span>
+    <br>
+    <span>Cara Cepat Deploy Hugo ke Github Pages</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Membuat Tampilan Login Ciamik dengan Flutter on x"
+            href="https://x.com/intent/tweet/?text=Membuat%20Tampilan%20Login%20Ciamik%20dengan%20Flutter&amp;url=https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f&amp;hashtags=Flutter%2cBahasaPemrograman">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Membuat Tampilan Login Ciamik dengan Flutter on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f&amp;title=Membuat%20Tampilan%20Login%20Ciamik%20dengan%20Flutter&amp;summary=Membuat%20Tampilan%20Login%20Ciamik%20dengan%20Flutter&amp;source=https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Membuat Tampilan Login Ciamik dengan Flutter on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Membuat Tampilan Login Ciamik dengan Flutter on whatsapp"
+            href="https://api.whatsapp.com/send?text=Membuat%20Tampilan%20Login%20Ciamik%20dengan%20Flutter%20-%20https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Membuat Tampilan Login Ciamik dengan Flutter on telegram"
+            href="https://telegram.me/share/url?text=Membuat%20Tampilan%20Login%20Ciamik%20dengan%20Flutter&amp;url=https%3a%2f%2frifkyfuady.github.io%2fposts%2fflutter-login-ciamik%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+ <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "rifkyfu32-github-io";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink"
+  >comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://rifkyfuady.github.io/">Rifky Fuady</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script type="text/javascript">
+    (function () {
+      
+      
+      if (window.location.hostname == "localhost") return;
+      if (document.getElementById("userway")) return;
+      const userway = document.createElement("script");
+      userway.id = "userway";
+      userway.type = "text/javascript";
+      userway.async = true;
+      const userway_account = "XAfzRB9irr";
+      userway.src = "//cdn.userway.org/widget.js";
+      userway.dataset.account = userway_account;
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(userway);
+    })();
+</script></body>
+
+</html>

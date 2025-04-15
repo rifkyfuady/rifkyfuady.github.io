@@ -1,10 +1,760 @@
 <!DOCTYPE html>
-<html lang="id-id">
-  <head>
-    <title>https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/</title>
-    <link rel="canonical" href="https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/">
-    <meta name="robots" content="noindex">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://rifkyfuady.github.io/post/tugas-algoritma-dan-pemrograman-array_17/">
-  </head>
+<html lang="id" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK | Rifky Fuady</title>
+<meta name="keywords" content="Bahasa Pemrograman, Tugas">
+<meta name="description" content="
+For Pak Wahyu Setianto, M.Kom
+BAB I
+PEMBAHASAN
+A.      Pendahuluan
+Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.
+Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.">
+<meta name="author" content="Rifky Fuady">
+<link rel="canonical" href="https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html">
+<meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://rifkyfuady.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://rifkyfuady.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://rifkyfuady.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://rifkyfuady.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://rifkyfuady.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="id" href="https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html">
+  <meta property="og:site_name" content="Rifky Fuady">
+  <meta property="og:title" content="TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK">
+  <meta property="og:description" content="
+For Pak Wahyu Setianto, M.Kom
+BAB I
+PEMBAHASAN
+A. Pendahuluan
+Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.
+Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.">
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2012-12-17T15:55:00+07:00">
+    <meta property="article:modified_time" content="2012-12-17T15:55:00+07:00">
+    <meta property="article:tag" content="Bahasa Pemrograman">
+    <meta property="article:tag" content="Tugas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK">
+<meta name="twitter:description" content="
+For Pak Wahyu Setianto, M.Kom
+BAB I
+PEMBAHASAN
+A.      Pendahuluan
+Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.
+Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://rifkyfuady.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK",
+      "item": "https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK",
+  "name": "TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK",
+  "description": "\nFor Pak Wahyu Setianto, M.Kom\nBAB I\nPEMBAHASAN\nA. Pendahuluan\nBab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.\nPembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.\n",
+  "keywords": [
+    "Bahasa Pemrograman", "Tugas"
+  ],
+  "articleBody": "\nFor Pak Wahyu Setianto, M.Kom\nBAB I\nPEMBAHASAN\nA. Pendahuluan\nBab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.\nPembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.\nB. Penyajian\nBagi para pemrogram, efisiensi program merupakan hal utama yang harus diperhatikan, baik itu dalam hal kecepatan jalannya program, memori yang digunakan, banyak baris kode yang dituliskan dan juga ketepatan algoritma yang digunakan. Salah satu komponen yang harus dikuasai untuk memperoleh program yang baik adalah pengetahuan tentang array.\n1) Definisi Array\nArray (larik) adalah sebuah variabel yang dapat menyimpan lebih dari satu nilai sejenis (memilikii tipe data sama). Hal ini berbeda dengan variabel biasa yang hanya mampu menampung satu buah nilai. Setiap nilai yang disimpan di dalam array disebut dengan elemen array, sedangkan nilai urut yang digunakan untuk mengakses elemennya disebut dengan indeks array. Sebagai contoh, misalkan terdapat array A yang memiliki 10 buah elemen nilai yang bertipe integer, maka dapat dipresentasikan sebagai berikut :\nNilai elemen array\nIndeks array\nElemen array\nGambar 1.1 Komponen Array (sumber :Rahardjo)\nSetiap elemen array di atas menyimpan nilai bertipe integer dan akan menempati alamat memori yang berbeda, hal ini akan menyebabkan array tersebut memiliki ukuran 40 byte, yang berasal dari 10 x 4. Nilai 10 menunjukkan banyaknya elemen array sedangkan nilai 4 merupakan ukuran dari tipe data integer (dalam 32 bit).\n2) Deklarasi Array\nSama seperti variabel lain, array juga dideklarasikan di dalam bagian deklarasi variabel. Bila akan didefinisikan sebagai tipe bentukan, maka array juga akan dideklarasikan di bagian definisi tipe (di bawah kata kunci type). Dalam bahasa Pascal, pendeklarasian array dilakukan dengan menggunakan kata kunci array dan tipe data yang akan disimpan di dalamnya, selai itu juga harus disertai dengan batas-batas indeksnya yang diapit oleh tanda bracket ([ ]). Berikut ini bentuk umum pendeklarasian array.\nNamaArray : array [Indeks Awal . . IndeksAkhir] of tipe data;\nGambar 1.2 Bentuk Umum Pendeklarasian array(sumber:Rahardjo)\nSebagai contoh, apabila kita ingin mendeklarasikan array dengan nama A yang berisi 10 buah elemen bertipe integer, maka kita harus mendeklarasikannya dengan cara berikut.\nVar\nA : array [1 . . 10] of integer;\nPada kode tersebut, indeks array diulai dari satu. Perlu diperhatikan bahwa bahasa Pascal berbeda dengan bahasa C yang indeks array-nya selalu dimulai dari nol. Pada bahasa Pascal, indeks array dapat dimulai dari bilangan berapapun. Selain itu, indeks array juga dapat bertipe karakter maupun tipe enumerasi. Berikut ini contoh-contoh kode yang dapat digunakan untuk mendeklarasikan 10 buah elemen array bertipe integer sebagai pengganti kode di atas.\nVar\nA1 : array [0 . . 9] of integer;\nA2 : array [5 . . 15] of integer;\nA3 : array [’a’ . . ’j’] of integer;\nA4 : arrat [’A’ . . ’J’] of integer;\nDalam bahasa Pascal, tersedia dua buah fungsi yang dapat digunakan untuk mengambil indeks terendah dan tertinggi dari sebuah array, yaitu fungsi Low dan High. Adapun parameter dari kedua fungsi tersebut adalah nama array yang akan dicari indeksnya. Perhatikan contoh kode berikut:\nVar\nA: array [1 . . 100] of integer;\nterendah, tertinggi : integer;\nBegin\nterendah := Low (A); {akan menghasilkan nilai 1}\ntertinggi := High (A) {akan menghasilkan nilai 100}\n. .\nend.\n3) Mengakses Elemen Array\nSetelah mengetahui cara pendeklarasian array, selanjutnya kita harus mengetahui bagaimana cara untuk memanipulasi array tersebut. Langkah pertama yang harus dilakukan adalah mengisikan nilai ke dalam elemen-elemen array bersangkutan. Bentuk umum untuk pengisian elemen array adalah sebagai berikut.\nNamaArray [indeks] := nilai;\nUntuk lebih memahaminya, coba perhatikan contoh kode di bawah ini.\nVar\nA: array [1..100] of integer;\nBegin\nA[1] :=1; {mengisi elemen pertama dengan nilai 1}\nA[2] :=2; {mengisi elemen kedua dengan niali 2}\nA[3] :=3; {mengisi elemen ketiga dengan niali 3}\n….\nA[100] :=100; {mengisi elemen keseratus dengan nilai 100}\nend.\nKode tersebut akan melakukan pengisian 100 elemen array dengan nilai 1 sampai 100 sehingga kode tersebut akan lebih sederhana apabila dituliskan dengan menggunakan struktur pengulangan seperti yang terlihat pada kode berikut.\nVar\nA: array [1..100] of integer;\ni : integer;\nBegin\nFor i:= 1 to 100 do\nBegin\nA[1] := i; end;\nEnd.\n4) Mengapa Harus Menggunakan Array\nBagi seorang pemula, mungkin akan mucul pertanyaan mengapa kita perlu mendeklarasikan array? Untuk menjawab pertanyaan tersebut, coba perhatikan contoh kasus berikut.\nApabila kita akan membuat program untuk menyimpan sekumpulan data, misalnya data-data hasil penelitian yang berupa bilangan, dimana jumlah dari data tersebut puluhan, ratusan atau bahkan ribuan, apakah akan menggunakan variabel sebanyak data yang ada? Jawabannya tentu tidak, karena hal tersebut merupakan hal yang sangat tidak efisien. Sebagai contoh, asumsikan bahwa banyak data tersebut.\nVar\nN1, n2, n3, n4, n5, n6, n7, n8, n9, n10 : real;\nBegin\nWriteln(’masukkan data ke-1 : ’); readln(n1);\nWriteln(’masukkan data ke-2 : ’); readln(n2);\nWriteln(’masukkan data ke-3 : ’); readln(n3);\nWriteln(’masukkan data ke-4 : ’); readln(n4);\nWriteln(’masukkan data ke-5 : ’); readln(n5);\nWriteln(’masukkan data ke-6 : ’); readln(n6);\nWriteln(’masukkan data ke-7 : ’); readln(n7);\nWriteln(’masukkan data ke-8 : ’); readln(n8);\nWriteln(’masukkan data ke-9 : ’); readln(n9);\nWriteln(’masukkan data ke-10 : ’); readln(n10);\nEnd.\nHal ini tentu akan merepotkan diri kita. Apabila dilihat, program di atas memang masih pendek karena datanya hanya 10, bagaimana bila ratusan ata bahkan ribuan?\nUntuk mengatasi masalah ini, seharusnya kita menggunakan array untuk menyimpan data-data tersebut sehingga program akan jauh lebih sederhana dan mudah dalam pengerjaannya. Berikut ini perbaikan program di atas apabila kita menampung data-datanya ke dalam sebuah array.\nConst max = 10;\nVar\nn : array [1 . . max] of real;\ni : integer;\nbegin\nfor i:= 1 to max do\nwriteln(’Masukkan data ke-’, i,’ : ’); readln(n[i]);\nend.\nApabila ternyata data berjumlah 100 atau 1000, maka kita hanya perlu mengganti nilai dari konstanta max di atas dengan nilai yang sesuai. Alasan seperti inilah yang menyebabkan kita perlu untuk menggunakan array.\nC. Array Satu Dimensi\n1) Array Sebagai Tipe Data Bentukan\nArray juga dapat digunakan sebagai tipe data bentukan, yaitu dengan cara mendeklarasikannya di bagian definisi tipe data, yaitu bagian yang diawali dengan kata kunci type.\nType\nBilangan = array [1 . . 100] of integer;\nVokal = array [1 . . 5] of char;\nSetelah selesai mendefinisikan array tersebut, maka kita dapat menggunakannya untuk mendeklarasikan variabel lain di dalam program. Berikut ini contoh pendeklarasian variabel yang menggunakan tipe bentukan berupa array.\nVar\nX : bilangan;\nVowel : vokal;\nPada ontoh di atas kita mendeklarasikan variabel dengan nama x yang bertipe Bilangan, sedangkan variabel vowel bertipe vokal. Hal ini menyebabkan variabel tersebut juga dapat diperlukan sebagai array. Berikut ini contoh kode yang menunjukkan penggunaan variabel-variabel tersebut.\nBegin\nX[1[ := 1;\nX[2] := 2;\n. . .\nVowel [1] := ’a’;\nVowel [2] := ’i’;\n. . .\nEnd.\n2) Array Konstan\nNilai yang terkandung di dalam sebuah array dapat bernilai konstan, artinya nilai-nilai tersebut tidak dapat diubah. Untuk melakukan hal tersebut, kita harus mendeklarasikan array bersangkutan dengan kata kunci const. Berikut ini bentuk umum pendeklarasiannya.\nConst\nNamaArray : array [indexAwal . . indeksAkhir] of tipe_data =\nNila1, nilai2, …);\nGambar 1.4 Bentuk Umum Pendeklarasian Array Konstan (sumber:Rahardjo)\nPerlu diperhatikan bahwa banyaknya nilai konstan yang dituliskan diatas harus sesuai dengan banyaknya elemen array yang didefinisikan.\nSebagai contoh, apabila kita ingin mendeklarasikan array dengan jumlah elemen 5, maka nilai konstan yang diisikan juga haruslah berjumlah 5. Perhatikan contoh kode berikut.\nConst\nA : array [1 . . 5] of char = (’A’ , ’B’ , ’C’ , ’D’ , ’E’);\nOleh karena array A di atas bersifat konstan, maka kita tidak dapat menggantikan nilainya dengan nilai lain, seperti yang ditunjukkan oleh kode di bawah ini.\nA [1] := ’V’ ; {SALAH, karena elemen A [1] selalu bernilai ’A’}\nA [2] := ’W’ ; {SALAH, karena elemen A [2] selalu bernilai ’B’}\nA [1] := ’X’ ; {SALAH, karena elemen A [3] selalu bernilai ’C’}\nA [1] := ’Y’ ; {SALAH, karena elemen A [4] selalu bernilai ’D’}\nA [1] := ’Z’ ; {SALAH, karena elemen A [5] selalu bernilai ’E’}\nHal ini menunjukkan bahwa array konstan nilainya hanya dapat dibaca, namun tidak untuk diubah. Agar lebih memahami konsepnya, perhatikan contoh implementasi dari array konstan berikut ini.\nFunction HariSekarang : string;\nConst\nHari : array[0 . .6] of string[6] =\n(’Minggu’, ’Senin’, ’Selasa’, ’Rabu’, ’Kamis’, ’Jumat’, ’Sabtu’);\nvar\nthn, bln, hr, indeksHari : word;\nbegin\ngetDate(thn, bln, hr, indeksHari);\nHariSekarang := Hari [indeksHari];\nEnd;\nPada contoh di atas kita membuat sebuah fungsi untuk mendapatkan nama hari sesuai dengan tanggal sekarang (hari ini). Berikut ini contoh program lain yang akan menunjukkan penggunaan array konstan.\nProgram ArrayKonstan;\nUses crt;\nConst\nBulan : array [1 . . 12] of string =\n(’Januari’, ’Februari’, ’Maret’, ’April’, ’Mei’, ’Juni’, ’Juli’, ’Agustus’,\n’September’, ’Oktober’, ’Nopember’, ’Desember’);\nvar\nnoBulan : integer;\nbegin\nclrscr;\nwrite(’Masukkan nomor bulan :’); readln(noBulan);\nwrite(’Nama bulan ke-’, noBulan, ’adalah ’, Bulan[noBulan]);\nreadln;\nend.\nContoh hasil yang akan diberikan oleh program di atas adalah sebagai berikut.\nMasukkan nomor bulan : 3\nNama bulan ke-3 adalah Maret\n3) Array Sebagai Parameter\nPada kasus-kasus pemrograman tertentu kita juga dituntut untuk menggunakan array sebagai parameter sebuah prosedur ataupun fungsi. Hal ini sering kita jumpai pada saat kita akan melakukan pencarian maupun pengurutan dari sekumpulan data. Berikut ini contoh penggunaan array di dalam sebuah prosedur.\nType\nBilangan = array[1..100] of integer;\nProcedure inputArray[a:bilangan; N:integer);\nVar\ni : integer;\nBegin\nFor i := 1 to N do\nWrite (’masukkan elemen array ke-’, i); readln(A[i]);\nEnd;\nPada contoh di atas kita te;ah membuat prosedur yang memiliki parameter bertipe array. Prosedur tersebut akan digunakan untuk melakukan pengisian elemen array sebanyak N, dimana 1 N  100.\nPerlu diperhatikan bahwa array yang dilewatkan sebagai parameter ini harus dideklarasikan terlebih dahulu. Berikut ini contoh penggunaan array yang tidak diperbolehkan oleh kompiler.\nProcedure InputArray [A:array[1..100] of integer; N); {salah}\nBerikut ini kode yang merupakan perbaikan dari kode sebelumnya.\nProcedure InputArray [A:array of integer; N); {benar}\nUntuk lebih memahaminya, perhatikan contoh program di bawah ini dimana kita akan menggunakan array sebagai parameter.\nProgram ParamArray;\nUses crt;\nConst max = 100;]type\nBilangan = array [1 . . max] of integer;\nProcedure InputArray[A:bilangan; N:integer);\nVar\ni:integer;\nBegin\nWriteln (’Memasukkan data :’);\nFor i : 1 to N do\nWrite(’Masukkan nilai A[’, i, ’] : ’); readln(A[i]);\nEnd;\nProcedure OutputArray (A:bilangan; N:integer);\nVar\ni:integer;\nbegin\nwriteln(’Menampilkan data :’);\nfor i : 1 to N do\nwrite (’A[’, i, ’] = ’, A[i]);\nend;\nvar\nArr:bilangan;\ncount:integer;\nBegin\nClrscr;\nWrite (’Masukkan banyaknya elemen array :’); readln(count);\nWriteln;\nOutputArray (Arr, count);\nReadln;\nEnd.\nContoh hasil yang akan diberikan dari program di atas adalah sebagai berikut.\nMasukkan banyaknya elemen array : 3\nMemasukkan data :\nMasukkan nilai A[1] : 10\nMasukkan nilai A[2] : 20\nMasukkan nilai A[3] : 30\nMenampilkan data :\nA[1] = 10\nA[2] = 20\nA[3] = 30\nD. Array Multidimensi\nSejauh ini kita baru membahas mengenai array berdimensi satu. Pada bagian ini kita akan mempelajari bagaimana cara mendeklarasikan dan memanipulasi data yang terdapat pada array multidimensi. Agar lebih mempermudah pembahasan, materi ini akan dibagi menjadi dua kelompok, yaitu array dua dimensi dan array tiga dimensi.\n1) Array Dua Dimensi\nArray dua dimensi adalah array yang memiliki dua buah elemen bertipe array. Dengan kata lain, array dua dimensi memiliki dua buah subskrip, yang biasanya dipresentasikan dengan baris dan kolom. Untuk lebih memahami konsepnya, perhatikan terlebih dahulu gambar di bawah ini.\nbaris\nKolom\nGambar 1.5. Array dua dimensi (sumber:Rahardjo)\nPada gambar di atas, array memiliki 3 buah baris dan 4 buah kolom, sehingga jumlah elemennya adalah 3x4 = 12. Perlu diketahui bahwa keadaan tersebut sebenarnya hanya merupakan keadaan logik yang bertujuan untuk mempermudah pemahaman array dua dimensi. Pada kenyataannya, pengalamatan memori di komputer dari array dua dimensi tetap akan dipresentasikan dengan sebuah deretan larik yang memanjang (tidak berbentuk baris dan kolom). Pendeklarasian array dua dimensi di dalam bahasa Pascal dilakukan melalui bentuk umum di bawah ini.\nNamaArray : array [1 . . banyakbaris, 1 . . banyakkolom] of tipe_data;\nSebagai contoh, apabila kita akan mendeklarasikan array dua dimensi dengan 3 buah baris dan 4 buah kolom dimana setiap elemennya bertipe integer, maka kita dapat menuliskan kode seperti berikut.\nArray2D : array [1 . . 3, 1 . . 4] of integer;\nUntuk melakukan pengaksesan terhadap elemen-elemennya, kita harus menuliskan indeks baris dan kolomnya. Sebagai contoh, apabila kita ingin mengisikan nilai 100 ke dalam elemen yang terdapat pada baris ke-2 kolom ke-3, maka kita harus menuliskannya sebagai berikut.\nArray2D [2, 3] : = 100;\nBerikut ini contoh program yang menunjukkan penggunaan array dua dimensi. Di sini kita akan membuat program yang dapat menjumlahkan dua buah matriks A dan B yang masing-masing berordo 2 x 3 (memiliki 2 baris dan 3 kolom).\nProgram JumlahMatriks;\nUses crt;\nConst\nJbaris = 2;\nJkolom = 3;\nType\nMatriks23 = array [1 . . Jbaris, 1 . . Jkolom] of integer;\nVar\nA,B,C : Matriks23;\nj, k : integer;\nbegin\nclrscr;\n{mengisikan matriks A}\nwriteln (’Matriks A’);\nfor j: = 1 to Jbaris do begin\nfor k: = 1 to Jkolom do begin\nwrite(’A[’, j, ’ , ’ , k, ’] = ‚); readln(A[j, k]);\nend;\nwriteln;\nend;\nwriteln;\n{mengisikan matriks B}\nwriteln(’Matriks B’);\nfor j: = 1 to Jbaris do begin\nfor k: = 1 to Jkolom do begin\nwrite(’B[’, j, ’ , ’ , k, ’] = ‚); readln(B[j, k]);\nend;\nwriteln;\nend;\nwriteln;\n{melakukan penjumlahan matriks A dan B sekaligus menampilkan hasilnya ke layar}\nwriteln(’Hail Penjumlahan’);\nfor j: = 1 to Jbaris do begin\nfor k: = 1 to Jkolom do begin\nC[j, k] : = A[j, k] + B[j, k];\nwrite(’C[’, j, ’ , ’ , k, ’] = ‚); readln(C[j, k]);\nend;\nwriteln;\nend;\nreadln;\nend.\nContoh hasil yang akan diberikan oleh program di atas adalah sebagai berikut.\nMatriks A\nA[1, 1] = 1\nA[1, 2] = 2\nA[1, 3] = 3\nA[2, 1] = 4\nA[2, 2] = 5\nA[2, 3] = 6\nMatriks B\nB[1, 1] = 3\nB[1, 2] = 2\nB[1, 3] = 1\nB[2, 1] = 6\nB[2, 2] = 5\nB[2, 3] = 4\nHasil Penjumlahan\nC[1, 1] = 4\nC[1, 2] = 4\nC[1, 3] = 4\nC[2, 1] = 10\nC[2, 2] = 10\nC[2, 3] = 10\n2) Array Tiga Dimensi\nArray tiga dimensi merupakan array yang memiliki tiga buah subskrip dan lebih kompleks apabila dibandingkan dengan array dua dimensi. Di sini, subskrip yang ada akan dipresentasikan dengan sumbu x, y dan z atau panjang, lebar dan tinggi seperti yang ditunjukkan oleh gambar berikut.\ny Gambar 1.6. Array tiga dimensi\n(sumber : Rahardjo)\nx\nz\nBerikut ini bentuk umum yang digunakan untuk mendeklarasikan array tiga dimensi di dalam bahasa Pascal.\nNamaArray : array [1 . . xMaks, 1 . . yMaks, 1 . . zMaks] of tipe_data;\nGambar 1.7 Bentuk Umum Pendeklarasian Array Tiga Dimensi(sumber:Rahardjo)\nSebagai contoh apabila kita ingin mendeklarasikan array yang memiliki panjang 2, lebar 3 dan tinggi 4 elemen bertipe integer, maka kita akan menuliskannya seperti di bawah ini.\nArray3D : array [1 . . 2, 1 . . 3, 1 . . 4] of integer;\nJumlah elemen yang terdapat di dalam array tersebut adalah 2 x 3 x 4 = 24. Sekarang apabila kita ingin mengisikan nilai 100 ke dalam elemen yang berada pada posisi panjang ke-2, lebar ke-3 dan tinggi ke-1, maka kita akan melakukannya melalui kode berikut.\nArray3D : [2, 3, 1] : = 100;\nBerikut ini adalah contoh yang akan menunjukkan cara pengaksesan elemen di dalam array 3 dimensi.\nProgram AksesArray3D;\nUses crt;\nConst\nxMaks = 2;\nyMaks = 2;\nzMaks = 2;\nType\nArray3D = array [1 . . xMaks, 1 . . yMaks,1 . . zMaks] of integer;\nVar\nA: Array3D;\ni, j, k : integer;\nbegin\nclrscr;\n{mengisikan nilai ke dalam array A}\nx := 1;\nfor i := 1 to xMaks do begin\nfor j := 1 to jMaks do begin\nfor k := 1 to zMaks do begin\nA[i, j, k] := x;\ninc(x);\nend;\nend;\nend;\n{menampilkan isi yang terdapat dalam array A}\nfor i := 1 to xMaks do begin\nfor j := 1 to jMaks do begin\nfor k := 1 to zMaks do begin\nwrite(’A[ ’ , i, ’,’ , j, ’,’ , z, ’ ] = ’, A[ i, j, k] , ’ ’ );\nend;\nend;\nwriteln;\nend;\nreadln;\nend.\nHasil yang akan diberikan oleh program diatas adalah sebagai berikut:\nA[1, 1, 1] = 1 A[1, 1, 2] = 2 A[1, 2, 1] = 3 A[1, 2, 2] = 4\nA[2, 1, 1] = 5 A[2, 1, 2] = 6 A[2, 2, 1] = 7 A[2, 2, 2] = 8\nBAB II\nKESIMPULAN\nArray merupakan sebuah variabel yang dapat menyimpan lebih dari satu nilai yang memiliki tipe data sama. Hal ini berbeda dengan variabel biasa yang hanya mampu menampung satu buah nilai. Setiap nilai yang disimpan di dalam array disebut dengan elemen array, sedangkan nilai urut yang digunakan untuk mengakses elemennya disebut dengan indeks array.\nApabila kita akan membuat program untuk menyimpan sekumpulan data, misalnya data-data hasil penelitian yang berupa bilangan, dimana jumlah dari data tersebut puluhan, ratusan atau bahkan ribuan, apakah akan menggunakan variabel sebanyak data yang ada? Jawabannya tentu tidak, karena hal tersebut merupakan hal yang sangat tidak efisien. Penggunaan array dalam program akan membuat program lebih efisien dan mudah dipahami.\n",
+  "wordCount" : "2890",
+  "inLanguage": "id",
+  "datePublished": "2012-12-17T15:55:00+07:00",
+  "dateModified": "2012-12-17T15:55:00+07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Rifky Fuady"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rifky Fuady",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rifkyfuady.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://rifkyfuady.github.io/" accesskey="h" title="Home (Alt + H)">🏠</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://rifkyfuady.github.io/en/" title="English"
+                            aria-label=":gb:">🇬🇧</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://rifkyfuady.github.io/portfolio" title="Portofolio">
+                    <span>Portofolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/posts" title="Artikel">
+                    <span>Artikel</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/tags" title="Tagar">
+                    <span>Tagar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/search" title="Cari">
+                    <span>Cari</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/kebijakan-privasi" title="Kebijakan Privasi">
+                    <span>Kebijakan Privasi</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://rifkyfuady.github.io/">Beranda</a>&nbsp;»&nbsp;<a href="https://rifkyfuady.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK
+    </h1>
+    <div class="post-meta"><span title='2012-12-17 15:55:00 +0700 WIB'>Desember 17, 2012</span>&nbsp;·&nbsp;14 menit&nbsp;·&nbsp;2890 kata&nbsp;·&nbsp;Rifky Fuady
+
+</div>
+  </header> 
+  <div class="post-content"><p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiso0nmEuChU1v7fo9KrbK8IdrlA9KqGG5-7f5IuNOCsKAYB81vyz3hOiTNqDJKXCFNhnwDUSfJ0LRkPAovx1P-PzIxuRs14pqd3WxvlEXsQ6MtLtcdI5ZWeiWwkWkRVZJ14K5R3EHlotY/s1600/220px-Logo_stmikwp_pekalongan.png"></a></p>
+<p>For Pak <strong>Wahyu Setianto, M.Kom</strong></p>
+<p><strong>BAB I</strong></p>
+<p><strong>PEMBAHASAN</strong></p>
+<p>A.      Pendahuluan</p>
+<p>Bab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.</p>
+<p>Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.</p>
+<p>B.    Penyajian</p>
+<p>Bagi para pemrogram, efisiensi program merupakan hal utama yang harus diperhatikan, baik itu dalam hal kecepatan jalannya program, memori yang digunakan, banyak baris kode yang dituliskan dan juga ketepatan algoritma yang digunakan. Salah satu komponen yang harus dikuasai untuk memperoleh program yang baik adalah pengetahuan tentang array.</p>
+<p>1)     Definisi Array</p>
+<p>Array (larik) adalah sebuah variabel yang dapat menyimpan lebih dari satu nilai sejenis (memilikii tipe data sama). Hal ini berbeda dengan variabel biasa yang hanya mampu menampung satu buah nilai. Setiap nilai yang disimpan di dalam array disebut dengan elemen array, sedangkan nilai urut yang digunakan untuk mengakses elemennya disebut dengan indeks array. Sebagai contoh, misalkan terdapat array A yang memiliki 10 buah elemen nilai yang bertipe integer, maka dapat dipresentasikan sebagai berikut :</p>
+<p>Nilai elemen array</p>
+<p>Indeks array</p>
+<p>Elemen array</p>
+<p>Gambar 1.1 Komponen Array (sumber :Rahardjo)</p>
+<p>Setiap elemen array di atas menyimpan nilai bertipe integer dan akan menempati alamat memori yang berbeda, hal ini akan menyebabkan array tersebut memiliki ukuran 40 byte, yang berasal dari 10 x 4. Nilai 10 menunjukkan banyaknya elemen array sedangkan nilai 4 merupakan ukuran dari tipe data integer (dalam 32 bit).</p>
+<p>2)      Deklarasi Array</p>
+<p>Sama seperti variabel lain, array juga dideklarasikan di dalam bagian deklarasi variabel. Bila akan didefinisikan sebagai tipe bentukan, maka array juga akan dideklarasikan di bagian definisi tipe (di bawah kata kunci type). Dalam bahasa Pascal, pendeklarasian array dilakukan dengan menggunakan kata kunci array dan tipe data yang akan disimpan di dalamnya, selai itu juga harus disertai dengan batas-batas indeksnya yang diapit oleh tanda bracket ([ ]). Berikut ini bentuk umum pendeklarasian array.</p>
+<p>NamaArray : array [Indeks Awal  . .  IndeksAkhir] of tipe data;</p>
+<p>Gambar 1.2 Bentuk Umum Pendeklarasian array(sumber:Rahardjo)</p>
+<p>Sebagai contoh, apabila kita ingin mendeklarasikan array dengan nama A yang berisi 10 buah elemen bertipe integer, maka kita harus mendeklarasikannya dengan cara berikut.</p>
+<p>Var</p>
+<p>A : array [1 . . 10] of integer;</p>
+<p>Pada kode tersebut, indeks array diulai dari satu. Perlu diperhatikan bahwa bahasa Pascal berbeda dengan bahasa C yang indeks array-nya selalu dimulai dari nol. Pada bahasa Pascal, indeks array dapat dimulai dari bilangan berapapun. Selain itu, indeks array juga dapat bertipe karakter maupun tipe enumerasi. Berikut ini contoh-contoh kode yang dapat digunakan untuk mendeklarasikan 10 buah elemen array bertipe integer sebagai pengganti kode di atas.</p>
+<p>Var</p>
+<p>A1 : array [0 . . 9] of integer;</p>
+<p>A2 : array [5 . . 15] of integer;</p>
+<p>A3 : array [’a’ . . ’j’] of integer;</p>
+<p>A4 : arrat [’A’ . . ’J’] of integer;</p>
+<p>Dalam bahasa Pascal, tersedia dua buah fungsi yang dapat digunakan untuk mengambil indeks terendah dan tertinggi dari sebuah array, yaitu fungsi Low dan High. Adapun parameter dari kedua fungsi tersebut adalah nama array yang akan dicari indeksnya. Perhatikan contoh kode berikut:</p>
+<p>Var</p>
+<p>A: array [1 . . 100] of integer;</p>
+<p>terendah, tertinggi : integer;</p>
+<p>Begin</p>
+<p>terendah := Low (A);          {akan menghasilkan nilai 1}</p>
+<p>tertinggi := High (A)             {akan menghasilkan nilai 100}</p>
+<p>. .</p>
+<p>end.</p>
+<p>3)      Mengakses Elemen Array</p>
+<p>Setelah mengetahui cara pendeklarasian array, selanjutnya kita harus mengetahui bagaimana cara untuk memanipulasi array tersebut. Langkah pertama yang harus dilakukan adalah mengisikan nilai ke dalam elemen-elemen array bersangkutan. Bentuk umum untuk pengisian elemen array adalah sebagai berikut.</p>
+<p>NamaArray [indeks] := nilai;</p>
+<p>Untuk lebih memahaminya, coba perhatikan contoh kode di bawah ini.</p>
+<p>Var</p>
+<p>A: array [1..100] of integer;</p>
+<p>Begin</p>
+<p>A[1] :=1;                {mengisi elemen pertama dengan nilai 1}</p>
+<p>A[2] :=2;                {mengisi elemen kedua dengan niali 2}</p>
+<p>A[3] :=3;                {mengisi elemen ketiga dengan niali 3}</p>
+<p>&hellip;.</p>
+<p>A[100] :=100;       {mengisi elemen keseratus dengan nilai 100}<br>
+end.</p>
+<p>Kode tersebut akan melakukan pengisian 100 elemen array dengan nilai 1 sampai 100 sehingga kode tersebut akan lebih sederhana apabila dituliskan dengan menggunakan struktur pengulangan seperti yang terlihat pada kode berikut.</p>
+<p>Var</p>
+<p>A: array [1..100] of integer;</p>
+<p>i  : integer;</p>
+<p>Begin</p>
+<p>For  i:= 1 to 100 do</p>
+<p>Begin</p>
+<p>A[1] := i;              <br>
+end;</p>
+<p>End.</p>
+<p>4)      Mengapa Harus Menggunakan Array</p>
+<p>Bagi seorang pemula, mungkin akan mucul pertanyaan mengapa kita perlu mendeklarasikan array? Untuk menjawab pertanyaan tersebut, coba perhatikan contoh kasus berikut.</p>
+<p>Apabila kita akan membuat program untuk menyimpan sekumpulan data, misalnya data-data hasil penelitian yang berupa bilangan, dimana jumlah dari data tersebut puluhan, ratusan atau bahkan ribuan, apakah akan menggunakan variabel sebanyak data yang ada? Jawabannya tentu tidak, karena hal tersebut merupakan hal yang sangat tidak efisien. Sebagai contoh, asumsikan bahwa banyak data tersebut.</p>
+<p>Var</p>
+<p>N1, n2, n3, n4, n5, n6, n7, n8, n9, n10 : real;</p>
+<p>Begin</p>
+<p>Writeln(’masukkan data ke-1 :  ’); readln(n1);</p>
+<p>Writeln(’masukkan data ke-2 :  ’); readln(n2);</p>
+<p>Writeln(’masukkan data ke-3 :  ’); readln(n3);</p>
+<p>Writeln(’masukkan data ke-4 :  ’); readln(n4);</p>
+<p>Writeln(’masukkan data ke-5 :  ’); readln(n5);</p>
+<p>Writeln(’masukkan data ke-6 :  ’); readln(n6);</p>
+<p>Writeln(’masukkan data ke-7 :  ’); readln(n7);</p>
+<p>Writeln(’masukkan data ke-8 :  ’); readln(n8);</p>
+<p>Writeln(’masukkan data ke-9 :  ’); readln(n9);</p>
+<p>Writeln(’masukkan data ke-10 :  ’); readln(n10);</p>
+<p>End.</p>
+<p>Hal ini tentu akan merepotkan diri kita. Apabila dilihat, program di atas memang masih pendek karena datanya hanya 10, bagaimana bila ratusan ata bahkan ribuan?</p>
+<p>Untuk mengatasi masalah ini, seharusnya kita menggunakan array untuk menyimpan data-data tersebut sehingga program akan jauh lebih sederhana dan mudah dalam pengerjaannya. Berikut ini perbaikan program di atas apabila kita menampung data-datanya ke dalam sebuah array.</p>
+<p>Const max = 10;</p>
+<p>Var</p>
+<p>n : array [1 . . max] of real;</p>
+<p>i : integer;</p>
+<p>begin</p>
+<p>for i:= 1 to max do</p>
+<p>writeln(’Masukkan data ke-’, i,’  :  ’); readln(n[i]);</p>
+<p>end.</p>
+<p>Apabila ternyata data berjumlah 100 atau 1000, maka kita hanya perlu mengganti nilai dari konstanta max di atas dengan nilai yang sesuai. Alasan seperti inilah yang menyebabkan kita perlu untuk menggunakan array.</p>
+<p>C.   Array Satu Dimensi</p>
+<p>1)        Array Sebagai Tipe Data Bentukan</p>
+<p>Array juga dapat digunakan sebagai tipe data bentukan, yaitu dengan cara mendeklarasikannya di bagian definisi tipe data, yaitu bagian yang diawali dengan kata kunci type.</p>
+<p>Type</p>
+<p>Bilangan = array [1 . . 100] of integer;</p>
+<p>Vokal = array [1 . . 5] of char;</p>
+<p>Setelah selesai mendefinisikan array tersebut, maka kita dapat menggunakannya untuk mendeklarasikan variabel lain di dalam program. Berikut ini contoh pendeklarasian variabel yang menggunakan tipe bentukan berupa array.</p>
+<p>Var</p>
+<p>X : bilangan;</p>
+<p>Vowel : vokal;</p>
+<p>Pada ontoh di atas kita mendeklarasikan variabel dengan nama x yang bertipe Bilangan, sedangkan variabel vowel bertipe vokal. Hal ini menyebabkan variabel tersebut juga dapat diperlukan sebagai array. Berikut ini contoh kode yang menunjukkan penggunaan variabel-variabel tersebut.</p>
+<p>Begin</p>
+<p>X[1[ := 1;</p>
+<p>X[2] := 2;</p>
+<p>. . .</p>
+<p>Vowel [1] := ’a’;</p>
+<p>Vowel [2] := ’i’;</p>
+<p>. . .</p>
+<p>End.</p>
+<p>2)      Array Konstan</p>
+<p>Nilai yang terkandung di dalam sebuah array dapat bernilai konstan, artinya nilai-nilai tersebut tidak dapat diubah. Untuk melakukan hal tersebut, kita harus mendeklarasikan array bersangkutan dengan kata kunci const. Berikut ini bentuk umum pendeklarasiannya.</p>
+<p>Const</p>
+<p>NamaArray : array [indexAwal . . indeksAkhir] of tipe_data =</p>
+<p>Nila1, nilai2, &hellip;);</p>
+<p>Gambar 1.4 Bentuk Umum Pendeklarasian Array Konstan (sumber:Rahardjo)</p>
+<p>Perlu diperhatikan bahwa banyaknya nilai konstan yang dituliskan diatas harus sesuai dengan banyaknya elemen array yang didefinisikan.</p>
+<p>Sebagai contoh, apabila kita ingin mendeklarasikan array dengan jumlah elemen 5, maka nilai konstan yang diisikan juga haruslah berjumlah 5. Perhatikan contoh kode berikut.</p>
+<p>Const</p>
+<p>A : array [1 . . 5] of char = (’A’ , ’B’ , ’C’ , ’D’ , ’E’);</p>
+<p>Oleh karena array A di atas bersifat konstan, maka kita tidak dapat menggantikan nilainya dengan nilai lain, seperti yang ditunjukkan oleh kode di bawah ini.</p>
+<p>A [1]           := ’V’ ; {SALAH, karena elemen A [1] selalu bernilai ’A’}</p>
+<p>A [2]           := ’W’ ; {SALAH, karena elemen A [2] selalu bernilai ’B’}</p>
+<p>A [1]           := ’X’ ; {SALAH, karena elemen A [3] selalu bernilai ’C’}</p>
+<p>A [1]           := ’Y’ ; {SALAH, karena elemen A [4] selalu bernilai ’D’}</p>
+<p>A [1]           := ’Z’ ; {SALAH, karena elemen A [5] selalu bernilai ’E’}</p>
+<p>Hal ini menunjukkan bahwa array konstan nilainya hanya dapat dibaca, namun tidak untuk diubah. Agar lebih memahami konsepnya, perhatikan contoh implementasi dari array konstan berikut ini.</p>
+<p>Function HariSekarang : string;</p>
+<p>Const</p>
+<p>Hari : array[0 . .6] of string[6] =</p>
+<p>(’Minggu’,  ’Senin’,  ’Selasa’,  ’Rabu’,  ’Kamis’,  ’Jumat’,  ’Sabtu’);</p>
+<p>var</p>
+<p>thn, bln, hr, indeksHari : word;</p>
+<p>begin</p>
+<p>getDate(thn, bln, hr, indeksHari);</p>
+<p>HariSekarang := Hari [indeksHari];</p>
+<p>End;</p>
+<p>Pada contoh di atas kita membuat sebuah fungsi untuk mendapatkan nama hari sesuai dengan tanggal sekarang (hari ini). Berikut ini contoh program lain yang akan menunjukkan penggunaan array konstan.</p>
+<p>Program ArrayKonstan;</p>
+<p>Uses crt;</p>
+<p>Const</p>
+<p>Bulan : array [1 . . 12] of string =</p>
+<p>(’Januari’, ’Februari’, ’Maret’, ’April’, ’Mei’, ’Juni’, ’Juli’, ’Agustus’,</p>
+<p>’September’, ’Oktober’, ’Nopember’, ’Desember’);</p>
+<p>var</p>
+<p>noBulan : integer;</p>
+<p>begin</p>
+<p>clrscr;</p>
+<p>write(’Masukkan nomor bulan :’); readln(noBulan);</p>
+<p>write(’Nama bulan ke-’, noBulan,  ’adalah  ’, Bulan[noBulan]);</p>
+<p>readln;</p>
+<p>end.</p>
+<p>Contoh hasil yang akan diberikan oleh program di atas adalah sebagai berikut.</p>
+<p>Masukkan nomor bulan : 3</p>
+<p>Nama bulan ke-3 adalah Maret</p>
+<p>3)     Array Sebagai Parameter</p>
+<p>Pada kasus-kasus pemrograman tertentu kita juga dituntut untuk menggunakan array sebagai parameter sebuah prosedur ataupun fungsi. Hal ini sering kita jumpai pada saat kita akan melakukan pencarian maupun pengurutan dari sekumpulan data. Berikut ini contoh penggunaan array di dalam sebuah prosedur.</p>
+<p>Type</p>
+<p>Bilangan = array[1..100] of integer;</p>
+<p>Procedure inputArray[a:bilangan; N:integer);</p>
+<p>Var</p>
+<p>i : integer;</p>
+<p>Begin</p>
+<p>For i := 1 to N do</p>
+<p>Write (’masukkan elemen array ke-’, i); readln(A[i]);</p>
+<p>End;</p>
+<p>Pada contoh di atas kita te;ah membuat prosedur yang memiliki parameter bertipe array. Prosedur tersebut akan digunakan untuk melakukan pengisian elemen array sebanyak N, dimana 1 N  100.</p>
+<p>Perlu diperhatikan bahwa array yang dilewatkan sebagai parameter ini harus dideklarasikan terlebih dahulu. Berikut ini contoh penggunaan array yang tidak diperbolehkan oleh kompiler.</p>
+<p>Procedure InputArray [A:array[1..100] of integer; N);                                {salah}</p>
+<p>Berikut ini kode yang merupakan perbaikan dari kode sebelumnya.</p>
+<p>Procedure InputArray [A:array of integer; N);                              {benar}</p>
+<p>Untuk lebih memahaminya, perhatikan contoh program di bawah ini dimana kita akan menggunakan array sebagai parameter.</p>
+<p>Program ParamArray;</p>
+<p>Uses crt;</p>
+<p>Const max = 100;]type</p>
+<p>Bilangan = array [1 . . max] of integer;</p>
+<p>Procedure InputArray[A:bilangan; N:integer);</p>
+<p>Var</p>
+<p>i:integer;</p>
+<p>Begin</p>
+<p>Writeln (’Memasukkan data :’);</p>
+<p>For i : 1 to N do</p>
+<p>Write(’Masukkan nilai A[’, i,  ’] : ’); readln(A[i]);</p>
+<p>End;</p>
+<p>Procedure OutputArray (A:bilangan; N:integer);</p>
+<p>Var</p>
+<p>i:integer;</p>
+<p>begin</p>
+<p>writeln(’Menampilkan data :’);</p>
+<p>for i : 1 to N do</p>
+<p>write (’A[’, i,  ’] = ’, A[i]);</p>
+<p>end;</p>
+<p>var</p>
+<p>Arr:bilangan;</p>
+<p>count:integer;</p>
+<p>Begin</p>
+<p>Clrscr;</p>
+<p>Write (’Masukkan banyaknya elemen array :’); readln(count);</p>
+<p>Writeln;</p>
+<p>OutputArray (Arr, count);</p>
+<p>Readln;</p>
+<p>End.</p>
+<p>Contoh hasil yang akan diberikan dari program di atas adalah sebagai berikut.</p>
+<p>Masukkan banyaknya elemen array : 3</p>
+<p>Memasukkan data :</p>
+<p>Masukkan nilai A[1] : 10</p>
+<p>Masukkan nilai A[2] : 20</p>
+<p>Masukkan nilai A[3] : 30</p>
+<p>Menampilkan data :</p>
+<p>A[1] = 10</p>
+<p>A[2] = 20</p>
+<p>A[3] = 30</p>
+<p>D.   Array Multidimensi</p>
+<p>Sejauh ini kita baru membahas mengenai array berdimensi satu. Pada bagian ini kita akan mempelajari bagaimana cara mendeklarasikan dan memanipulasi data yang terdapat pada array multidimensi. Agar lebih mempermudah pembahasan, materi ini akan dibagi menjadi dua kelompok, yaitu array dua dimensi dan array tiga dimensi.</p>
+<p>1)      Array Dua Dimensi</p>
+<p>Array dua dimensi adalah array yang memiliki dua buah elemen bertipe array. Dengan kata lain, array dua dimensi memiliki dua buah subskrip, yang biasanya dipresentasikan dengan baris dan kolom. Untuk lebih memahami konsepnya, perhatikan terlebih dahulu gambar di bawah ini.</p>
+<p>baris</p>
+<p>Kolom</p>
+<p>Gambar 1.5. Array dua dimensi (sumber:Rahardjo)</p>
+<p>Pada gambar di atas, array memiliki 3 buah baris dan 4 buah kolom, sehingga jumlah elemennya adalah 3x4 = 12. Perlu diketahui bahwa keadaan tersebut sebenarnya hanya merupakan keadaan logik yang bertujuan untuk mempermudah pemahaman array dua dimensi. Pada kenyataannya, pengalamatan memori di komputer dari array dua dimensi tetap akan dipresentasikan dengan sebuah deretan larik yang memanjang (tidak berbentuk baris dan kolom). Pendeklarasian array dua dimensi di dalam bahasa Pascal dilakukan melalui bentuk umum di bawah ini.</p>
+<p>NamaArray : array [1 . . banyakbaris, 1 . . banyakkolom] of tipe_data;</p>
+<p>Sebagai contoh, apabila kita akan mendeklarasikan array dua dimensi dengan 3 buah baris dan 4 buah kolom dimana setiap elemennya bertipe integer, maka kita dapat menuliskan kode seperti berikut.</p>
+<p>Array2D : array [1 . . 3, 1 . . 4] of integer;</p>
+<p>Untuk melakukan pengaksesan terhadap elemen-elemennya, kita harus menuliskan indeks baris dan kolomnya. Sebagai contoh, apabila kita ingin mengisikan nilai 100 ke dalam elemen yang terdapat pada baris ke-2 kolom ke-3, maka kita harus menuliskannya sebagai berikut.</p>
+<p>Array2D [2, 3] : = 100;</p>
+<p>Berikut ini contoh program yang menunjukkan penggunaan array dua dimensi. Di sini kita akan membuat program yang dapat menjumlahkan dua buah matriks A dan B yang masing-masing berordo 2 x 3 (memiliki 2 baris dan 3 kolom).</p>
+<p>Program JumlahMatriks;</p>
+<p>Uses crt;</p>
+<p>Const</p>
+<p>Jbaris = 2;</p>
+<p>Jkolom = 3;</p>
+<p>Type</p>
+<p>Matriks23 = array [1 . . Jbaris, 1 . . Jkolom] of integer;</p>
+<p>Var</p>
+<p>A,B,C : Matriks23;</p>
+<p>j, k : integer;</p>
+<p>begin</p>
+<p>clrscr;</p>
+<p>{mengisikan matriks A}</p>
+<p>writeln (’Matriks A’);</p>
+<p>for j: = 1 to Jbaris do begin</p>
+<p>for k: = 1 to Jkolom do begin</p>
+<p>write(’A[’, j,  ’ , ’ , k,  ’] = ‚); readln(A[j, k]);</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>{mengisikan matriks B}</p>
+<p>writeln(’Matriks B’);</p>
+<p>for j: = 1 to Jbaris do begin</p>
+<p>for k: = 1 to Jkolom do begin</p>
+<p>write(’B[’, j,  ’ , ’ , k,  ’] = ‚); readln(B[j, k]);</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>{melakukan penjumlahan matriks A dan B sekaligus menampilkan hasilnya ke layar}</p>
+<p>writeln(’Hail Penjumlahan’);</p>
+<p>for j: = 1 to Jbaris do begin</p>
+<p>for k: = 1 to Jkolom do begin</p>
+<p>C[j, k] : = A[j, k] + B[j, k];</p>
+<p>write(’C[’, j,  ’ , ’ , k,  ’] = ‚); readln(C[j, k]);</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>end;</p>
+<p>readln;</p>
+<p>end.</p>
+<p>Contoh hasil yang akan diberikan oleh program di atas adalah sebagai berikut.</p>
+<p>Matriks A</p>
+<p>A[1, 1] = 1</p>
+<p>A[1, 2] = 2</p>
+<p>A[1, 3] = 3</p>
+<p>A[2, 1] = 4</p>
+<p>A[2, 2] = 5</p>
+<p>A[2, 3] = 6</p>
+<p>Matriks B</p>
+<p>B[1, 1] = 3</p>
+<p>B[1, 2] = 2</p>
+<p>B[1, 3] = 1</p>
+<p>B[2, 1] = 6</p>
+<p>B[2, 2] = 5</p>
+<p>B[2, 3] = 4</p>
+<p>Hasil Penjumlahan</p>
+<p>C[1, 1] = 4</p>
+<p>C[1, 2] = 4</p>
+<p>C[1, 3] = 4</p>
+<p>C[2, 1] = 10</p>
+<p>C[2, 2] = 10</p>
+<p>C[2, 3] = 10</p>
+<p>2)      Array Tiga Dimensi</p>
+<p>Array tiga dimensi merupakan array yang memiliki tiga buah subskrip dan lebih kompleks apabila dibandingkan dengan array dua dimensi. Di sini, subskrip yang ada akan dipresentasikan dengan sumbu x, y dan z atau panjang, lebar dan tinggi seperti yang ditunjukkan oleh gambar berikut.</p>
+<p>y                                  Gambar 1.6. Array tiga dimensi</p>
+<p>(sumber : Rahardjo)</p>
+<p>x</p>
+<p>z</p>
+<p>Berikut ini bentuk umum yang digunakan untuk mendeklarasikan array tiga dimensi di dalam bahasa Pascal.</p>
+<p>NamaArray : array [1 . . xMaks, 1 . . yMaks, 1 . . zMaks] of tipe_data;</p>
+<p>Gambar 1.7 Bentuk Umum Pendeklarasian Array Tiga Dimensi(sumber:Rahardjo)</p>
+<p>Sebagai contoh apabila kita ingin mendeklarasikan array yang memiliki panjang 2, lebar 3 dan tinggi 4 elemen bertipe integer, maka kita akan menuliskannya seperti di bawah ini.</p>
+<p>Array3D : array [1 . . 2, 1 . . 3, 1 . . 4] of integer;</p>
+<p>Jumlah elemen yang terdapat di dalam array tersebut adalah 2 x 3 x 4 = 24. Sekarang apabila kita ingin mengisikan nilai 100 ke dalam elemen yang berada pada posisi panjang ke-2, lebar ke-3 dan tinggi ke-1, maka kita akan melakukannya melalui kode berikut.</p>
+<p>Array3D : [2, 3, 1] : = 100;</p>
+<p>Berikut ini adalah contoh yang akan menunjukkan cara pengaksesan elemen di dalam array 3 dimensi.</p>
+<p>Program AksesArray3D;</p>
+<p>Uses crt;</p>
+<p>Const</p>
+<p>xMaks = 2;</p>
+<p>yMaks = 2;</p>
+<p>zMaks = 2;</p>
+<p>Type</p>
+<p>Array3D = array [1 . . xMaks, 1 . . yMaks,1 . . zMaks] of integer;</p>
+<p>Var</p>
+<p>A: Array3D;</p>
+<p>i, j, k : integer;</p>
+<p>begin</p>
+<p>clrscr;</p>
+<p>{mengisikan nilai ke dalam array A}</p>
+<p>x := 1;</p>
+<p>for i := 1 to xMaks do begin</p>
+<p>for j := 1 to  jMaks do begin</p>
+<p>for k := 1 to zMaks do begin</p>
+<p>A[i, j, k] := x;</p>
+<p>inc(x);</p>
+<p>end;</p>
+<p>end;</p>
+<p>end;</p>
+<p>{menampilkan isi yang terdapat dalam array A}</p>
+<p>for i := 1 to xMaks do begin</p>
+<p>for j := 1 to  jMaks do begin</p>
+<p>for k := 1 to zMaks do begin</p>
+<p>write(’A[ ’ , i,  ’,’ , j, ’,’ , z, ’ ] = ’,  A[ i, j, k] , ’ ’ );</p>
+<p>end;</p>
+<p>end;</p>
+<p>writeln;</p>
+<p>end;</p>
+<p>readln;</p>
+<p>end.</p>
+<p>Hasil yang akan diberikan oleh program diatas adalah sebagai berikut:</p>
+<p>A[1, 1, 1] = 1          A[1, 1, 2] = 2          A[1, 2, 1] = 3          A[1, 2, 2] = 4</p>
+<p>A[2, 1, 1] = 5          A[2, 1, 2] = 6          A[2, 2, 1] = 7          A[2, 2, 2] = 8</p>
+<p><strong>BAB II</strong></p>
+<p><strong>KESIMPULAN</strong></p>
+<p>Array merupakan sebuah variabel yang dapat menyimpan lebih dari satu nilai yang memiliki tipe data sama.  Hal ini berbeda dengan variabel biasa yang hanya mampu menampung satu buah nilai. Setiap nilai yang disimpan di dalam array disebut dengan elemen array, sedangkan nilai urut yang digunakan untuk mengakses elemennya disebut dengan indeks array.</p>
+<p>Apabila kita akan membuat program untuk menyimpan sekumpulan data, misalnya data-data hasil penelitian yang berupa bilangan, dimana jumlah dari data tersebut puluhan, ratusan atau bahkan ribuan, apakah akan menggunakan variabel sebanyak data yang ada? Jawabannya tentu tidak, karena hal tersebut merupakan hal yang sangat tidak efisien. Penggunaan array dalam program akan membuat program lebih efisien dan mudah dipahami.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://rifkyfuady.github.io/tags/bahasa-pemrograman/">Bahasa Pemrograman</a></li>
+      <li><a href="https://rifkyfuady.github.io/tags/tugas/">Tugas</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://rifkyfuady.github.io/2013/01/perintah-dasar-dos.html">
+    <span class="title">« Sebelumnya</span>
+    <br>
+    <span>Perintah Dasar DOS</span>
+  </a>
+  <a class="next" href="https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html">
+    <span class="title">Selanjutnya »</span>
+    <br>
+    <span>TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK on x"
+            href="https://x.com/intent/tweet/?text=TUGAS%20ALGORITMA%20DAN%20PEMROGRAMAN%20-%20ARRAY%20DIMENSI%20BANYAK&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html&amp;hashtags=BahasaPemrograman%2cTugas">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html&amp;title=TUGAS%20ALGORITMA%20DAN%20PEMROGRAMAN%20-%20ARRAY%20DIMENSI%20BANYAK&amp;summary=TUGAS%20ALGORITMA%20DAN%20PEMROGRAMAN%20-%20ARRAY%20DIMENSI%20BANYAK&amp;source=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK on whatsapp"
+            href="https://api.whatsapp.com/send?text=TUGAS%20ALGORITMA%20DAN%20PEMROGRAMAN%20-%20ARRAY%20DIMENSI%20BANYAK%20-%20https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK on telegram"
+            href="https://telegram.me/share/url?text=TUGAS%20ALGORITMA%20DAN%20PEMROGRAMAN%20-%20ARRAY%20DIMENSI%20BANYAK&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-algoritma-dan-pemrograman-array_17.html">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+ <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "rifkyfu32-github-io";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink"
+  >comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://rifkyfuady.github.io/">Rifky Fuady</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script type="text/javascript">
+    (function () {
+      
+      
+      if (window.location.hostname == "localhost") return;
+      if (document.getElementById("userway")) return;
+      const userway = document.createElement("script");
+      userway.id = "userway";
+      userway.type = "text/javascript";
+      userway.async = true;
+      const userway_account = "XAfzRB9irr";
+      userway.src = "//cdn.userway.org/widget.js";
+      userway.dataset.account = userway_account;
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(userway);
+    })();
+</script></body>
+
 </html>

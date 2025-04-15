@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://rifkyfuady.github.io/sitemap.xml

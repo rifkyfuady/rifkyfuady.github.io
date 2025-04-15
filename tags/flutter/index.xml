@@ -1,61 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Flutter on Website of Rifky Fuady</title>
+    <title>Flutter on Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/flutter/</link>
-    <description>Recent content in Flutter on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
+    <description>Recent content in Flutter on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
     <lastBuildDate>Mon, 08 Apr 2019 20:29:06 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Membuat aplikasi konverter youtube ke Mp3 mutiplatform</title>
-      <link>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</link>
+      <link>https://rifkyfuady.github.io/posts/konverter-youtube-mp3/</link>
       <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/konverter-youtube-mp3/</guid>
-      <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.</description>
+      <guid>https://rifkyfuady.github.io/posts/konverter-youtube-mp3/</guid>
+      <description>&lt;p&gt;Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di &lt;a href=&#34;https://youtube.com&#34;&gt;Youtube&lt;/a&gt;, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.&lt;/p&gt;
+&lt;p&gt;Alih-alih ingin menghemat kuota internet dirumah (Indihome berkuota &amp;#x1f602;), saya sering melakukan konvert youtube ke mp3 dengan aplikasi web ini &lt;a href=&#34;https://www.onlinevideoconverter.com/mp3-converter&#34;&gt;Online Video Converter&lt;/a&gt; kalo saya sedang memakai komputer&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bagaimana kalo di smartphone?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beberapa kali saya mencoba donwload aplikasi dari Apps Store ada dua jenis aplikasi, yaitu aplikasi gratis tetapi banyak iklan atau yang tidak ada iklan tetapi berbayar, hehe&amp;hellip; &amp;#x1f605;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
-      <link>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</link>
+      <link>https://rifkyfuady.github.io/posts/flutter-animasi-dragonball/</link>
       <pubDate>Mon, 01 Apr 2019 21:58:46 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/flutter-animasi-dragonball/</guid>
-      <description>Siapa yang gak tau Dragon Ball hayoo?&#xA;Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.</description>
+      <guid>https://rifkyfuady.github.io/posts/flutter-animasi-dragonball/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Siapa yang gak tau Dragon Ball hayoo?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.00 WIB di Indosiar setia menonton film animasi &lt;code&gt;Dragon Ball&lt;/code&gt;, televisi saat itu masih berbentuk tabung dan nonton bareng sama tetangga saya dekat rumah.&lt;/p&gt;
+&lt;p&gt;Kali ini kita akan belajar bikin aplikasi karakter &lt;code&gt;Dragon Ball&lt;/code&gt; dengan animasi sederhana di &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; sambil ber-&lt;em&gt;nostalgia&lt;/em&gt; mengingat karakter-karakter yang ada di film animasi &lt;code&gt;Dragon Ball&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enakan Android Native, Flutter atau React Native?</title>
-      <link>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</link>
+      <link>https://rifkyfuady.github.io/posts/native-webview-reactive-flutter/</link>
       <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/native-webview-reactive-flutter/</guid>
-      <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :</description>
+      <guid>https://rifkyfuady.github.io/posts/native-webview-reactive-flutter/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Tampilan Enakan Android Native, Flutter atau React Native pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/native-webview-reactive-flutter/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ketika saya &lt;code&gt;showoff&lt;/code&gt; aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;enakan-android-native-flutter-atau-react-native&#34;&gt;Enakan android native, flutter atau react native?&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;Sebelum menjawab itu, mungkin alangkah lebih baik saya memberikan sedikit informasi sebatas yang saya tahu mengenai hal tersebut.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Native languages atau SDK OEM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mungkin yang teman saya sebut &lt;code&gt;android native&lt;/code&gt; itu maksudnya adalah &lt;code&gt;Native languages&lt;/code&gt;. Berikut gambaran-nya :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dinkes Batang Luncurkan Aplikasi Mobile Multiplatform</title>
-      <link>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</link>
+      <link>https://rifkyfuady.github.io/posts/dinkes-inovasi-mobile/</link>
       <pubDate>Mon, 25 Mar 2019 21:04:31 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/dinkes-inovasi-mobile/</guid>
-      <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.</description>
+      <guid>https://rifkyfuady.github.io/posts/dinkes-inovasi-mobile/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Dinas Kesehatan&lt;/code&gt; merupakan &lt;code&gt;Satuan Kerja Perangkat Daerah&lt;/code&gt; di &lt;code&gt;Kabupaten Batang&lt;/code&gt; yang memiliki &lt;code&gt;tanggung jawab&lt;/code&gt; menjalankan &lt;code&gt;kebijakan&lt;/code&gt; Pemerintah Kabupaten Batang dalam &lt;code&gt;bidang kesehatan&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Dinas Kesehatan (Dinkes) Kabupaten Batang kembali melakukan &lt;code&gt;inovasi&lt;/code&gt; dalam meningkatkan pelayanan kesehatan kepada masyarakat dengan meluncurkan &lt;code&gt;portal informasi&lt;/code&gt; berbasis teknologi informasi berbentuk &lt;code&gt;aplikasi mobile multiplatform&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Didalam aplikasi ini terdapat &lt;code&gt;berita&lt;/code&gt;, &lt;code&gt;kegiatan&lt;/code&gt;, &lt;code&gt;artikel&lt;/code&gt; dan informasi lain di lingkungan kerja Dinas Kesehatan Kabupaten Batang, masyarakat bisa mengakses dan medapatkan informasi sehingga menggerakkan masyarakat untuk &lt;code&gt;hidup sehat&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutorial Membuat Aplikasi Pemutar Musik Android dan IOS dengan Flutter</title>
-      <link>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</link>
+      <link>https://rifkyfuady.github.io/posts/pemutar-musik-flutter/</link>
       <pubDate>Sat, 16 Mar 2019 01:48:31 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/pemutar-musik-flutter/</guid>
-      <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita.</description>
+      <guid>https://rifkyfuady.github.io/posts/pemutar-musik-flutter/</guid>
+      <description>&lt;p&gt;Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita. Harmoni suara ini bisa menjadi media penyembuhan, mengusir kecemasan, menenangkan, hingga mendongkrak semangat.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;ngoding-tanpa-dengerin-musik-seperti-makan-sayur-kurang-micin-hambar-sweat_smile&#34;&gt;&lt;strong&gt;Ngoding&lt;/strong&gt; tanpa dengerin &lt;strong&gt;musik&lt;/strong&gt;, seperti makan sayur kurang &lt;em&gt;&lt;code&gt;micin&lt;/code&gt;&lt;/em&gt; &lt;em&gt;(hambar)&lt;/em&gt;&amp;hellip; &amp;#x1f605;&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;Bagi saya medengarkan musik tak hanya bisa menghibur, saat malam hari sunyi sepi &lt;strong&gt;ngoding&lt;/strong&gt; &lt;code&gt;sendiri&lt;/code&gt; &lt;em&gt;(jodoh undefined )&lt;/em&gt; &amp;#x1f602; kode program bermasalah gak ketemu-ketemu solusinya, dengan mendengarkan musik yang saya sukai terkadang bisa mendatangkan inspirasi ide solusi dari masalah tersebut. &lt;em&gt;(Hilihhh&amp;hellip; malah curcol)&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Membangun Aplikasi Toko Buku Multiplatform dengan Flutter</title>
-      <link>https://rifkyfuady.github.io/post/toko-buku-flutter/</link>
+      <link>https://rifkyfuady.github.io/posts/toko-buku-flutter/</link>
       <pubDate>Fri, 15 Mar 2019 21:40:35 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/toko-buku-flutter/</guid>
-      <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?&#xA;Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.</description>
+      <guid>https://rifkyfuady.github.io/posts/toko-buku-flutter/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Siapa bilang membuat aplikasi mobile multiplatform itu sulit?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dengan &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; semua terasa mudah, karena &lt;code&gt;everything is a widget&lt;/code&gt;, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke &lt;code&gt;Android&lt;/code&gt; dan &lt;code&gt;iOS&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Kali ini kita akan membuat aplikasi sederhana toko buku, sebelum itu bagi anda yang belum pernah ngoding dengan &lt;code&gt;flutter&lt;/code&gt; sebaiknya anda membaca artikel saya sebelumnya yang berjudul &lt;a href=&#34;https://rifkyfuady.github.io/flutter-login-ciamik&#34;&gt;Membuat Tampilan Login Ciamik dengan Flutter&lt;/a&gt; agar lebih mudah mengikuti tutorial kali ini.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
-      <link>https://rifkyfuady.github.io/post/flutter-login-ciamik/</link>
+      <link>https://rifkyfuady.github.io/posts/flutter-login-ciamik/</link>
       <pubDate>Wed, 13 Mar 2019 22:02:53 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/flutter-login-ciamik/</guid>
-      <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.</description>
+      <guid>https://rifkyfuady.github.io/posts/flutter-login-ciamik/</guid>
+      <description>&lt;h2 id=&#34;apa-itu-flutter&#34;&gt;Apa itu Flutter?&lt;/h2&gt;
+&lt;p&gt;Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.&lt;/p&gt;
+&lt;p&gt;Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?&lt;/p&gt;
+&lt;p&gt;Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt; SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

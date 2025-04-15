@@ -1,40 +1,292 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tips Dan Trick on Website of Rifky Fuady</title>
+    <title>Tips Dan Trick on Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/tips-dan-trick/</link>
-    <description>Recent content in Tips Dan Trick on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Wed, 02 Jan 2013 21:00:00 +0700</lastBuildDate>
+    <description>Recent content in Tips Dan Trick on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/tips-dan-trick/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Membuat Blog menjadi PWA</title>
+      <link>https://rifkyfuady.github.io/posts/membuat-blog-pwa/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/membuat-blog-pwa/</guid>
+      <description>&lt;p&gt;Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah. Blog saya menggunakan static site generator dari &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, saya pernah menulis cara &lt;a href=&#34;https://rifkyfuady.github.io/posts/hello-word/&#34;&gt;Ngeblog dari Teks Editor dan Terminal ala Programmer&lt;/a&gt; dengan Hugo dan jika anda masih menggunakan blogger ingin bermigrasi dengan Hugo bisa membaca tulisan saya yang ini &lt;a href=&#34;https://rifkyfuady.github.io/posts/hugo-import-blogger/&#34;&gt;Mudahnya Mengisi Artikel Hugo dari Blogger&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apa itu PWA dan mengapa saya harus menambahkannya?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Istilah Progressive Web App diperkenalkan oleh Alex Russel, salah seorang Google Chrome engineer, dan Frances Berriman, desainer yang bekerja untuk Google pada tahun 2015. Google mendefinisikan PWA sebagai berikut:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Menambahkan Daftar Tabel, Gambar, dan Lampiran Otomatis</title>
+      <link>https://rifkyfuady.github.io/posts/daftar-tabel-gambar-lampiran-otomatis/</link>
+      <pubDate>Sat, 17 Aug 2019 21:26:09 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/daftar-tabel-gambar-lampiran-otomatis/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Semuanya bisa OTOMATIS&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Saat memasukkan gambar atau tabel pada laporan, biasanya kita menambahkan nomor beserta penjelasan singkat tentang gambar yang dimaksud.&lt;/p&gt;
+&lt;p&gt;Penomoran gambar dan tabel pun tidak boleh sembarangan karena nomor tersebut menunjukkan letak gambar/tabel serta urutannya pada dokumen.&lt;/p&gt;
+&lt;p&gt;Penomoran Gambar dan Tabel, dimulai dari nomor Bab diikuti dengan urutan gambar tersebut di dokumen kalian. (nomor bab).(urutan gambar).&lt;/p&gt;
+&lt;p&gt;Misal, gambar X ada di Bab 2, sebelumnya sudah ada 3 gambar di Bab 1, berarti gambar X ada di urutan keempat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Menambahkan Daftar Isi Secara Otomatis</title>
+      <link>https://rifkyfuady.github.io/posts/daftar-isi-otomatis/</link>
+      <pubDate>Sat, 17 Aug 2019 21:17:12 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/daftar-isi-otomatis/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Goodbye daftar isi manual yang di ketik-ketik sampe titik-titik dari ujung ke ujung :D&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Sebelum lanjut membaca, ada baiknya kalian baca dulu &lt;a href=&#34;https://rifkyfuady.github.io/posts/styles-heading-ms-word/&#34;&gt;ini&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;dan baca &lt;a href=&#34;https://rifkyfuady.github.io/posts/penomoran-halaman-ms-word/&#34;&gt;ini&lt;/a&gt; sebagai kunci utama untuk membuat &lt;strong&gt;DAFTAR ISI OTOMATIS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Untuk membuat daftar isi secara otomatis, kita harus memformat Judul BAB, SUBBAB, beserta anakannya sebagai Headings.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Judul BAB - Heading 1&lt;/li&gt;
+&lt;li&gt;SUBBAB 1 - Heading 2&lt;/li&gt;
+&lt;li&gt;SUBBAB 2 - Heading 3&lt;/li&gt;
+&lt;li&gt;SUBBAB 3 - Heading 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Tampilan daftar isi otomatis pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/daftar-isi-otomatis/1.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Penomoran Halaman Microsoft Word</title>
+      <link>https://rifkyfuady.github.io/posts/penomoran-halaman-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 21:01:24 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/penomoran-halaman-ms-word/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Membuat nomor halaman berbeda pada satu dokumen (angka Romawi [i, ii, ii] dan angka biasa [1, 2, 3])&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Penomoran halaman biasanya ada yang berbeda pada halaman tertentu. Ada yang menggunakan angka romawi dan ada yang menggunakan angka biasa.&lt;/p&gt;
+&lt;p&gt;Angka romawi biasanya digunakan untuk penomoran halaman Ringkasan, Kata Pengantar, Daftar Isi, Daftar Tabel dll. Angka biasa digunakan untuk penomoran dimulai dari BAB I dst.
+&lt;img alt=&#34;Tampilan Penomoran Halaman Microsoft Word pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/penomoran-halaman-ms-word/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sebelumnya, bikin halaman baru kalau sisa halaman masih banyaaak banget jangan pakai enter sampai halamannya nambah ya :(( jangan pokoknya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Styles dan Headings Microsoft Word</title>
+      <link>https://rifkyfuady.github.io/posts/styles-heading-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 20:34:25 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/styles-heading-ms-word/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Kunci daftar isi otomatis&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Apasih fitur Styles sama Headings ini? Emang apa gunanya?&lt;/em&gt;
+Eitts, fitur ini sangat berguna loh untuk membuat tulisan kalian tetap konsisten, memformat tulisan dengan satu kali klik.&lt;/p&gt;
+&lt;p&gt;Sedangkan Headings adalah jenis Style yang biasa digunakan untuk memformat judul BAB, SUBBAB, dan anakkannya. Headings ini nantinya sangat berguna untuk membuat Daftar Isi.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Tampilan Styles dan Headings Microsoft Word pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/styles-heading-ms-word/heading-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sebelumnya kita akan membuat format untuk Style-style yang akan digunakan. Agar nanti saat penulisan kita bisa memformat tulisan atau judul dengan sekali klik aja.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proofing Tools Bahasa Indonesia</title>
+      <link>https://rifkyfuady.github.io/posts/proofing-tools-indonesia/</link>
+      <pubDate>Sat, 17 Aug 2019 20:03:26 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/proofing-tools-indonesia/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Membuat laporan, makalah, atau proposal bebas dari typo ataupun salah penulisan di Microsoft Word&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Apasih proofing tools? Apasih gunanya Proofing tools?
+Proofing tools atau alat pembuktian ini adalah tools tambahan dari Microsoft, nah tools ini digunakan untuk mengoreksi kata maupun ejaan yang kita tulis di Microsoft Office.&lt;/p&gt;
+&lt;p&gt;Kalau kalian lihat kata-kata yang digaris bawahi merah, nah itu adalah salah satu kegunaan Proofing tools. Yakni menunjukkan kata-kata yang salah penulisannya, tidak ada di kamus, atau tidak sesuai standar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bikin Laporan Skripsi menjadi mudah</title>
+      <link>https://rifkyfuady.github.io/posts/penulisan-laporan-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 19:46:36 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/penulisan-laporan-ms-word/</guid>
+      <description>&lt;p&gt;Sebuah catatan untuk kalian yang ingin tahu cara menulis tanpa typo, membuat styles serta headings, menambahkan nomor halaman berbeda, dan daftar isi/gambar/tabel/lampiran otomatis di Microsoft Word.&lt;/p&gt;
+&lt;p&gt;Catatan ini akan berisi cara-cara mempermudah penulisan di Microsoft Word agar lebih efisien dan hemat waktu.&lt;/p&gt;
+&lt;p&gt;yang akan dibahas dalam catatan ini ada 5 poin utama, yaitu:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://rifkyfuady.github.io/posts/proofing-tools-indonesia/&#34;&gt;Proofing Tools Bahasa Indonesia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rifkyfuady.github.io/posts/styles-heading-ms-word/&#34;&gt;Styles dan Headings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rifkyfuady.github.io/posts/penomoran-halaman-ms-word/&#34;&gt;Format Penomoran Halaman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rifkyfuady.github.io/posts/daftar-isi-otomatis/&#34;&gt;Menambahkan Daftar Isi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rifkyfuady.github.io/posts/daftar-tabel-gambar-lampiran-otomatis/&#34;&gt;Menambahkan Daftar Tabel, Daftar Gambar, dan Daftar Lampiran&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Agar tidak telalu panjang karena penjelasan akan sedetail mungkin, catatan ini akan dibagi beberapa halaman.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04</title>
+      <link>https://rifkyfuady.github.io/posts/optimasi-ssd-ubuntu-lts/</link>
+      <pubDate>Sun, 04 Aug 2019 23:46:41 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/optimasi-ssd-ubuntu-lts/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Catatan &lt;code&gt;pribadi&lt;/code&gt; :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SSD&lt;/code&gt; untuk &lt;code&gt;Ubuntu 18.04.2 LTS&lt;/code&gt;, full hanya satu partisi &lt;code&gt;root&lt;/code&gt; /&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HDD&lt;/code&gt; untuk &lt;code&gt;menyimpan&lt;/code&gt; data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;fstab&#34;&gt;fstab&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;buka &lt;code&gt;fstab&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo gedit /etc/fstab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;matikan update tanggal file &lt;code&gt;noatime,nodiratime&lt;/code&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;UUID&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;remount-ro &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;pindah file &lt;code&gt;log&lt;/code&gt; ke &lt;code&gt;RAM&lt;/code&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs /tmp tmpfs defaults,noatime,mode&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1777&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs /var/spool tmpfs defaults,noatime,mode&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1777&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs /var/log tmpfs defaults,noatime,mode&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0755&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;scheduler-io-&#34;&gt;Scheduler I/O :&lt;/h1&gt;
+&lt;p&gt;Untuk SSD direkomendasikan oleh &lt;a href=&#34;https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers&#34;&gt;Wiki Ubuntu&lt;/a&gt; memakai I/O &lt;code&gt;deadline&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bikin file &lt;code&gt;60-ssd-scheduler.rules&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo touch /etc/udev/rules.d/60-ssd-scheduler.rules
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;buka file &lt;code&gt;60-ssd-scheduler.rules&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo gedit /etc/udev/rules.d/60-ssd-scheduler.rules
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;tambahkan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;ACTION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;add|change&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;KERNEL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;sd[a-z]&amp;#34;&lt;/span&gt;, ATTR&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;queue/rotational&lt;span class=&#34;o&#34;&gt;}==&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;, ATTR&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;queue/scheduler&lt;span class=&#34;o&#34;&gt;}=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;deadline&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;cek konfigurasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; f in /sys/block/sd?/queue/scheduler&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; is &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; cat &lt;span class=&#34;nv&#34;&gt;$f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;web-server-dan-database&#34;&gt;Web Server dan Database&lt;/h1&gt;
+&lt;p&gt;Tujuan penggunaan untuk develop aplikasi, untuk aplikasi web dalam membangun &lt;code&gt;Web Server&lt;/code&gt; menggunakan &lt;code&gt;Apache&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enakan Android Native, Flutter atau React Native?</title>
+      <link>https://rifkyfuady.github.io/posts/native-webview-reactive-flutter/</link>
+      <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/native-webview-reactive-flutter/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Tampilan Enakan Android Native, Flutter atau React Native pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/native-webview-reactive-flutter/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ketika saya &lt;code&gt;showoff&lt;/code&gt; aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;enakan-android-native-flutter-atau-react-native&#34;&gt;Enakan android native, flutter atau react native?&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;Sebelum menjawab itu, mungkin alangkah lebih baik saya memberikan sedikit informasi sebatas yang saya tahu mengenai hal tersebut.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Native languages atau SDK OEM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mungkin yang teman saya sebut &lt;code&gt;android native&lt;/code&gt; itu maksudnya adalah &lt;code&gt;Native languages&lt;/code&gt;. Berikut gambaran-nya :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wawasan wajib yang harus dikuasai Programmer</title>
+      <link>https://rifkyfuady.github.io/posts/wawasan-programmer/</link>
+      <pubDate>Sat, 16 Mar 2019 04:15:55 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/wawasan-programmer/</guid>
+      <description>&lt;p&gt;Sekedar catatan &lt;code&gt;pribadi&lt;/code&gt;, berbagi sedikit &lt;code&gt;pengalaman&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Menurut saya seorang yang mau menjadi &lt;code&gt;programmer&lt;/code&gt; harus mempunyai &lt;code&gt;wawasan&lt;/code&gt; sebagai berikut :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Konsep dasar &lt;code&gt;sistem operasi&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Konsep dasar &lt;code&gt;jaringan&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Konsep dasar &lt;code&gt;relational database&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Karena sekarang jaman &lt;code&gt;internet&lt;/code&gt;, maka wajib memahami protokol &lt;code&gt;HTTP&lt;/code&gt;, &lt;code&gt;FTP&lt;/code&gt;, &lt;code&gt;POP3&lt;/code&gt;, &lt;code&gt;SMTP&lt;/code&gt;, &lt;code&gt;SSH&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Karena sekarang jaman &lt;code&gt;mobilisasi&lt;/code&gt;, maka wajib memahami &lt;code&gt;lifecycle&lt;/code&gt; &lt;a href=&#34;https://developer.android.com/&#34;&gt;Android&lt;/a&gt; dan &lt;a href=&#34;https://developer.apple.com/&#34;&gt;IOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Karena sekarang jaman &lt;code&gt;globalisasi&lt;/code&gt;, maka wajib memahami &lt;a href=&#34;https://unicode.org/&#34;&gt;Unicode&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Lebih dari satu bahasa pemrograman.&lt;/li&gt;
+&lt;li&gt;Cara menggunakan &lt;code&gt;Version Control&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Berikut alasan dan pertimbangan dari saya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panduan Lengkap Membangun Sms Gateway dengan Gammu</title>
+      <link>https://rifkyfuady.github.io/posts/gammu-sms-gateway/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/gammu-sms-gateway/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Apa itu SMS-Gateway?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Secara sederhana &lt;code&gt;SMS-Gateway&lt;/code&gt; adalah suatu layanan &lt;code&gt;SMS&lt;/code&gt; &lt;em&gt;(Short Message Service)&lt;/em&gt; yang memungkinkan untuk melakukan pengiriman &lt;code&gt;SMS&lt;/code&gt;, maupun penerimaan &lt;code&gt;SMS&lt;/code&gt; melalui komputer. Kita bisa dengan mudah melakukan menejemen &lt;code&gt;SMS&lt;/code&gt; dengan komputer kita.&lt;/p&gt;
+&lt;p&gt;Pada kesempatan kali ini saya akan berbagi cara membangun &lt;code&gt;SMS-Gateway&lt;/code&gt; dengan &lt;a href=&#34;https://wammu.eu/gammu/&#34;&gt;Gammu&lt;/a&gt;. Spesifikasi sistem operasi komputer saya menggunakan &lt;a href=&#34;http://releases.ubuntu.com/18.04/&#34;&gt;Ubuntu 18.04 LTS&lt;/a&gt; dan modem &lt;code&gt;Wavecom Fastrack M1306B&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Berikut langkah-langkah instalasinya :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;code&gt;gammu&lt;/code&gt; dan juga &lt;code&gt;gammu-smsd&lt;/code&gt; menggunakan terminal, pastikan terhubung dengan internet. Masukkan perintah di &lt;code&gt;terminal&lt;/code&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install gammu gammu-smsd
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img alt=&#34;Tampilan Lengkap Membangun Sms Gateway dengan Gammu pertama&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/gammu-sms-gateway/1.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laporan PDF cantik, Auto Wrap Content Table dengan FPDF</title>
+      <link>https://rifkyfuady.github.io/posts/fpdf-wrap-cell/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:33 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/fpdf-wrap-cell/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pernah gak sih, pas lagi bikin laporan dengan &lt;code&gt;FPDF&lt;/code&gt;, ternyata hasilnya tidak sesuai harapan?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Saat isi data pada suatu kolom &lt;code&gt;melebihi&lt;/code&gt; lebar dari kolom tersebut, maka tulisannya akan &lt;code&gt;kepotong&lt;/code&gt; alias &lt;code&gt;gak keliatan&lt;/code&gt;. Hehe&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Kebetulan tadi sore saya sendiri mengalaminya, biar gak lupa mending catet aja di blog.&lt;/p&gt;
+&lt;p&gt;Perkenalan sedikit, &lt;a href=&#34;http://fpdf.org/&#34;&gt;FPDF&lt;/a&gt; adalah &lt;code&gt;library PHP&lt;/code&gt; yang bisa kita manfaatkan untuk membuat file &lt;code&gt;PDF&lt;/code&gt; &lt;em&gt;(bikin laporan)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Bagi anda yang belum pernah menggunakan library &lt;a href=&#34;http://fpdf.org/&#34;&gt;FPDF&lt;/a&gt;, silahkan bermain-main dengan tutorial dasarnya terlebih dahulu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello Word, Hello Hugo! (Ngeblog dari Teks Editor dan Terminal ala Programmer)</title>
+      <link>https://rifkyfuady.github.io/posts/hello-word/</link>
+      <pubDate>Tue, 12 Mar 2019 17:29:51 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/hello-word/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Saya punya &lt;code&gt;blog&lt;/code&gt;,&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;CMS&lt;/code&gt;-nya menggunakan &lt;code&gt;Blogger&lt;/code&gt;…&lt;/p&gt;
+&lt;p&gt;…tapi tidak pernah terurus.&lt;/p&gt;
+&lt;p&gt;Mungkin saya &lt;code&gt;malas&lt;/code&gt;, karena &lt;em&gt;koneksi internet yang kurang cepat&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Kendala yang saya alami:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Malas&lt;/code&gt; upload gambar satu per satu ketika membuat artikel.&lt;/li&gt;
+&lt;li&gt;Tidak bisa ngedit artikel secara &lt;code&gt;offline&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tidak memiliki kuasa penuh terhadap &lt;code&gt;CMS&lt;/code&gt;-nya.&lt;/li&gt;
+&lt;li&gt;Kurang &lt;code&gt;aman&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;dan masih banyak lagi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Karena itu, sekarang saya lebih suka ngeblog dari &lt;code&gt;teks editor&lt;/code&gt; menggunakan &lt;code&gt;SSG&lt;/code&gt; &lt;em&gt;(Satatic Site Generator)&lt;/em&gt; daripada &lt;code&gt;CMS&lt;/code&gt; seperti &lt;code&gt;Wordpress&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Tutorial Dasar Pemrograman Batch File</title>
-      <link>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</link>
+      <link>https://rifkyfuady.github.io/2013/01/maaf-ini-sebelumnyasahabat-blogger-lama.html</link>
       <pubDate>Wed, 02 Jan 2013 21:00:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/maaf-ini-sebelumnyasahabat-blogger-lama/</guid>
-      <description>Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;</description>
+      <guid>https://rifkyfuady.github.io/2013/01/maaf-ini-sebelumnyasahabat-blogger-lama.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7AqdaA86Xm1c3t_ZrHUjKBmCBm0z57xealnOz5tbwwvtPcOv3ELmj487MbIY6NGw9h4jAYZrFAlZWJMcJGev28-ho_1PorCLvB62uvOtxuUce2EWWKsN4LJcNjEAi6Qnn05uC9hi478/s1600/G_127.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7AqdaA86Xm1c3t_ZrHUjKBmCBm0z57xealnOz5tbwwvtPcOv3ELmj487MbIY6NGw9h4jAYZrFAlZWJMcJGev28-ho_1PorCLvB62uvOtxuUce2EWWKsN4LJcNjEAi6Qnn05uC9hi478/s200/G_127.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maaf ini sebelumnya sahabat blogger, lama gak pernah posting&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Oke. Sekarang kita langsung saja masuk ke Judul posting di atas, kemaren makul Sistem Operasi Praktek yang di ajarkan Oleh &lt;em&gt;Bpk. &lt;strong&gt;M. Rifqi Maulana M.Kom&lt;/strong&gt;&lt;/em&gt; adalah Pemrograman Batch File di Windows, setelah mengajarkan cara mengoprek-oprek registry tools di Windows. Dan sekarang saya ingin men-sharing apa yang diajarkan &lt;strong&gt;&lt;em&gt;Beliau.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Udah pada tau Perintah-perintah dasar di DOS belum? Kalo belum bisa lihat &lt;a href=&#34;http://rifky-fuady.blogspot.com/2013/01/perintah-dasar-dos.html&#34;&gt;disini.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perintah Dasar DOS</title>
-      <link>https://rifkyfuady.github.io/post/perintah-dasar-dos/</link>
+      <link>https://rifkyfuady.github.io/2013/01/perintah-dasar-dos.html</link>
       <pubDate>Wed, 02 Jan 2013 20:27:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/perintah-dasar-dos/</guid>
-      <description>DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows.</description>
+      <guid>https://rifkyfuady.github.io/2013/01/perintah-dasar-dos.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGgxUMQnSatHraKB9ofcYGkv8SXgdUgMLC_4QeQ3vXFMN1Tt1niGlOAcU3aoXz0vIydtDIez1Qfba3GHiEcQwTMa-BDwWlReJDT6HYfTlHuXisnIUG8TG2ZhY7OvedZ1Eqk0vsSQruKHo/s1600/LogoNewY.GIF&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGgxUMQnSatHraKB9ofcYGkv8SXgdUgMLC_4QeQ3vXFMN1Tt1niGlOAcU3aoXz0vIydtDIez1Qfba3GHiEcQwTMa-BDwWlReJDT6HYfTlHuXisnIUG8TG2ZhY7OvedZ1Eqk0vsSQruKHo/s200/LogoNewY.GIF&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DOS (Disk Operating System) adalah sistem operasi berbasis teks yang dikeluarkan microsoft sebelum windows. Sama seperti Terminal di Linux, DOS memiliki daftar perintah berbasis teks yang harus diketik di Console DOS atau lazim disebut Command Prompt. Mengetahui penggunaan perintah DOS adalah pengetahuan tersendiri yang perlu dipahami oleh administrator jaringan berbasis windows. Anda akan lebih mudah menguasai NetBios Hacking atau remote komputer berbasis console di windows dengan mengetahui perintah- perintah DOS.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trik Cara Mengatasi Modem Smartfren yang Lelet</title>
-      <link>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</link>
+      <title>Merokok Merusak Masa Depan (Trik Jitu berhenti Merokok)</title>
+      <link>https://rifkyfuady.github.io/2012/04/merokok-merusak-masa-depan-trik-jitu.html</link>
+      <pubDate>Tue, 24 Apr 2012 21:18:00 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/2012/04/merokok-merusak-masa-depan-trik-jitu.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzTH1xtPKv6zOqm0jTK0BAbfIoTQPZTNseEOUWuU5YTpxnLwymt_qvVQvKKfWCpj9angoXpVRr3gXN0Hw1tqjTk-k5brfj74oFih86gJdwoEZ5E4bBxgaCDMk3HUsOCJAwkwT53Efz_CM/s1600/stop_smoking_or_stop_living_by_pdcunha.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzTH1xtPKv6zOqm0jTK0BAbfIoTQPZTNseEOUWuU5YTpxnLwymt_qvVQvKKfWCpj9angoXpVRr3gXN0Hw1tqjTk-k5brfj74oFih86gJdwoEZ5E4bBxgaCDMk3HUsOCJAwkwT53Efz_CM/s320/stop_smoking_or_stop_living_by_pdcunha.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seminggu yang lalu saya pergi Kota Semarang naik angkutan umum yaitu bus karena motor saya kebetulan dalam keadaan tidak memungkinkan untuk dipakai berpergian jauh. Ada peristiwa yang sempat membuat saya tersontak. Kala itu, seorang anak remaja memakai seragam sekolah duduk didekat saya, di antara jari telunjuk dan jari tengahnya terjepit sebatang rokok berwarna putih. Dengan gagahnya menghisap rokoknya dan menghembuskan asap berbentuk lingkaran dari mulutnya.Tak terdengar suara batuk yang biasanya menyerang para perokok pemula,pertanda bahwa merokok bukanlah hal yang baru baginya tengah menyalakan sebatang rokok, terlihat nikmat dan mengabaikan penumpang lainnya. Selang beberapa menit, ada pria paruh baya yang usianya jauh lebih tua dari Si Perokok. Sesekali melihatku yang sedang bingung mencari cara supaya asap rokok tak terhirup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trik Cara Mengatasi Modem Smartfren yang Lemoooottt!!!</title>
+      <link>https://rifkyfuady.github.io/2012/03/trik-cara-mengatasi-modem-smartfren.html</link>
       <pubDate>Sat, 17 Mar 2012 19:00:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/trik-cara-mengatasi-modem-smartfren/</guid>
-      <description>Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka.</description>
+      <guid>https://rifkyfuady.github.io/2012/03/trik-cara-mengatasi-modem-smartfren.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZOKwOVgGk-V5LA4EOPsNZ5sjTMp0rH05d6Y1LXUUhTT3eT5LCaVLCcA8VhAcphCfmHbVT-kywMZTz_rn1SrhJHiHkTrVuCVzj7ikuAqGbt8Vww97JZoiD2eJ058XjdzbZbwiZmQ7JVIw/s1600/logo&amp;#43;smartfren&amp;#43;baru&amp;#43;telsetnews.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZOKwOVgGk-V5LA4EOPsNZ5sjTMp0rH05d6Y1LXUUhTT3eT5LCaVLCcA8VhAcphCfmHbVT-kywMZTz_rn1SrhJHiHkTrVuCVzj7ikuAqGbt8Vww97JZoiD2eJ058XjdzbZbwiZmQ7JVIw/s320/logo+smartfren+baru+telsetnews.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Saya melihat banyak orang yang kecewa setelah membeli modem Smartfren karena mendapat kecepatan akses yang tidak sesuai dengan keinginan mereka. Mungkin tips dan trik dari saya kali ini tentang cara mengatasi modem Smartfren yang lelet, lambat, emot dan menyebalkan bagi orang yang tingkat kesabarannya rendah bisa membantu memecahkan masalah tersebut.&lt;/p&gt;
+&lt;p&gt;Dulu waktu pertama kali saya melihat iklan Smartfren yang bagus dengan slogan “I HATE SLOW” itu saya mulai tertarik dan penasaran dengan Produk Smartfren. Dan saya langsung pergi ke galeri Smartfren terdekat dengan kota saya. Saya tidak gegabah dalam membeli suatu barang, makanya sebelum saya membeli produk Smartfren saya bertanya-tanya dulu dengan customer servise yang ada digaleri tersebut. Mungkin karena faktor Si customer servise yang cantik, dan pintar bicara (kata-katanya manis) dan mau baik hati menginstallkan modem + meregistrasikan nomor saya serta mencoba koneksinya di dalam galeri memang cukup cepat, kemudian saya terpaksa mencoba membeli produk smartfren.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cara Membuat Virus (Source Code Virus)</title>
-      <link>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</link>
-      <pubDate>Thu, 15 Mar 2012 13:59:00 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/kali-ini-saya-akan-berbagi-source-code/</guid>
-      <description>Kali ini saya akan berbagi Source Code Virus buatan saya yang ditulis dengan Bahasa Visual Basic, saya sudah mencobanya dulu waktu masih awal-awal belajar Visual Basic.</description>
+      <title>Cara Setting CCTV Online</title>
+      <link>https://rifkyfuady.github.io/2012/03/cara-setting-cctv-online.html</link>
+      <pubDate>Mon, 12 Mar 2012 23:49:00 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/2012/03/cara-setting-cctv-online.html</guid>
+      <description>&lt;p&gt;Di postingan ini saya akan berbagi ilmu cara setting &lt;strong&gt;CCTV online&lt;/strong&gt;. Disini saya menggunakan Kamera dan DVR merk &lt;strong&gt;Avtech&lt;/strong&gt;, serta modem Adsl Speedy (&lt;strong&gt;TP-Link&lt;/strong&gt;). berikut ini cara setting agar CCTV bisa Online :&lt;/p&gt;
+&lt;p&gt;1. Kita buka &lt;a href=&#34;http://www.dyndns.com/&#34;&gt;www.dyndns.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilrc4OwmGskCpRffI17IIKsuHaUo71aHc1wak-YsJOP2DLjWf04wmxMpO_qqIrwC01s2Bl4x-KkqXDsc5M-qp7VSsZCEUZ4iASSZaVsozAfMQiv9l-ROP0YKavieBPtKW0eWj-eTofgCI/s1600/logindyn.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilrc4OwmGskCpRffI17IIKsuHaUo71aHc1wak-YsJOP2DLjWf04wmxMpO_qqIrwC01s2Bl4x-KkqXDsc5M-qp7VSsZCEUZ4iASSZaVsozAfMQiv9l-ROP0YKavieBPtKW0eWj-eTofgCI/s320/logindyn.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;   Login, bila belum punya akun, buat akun anda dulu. disini kita akan mendaftarkan DNS yg akan dipakai buat CCTV.&lt;/p&gt;
+&lt;p&gt;2. Klik ke &lt;strong&gt;My servise - Host Servise - Add Hostname&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;   Buat Hostname anda, lihat gambar :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tips dan Trick Hidup 1000 Tahun Lebih</title>
+      <link>https://rifkyfuady.github.io/2012/03/tips-dan-trick-hidup-1000-tahun-lebih.html</link>
+      <pubDate>Fri, 09 Mar 2012 08:49:00 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/2012/03/tips-dan-trick-hidup-1000-tahun-lebih.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk2CJQwhiM9-tS8LfoOvtgK6ED2qrrzkfkt3jvYBazLvHYMaxLw51OYASc8T26IincD07_g2hKazNR5Ea21VshMQ81Y66DsvFUqNUIcL1loxYppdc5j0EFr2i4iHgk0MFpWpsK-4RqD08/s1600/swa33.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk2CJQwhiM9-tS8LfoOvtgK6ED2qrrzkfkt3jvYBazLvHYMaxLw51OYASc8T26IincD07_g2hKazNR5Ea21VshMQ81Y66DsvFUqNUIcL1loxYppdc5j0EFr2i4iHgk0MFpWpsK-4RqD08/s200/swa33.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Di postingan ini saya akan membuka tips &lt;strong&gt;Rahasia Besar&lt;/strong&gt; saya. Jujur saya sudah merasakan Hidup lebih dari 1000 tahun. Saya mempunyai kemampuan berpindah lokasi secara cepat layaknya jagoan pada film &lt;a href=&#34;http://www.jumperthemovie.com/&#34;&gt;The Jumper&lt;/a&gt;, mengatur waktu dan posisi dimana saya harus berada pada suatu waktu.&lt;/p&gt;
+&lt;p&gt;Saat Terminologi Alogaritma pertama kali ditemukan oleh &lt;strong&gt;Abu Abdullah Muhammad Ibn Musa al-Khawarizmi&lt;/strong&gt;, seorang ahli matematika dari Ubekistan yang juga menulis buku terkenal yaitu “Al Jabr Wa Al Muqabilah” yang memuat table rincian trigonometri, fungsi sinus kosinus kontangen, serta diferensiasi, saya ikut menerjemahkan isi dan menyebarkan buku tersebut. Dari awal abad 12 sampai abad 16 keseluruh pelosok dunia, terutama daratan Eropa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cara Mudah Membuat Kabel USB Extender dengan Kabel UTP</title>
+      <link>https://rifkyfuady.github.io/2012/03/cara-mudah-membuat-kabel-usb-extender.html</link>
+      <pubDate>Wed, 07 Mar 2012 15:32:00 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/2012/03/cara-mudah-membuat-kabel-usb-extender.html</guid>
+      <description>&lt;p&gt;Cara membuat USB Extender dengan kabel UTP untuk dapat menempatkan USB Modem atau USB WiFi pada ketinggian yang berjarak agak jauh dari komputer, diperlukan adanya perpanjangan kabel USB atau yang sering disebut USB Extender . Dipasaran memang banyak USB Extended atau perpanjangan USB namun untuk panjang 5 meter ke atas tentunya sangat sulit dan sangat mahal. Berikut cara membuat USB Extender atau perpanjangan USB Extended untuk Modem USB ataupun Wireless-LAN.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,40 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on Website of Rifky Fuady</title>
+    <title>Hugo on Rifky Fuady</title>
     <link>https://rifkyfuady.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Website of Rifky Fuady</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
+    <description>Recent content in Hugo on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 12 Mar 2019 23:33:49 +0700</lastBuildDate>
     <atom:link href="https://rifkyfuady.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Membuat Blog menjadi PWA</title>
-      <link>https://rifkyfuady.github.io/post/membuat-blog-pwa/</link>
-      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/membuat-blog-pwa/</guid>
-      <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah.</description>
-    </item>
-    <item>
       <title>Cara Cepat Deploy Hugo ke Github Pages</title>
-      <link>https://rifkyfuady.github.io/post/hugo-deploy-github/</link>
+      <link>https://rifkyfuady.github.io/posts/hugo-deploy-github/</link>
       <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/hugo-deploy-github/</guid>
-      <description>Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.</description>
+      <guid>https://rifkyfuady.github.io/posts/hugo-deploy-github/</guid>
+      <description>&lt;p&gt;Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.&lt;/p&gt;
+&lt;p&gt;Pada dasarnya SSG seperti Hugo akan membuat sebuah file statis yang (biasanya) berada di dalam direktori &lt;code&gt;public&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Nah direktori ini yang akan kita upload ke Github agar website atau blog kita bisa dibuka melalui: &lt;code&gt;https://username.github.io&lt;/code&gt; atau kustom domain sendiri.&lt;/p&gt;
+&lt;p&gt;Berdasarkan panduan di dokumentasi Hugo, ada empat cara yang bisa dilakukan untuk hosting Hugo di Github:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hosting ke direktori &lt;code&gt;doc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hosting ke cabang &lt;code&gt;gh-pages&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hosting ke halaman personal/organisasi&lt;/li&gt;
+&lt;li&gt;Hosting Github dengan Continuous Integration (CI)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Kita akan mencoba cara yang nomer 3, karena menurut saya cukup gampang.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mudahnya Mengisi Artikel Hugo dari Blogger</title>
-      <link>https://rifkyfuady.github.io/post/hugo-import-blogger/</link>
+      <link>https://rifkyfuady.github.io/posts/hugo-import-blogger/</link>
       <pubDate>Tue, 12 Mar 2019 22:18:15 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/hugo-import-blogger/</guid>
-      <description>Dalam rangka mengisi konten Github Pages, saya harus melakukan impor artikel dari Blogger lama ke Hugo.</description>
+      <guid>https://rifkyfuady.github.io/posts/hugo-import-blogger/</guid>
+      <description>&lt;p&gt;Dalam rangka mengisi konten Github Pages, saya harus melakukan impor artikel dari Blogger lama ke Hugo.&lt;/p&gt;
+&lt;p&gt;Untungnya Hugo sudah menyediakan skrip untuk impor konten dari blogger ke Hugo.&lt;/p&gt;
+&lt;p&gt;Proses impor ini memakan waktu cukup cepat. Saya kira, tidak sampai 15 menit.&lt;/p&gt;
+&lt;p&gt;Mungkin anda bisa melakukannya lebih cepat.&lt;/p&gt;
+&lt;p&gt;Begini caranya…&lt;/p&gt;
+&lt;p&gt;Sebelumnya, pastikan telah menginstal &lt;a href=&#34;https://golang.org/Go&#34;&gt;Go (Golang)&lt;/a&gt; dan &lt;a href=&#34;https://git-scm.com&#34;&gt;Git&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kemudian lakukan langkah-langkah berikut ini.&lt;/p&gt;
+&lt;h2 id=&#34;1-ekspor-blog&#34;&gt;1. Ekspor Blog&lt;/h2&gt;
+&lt;p&gt;Pertama, kita perlu mengekspor dulu konten yang ada di blogger. Masuk ke Settings&amp;gt;Other kemudian klik Back up Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello Word, Hello Hugo! (Ngeblog dari Teks Editor dan Terminal ala Programmer)</title>
-      <link>https://rifkyfuady.github.io/post/hello-word/</link>
+      <link>https://rifkyfuady.github.io/posts/hello-word/</link>
       <pubDate>Tue, 12 Mar 2019 17:29:51 +0700</pubDate>
-      <guid>https://rifkyfuady.github.io/post/hello-word/</guid>
-      <description>Hello World!&#xA;Saya punya blog,&#xA;CMS-nya menggunakan Blogger…&#xA;…tapi tidak pernah terurus.</description>
+      <guid>https://rifkyfuady.github.io/posts/hello-word/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Saya punya &lt;code&gt;blog&lt;/code&gt;,&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;CMS&lt;/code&gt;-nya menggunakan &lt;code&gt;Blogger&lt;/code&gt;…&lt;/p&gt;
+&lt;p&gt;…tapi tidak pernah terurus.&lt;/p&gt;
+&lt;p&gt;Mungkin saya &lt;code&gt;malas&lt;/code&gt;, karena &lt;em&gt;koneksi internet yang kurang cepat&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Kendala yang saya alami:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Malas&lt;/code&gt; upload gambar satu per satu ketika membuat artikel.&lt;/li&gt;
+&lt;li&gt;Tidak bisa ngedit artikel secara &lt;code&gt;offline&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tidak memiliki kuasa penuh terhadap &lt;code&gt;CMS&lt;/code&gt;-nya.&lt;/li&gt;
+&lt;li&gt;Kurang &lt;code&gt;aman&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;dan masih banyak lagi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Karena itu, sekarang saya lebih suka ngeblog dari &lt;code&gt;teks editor&lt;/code&gt; menggunakan &lt;code&gt;SSG&lt;/code&gt; &lt;em&gt;(Satatic Site Generator)&lt;/em&gt; daripada &lt;code&gt;CMS&lt;/code&gt; seperti &lt;code&gt;Wordpress&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,535 @@
 <!DOCTYPE html>
-<html lang="id-id">
-  <head>
-    <title>https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/</title>
-    <link rel="canonical" href="https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/">
-    <meta name="robots" content="noindex">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://rifkyfuady.github.io/post/tugas-pengenalan-bahasa-assembly/">
-  </head>
+<html lang="id" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY | Rifky Fuady</title>
+<meta name="keywords" content="Bahasa Pemrograman, Tugas">
+<meta name="description" content="
+
+For  **Bpk. **Sattriedi W.B,S.Si,M.Kom
+PENGENALAN BAHASA ASSEMBLY
+BAB I . PENDAHULUAN
+1.1 LATAR BELAKANG
+Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.">
+<meta name="author" content="Rifky Fuady">
+<link rel="canonical" href="https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html">
+<meta name="google-site-verification" content="A3bnoBvVWUhLgpEuuZPXcNk4ydzULsPXnikJ2IHB1Gk">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://rifkyfuady.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://rifkyfuady.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://rifkyfuady.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://rifkyfuady.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://rifkyfuady.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="id" href="https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html">
+  <meta property="og:site_name" content="Rifky Fuady">
+  <meta property="og:title" content="TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY">
+  <meta property="og:description" content="
+For **Bpk. **Sattriedi W.B,S.Si,M.Kom
+PENGENALAN BAHASA ASSEMBLY BAB I . PENDAHULUAN
+1.1 LATAR BELAKANG
+Bahasa Assembly atau Rakitan diprakarsai oleh IBM pada tahun 1956 – 1963. Bahasa assembly termasuk bahasa tingkat rendah. Pada tahun 1957, sebuah tim yang dipimpin oleh John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis file tersebut memiliki perbedaan antara program yang berekstensi Com dan Exe, yang merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.">
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2012-12-12T00:46:00+07:00">
+    <meta property="article:modified_time" content="2012-12-12T00:46:00+07:00">
+    <meta property="article:tag" content="Bahasa Pemrograman">
+    <meta property="article:tag" content="Tugas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY">
+<meta name="twitter:description" content="
+
+For  **Bpk. **Sattriedi W.B,S.Si,M.Kom
+PENGENALAN BAHASA ASSEMBLY
+BAB I . PENDAHULUAN
+1.1 LATAR BELAKANG
+Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://rifkyfuady.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY",
+      "item": "https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY",
+  "name": "TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY",
+  "description": "\nFor **Bpk. **Sattriedi W.B,S.Si,M.Kom\nPENGENALAN BAHASA ASSEMBLY BAB I . PENDAHULUAN\n1.1 LATAR BELAKANG\nBahasa Assembly atau Rakitan diprakarsai oleh IBM pada tahun 1956 – 1963. Bahasa assembly termasuk bahasa tingkat rendah. Pada tahun 1957, sebuah tim yang dipimpin oleh John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis file tersebut memiliki perbedaan antara program yang berekstensi Com dan Exe, yang merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.\n",
+  "keywords": [
+    "Bahasa Pemrograman", "Tugas"
+  ],
+  "articleBody": "\nFor **Bpk. **Sattriedi W.B,S.Si,M.Kom\nPENGENALAN BAHASA ASSEMBLY BAB I . PENDAHULUAN\n1.1 LATAR BELAKANG\nBahasa Assembly atau Rakitan diprakarsai oleh IBM pada tahun 1956 – 1963. Bahasa assembly termasuk bahasa tingkat rendah. Pada tahun 1957, sebuah tim yang dipimpin oleh John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis file tersebut memiliki perbedaan antara program yang berekstensi Com dan Exe, yang merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.\nUntuk file yang diakhiri dengan extension Com, berarti file itu paling banyak hanya akan memakan luas 64 kilobyte yang disebut 1 segment, sedangkan untuk file berekstensi EXE tidak dibatasi berapa segment yang dapat dipakai. Dapat 1 segment, 2 segment, 3 segment atau lebih dari 3 segment. Oleh karena COM hanya memiliki 1 segment, Maka file Com memiliki kelebihan dan kekurangan sebagai berikut :\na. Stack yang telah dibuat sendiri oleh program di akhir Segment\nb. Hanya terdapat satu segment, sehingga tidak perlu mengatur DS, CS, SS, kecuali\nbila diinginkan.\nc. Karena hanya satu segment, maka tidak mungkin membuat program lebih dari 64\nkb.\nd. Butuh ruangan di awal program sebanyak 100 hexa byte untuk keperluan program\nsegment prefix (PSP).\ne. Karena PSP diketahui dengan pasti, maka perlu dilakukan operasi ke PSP lebih\nmudah karena masih berada dalam 1 segment.\nf. Dapat menggunakan utility DEBUG untuk membuat program.\nKelebihan dan kekurangan program EXE, sebagai berikut :\na. Hasil Program panjang\nb. Tidak perlu menyediakan tempat untuk PSP.\nc. Pembagian segmen diatur sendiri\nd. Membuat stack sendiri\ne. Tidak dapat membuat progr am dengan Debug.\n1.2. Rumusan Masalah Permasalahan yang akan dibahas dalam penulisan makalah ini, adalah definisi dari bahasa assembly dan assembler; penjelasan mengenai system bilangan dan konversi bilangan; elemen dasar bahasa assembly.\n1.3. Tujuan.\nTujuan dari penulisan makalah ini ialah untuk menyelesaikan tugas mata kuliah BAHASA ASSEMBLY,dan untuk mendapatkan pengetahuan mengenai bahasa assembly baik bagi penulis maupun pembaca.\n1.4. Manfaat.\nManfaat Penulisan Makalah ini adalah sebagai sarana untuk menambah pengetahuan dan sebagai media pembelajaran.\nBAB II PEMBAHASAN\n2.1. Elemen Bahasa Asembly\nDalam pemrograman bahasa assembly lebih ditekankan pada system operasi Microsoft Intel yang seiring dengan perkembangan mikroprosesor 8088/8086. Perkembangan bahasa assembly tergantung pada linker yang mengubah file *.obj menjadi *.exe atau *.com. Bahasa assembly dikategorikan sebagai bahasa tingkat rendah. Hal ini untuk menggambarkan spesifikasi sebagai bahasa yang berorientasi\npada machine dependent. Untuk membandingkan bahasa mesin dan bahasa assembly menurut karakteristik dibagi 2 bagian :\n· Mnemonic Operation Code\n· Simbolic Operand Spesification\n2.2. Proses Assembly\nUntuk membangun skema proses translasi dari satu bahasa ke bentuk lain, maka yang perlu diperhatikan adalah mengidentifikasi tugas dasar yang dikerjakan dalam proses translasi .\n2.3. Skema Assembly\nProses penerjemahan secara sederhana dapat dikelompokkan dalam dua fase, yaitu:\n· Fase Analisa\na. Memisahkan label, mnemonic operation code dan operand field yang ada pada\nstatement.\nb. Memasukkan symbol yang ditemukan pada label field dan alamat yang dituju\nmachine word ke dalam symbol table.\nc. Melakukan validasi mnemonic operation code dengan melihat pada mnemonic\ntable\nd. Menentukan alamat yang dibutuhkan oleh statement berdasarkan pada\nmnem\nonic operation code dan operand field pada statement.\n·** Fase analisis dapat dikelompokkan menjadi beberapa tahap, yaitu :**\na. Lexical Analisys\nLexical Analisys adalah menjalankan mikro level examination dari teks\nmasukan untuk mengenal lexial unit yang ada didalamnya dan menentukan\nkategori syntax.\nb. Syntax Analisys\nProses Syntac Analisys dilakukan terhadap descriptor dari lexical analisys\nuntuk menentukan struktur syntax dari statement masukan. Proses tersebut\ndikenal dengan PARSING. Output dari parsing adalah representasi dari\nstruktur syntac suatu statement.\nc. Semantic Analisys\nProses semantic analisys dapat diklasifikasikan kedalam proses declarative\nstatement dan proses eksekusi.\n· Fase Syntesis\na. Menghasilkan machine operation code yang berkorespodensi dengan\nmnemonic operation code yang telah dicari pada mnemonic table.\nb. Menghasilkan alamat operand dari symbol table\nc. Melakukan syntesis instruksi machine.\nPada fase sysntesis dilakukan pemilihan machine operation code yang sesuai\ndengan mnemonic Load dan menempatkan pada machine instruction opcode\nfield. Evaluasi korespodensi pengalamatan dilakukan untuk operand\nexpression ‘ Result + 4.\n2.4. Proses Assembly\nUnit dalam sources program digunakan untuk menterjemah semua bagian program.\nKetika fase analisys statement program pertama kali dilakukan, maka proses LC\nakan dikerjakan dan symbol yang didefinisikan dalam program dimasukkan ke dalam\nsymbol table. Untuk mengurangi pengulangan, maka hasil analisis sources statement\ndari first pass direpresentasikan dalam internal form pada sources statement yang\ndisebut intermediate code. Selain membentuk intermediate code, suatu proses\nassembler juga membangun struktur database yang digunakan oleh subsequent pass.\n2.5. Spesifikasi Komputer\nDalam pemrograman bahasa assembly, ada beberapa aspek utama yang minimal\nharus ada persyaratan yang menunjang, meliputi :\nLangkah Pasti Menuju Sukses\nA. Perangkat Keras (Hardware) yang diperlukan:\n1. Prosesor Intel, minimal Intel Pentium I, Intel Pentium II dan Pentium III\n2. Monitor CGA, EGA atau VGA\n3. Keyboard dan Mouse\n4. USB Port\n5. Harddisk\nB. Perangkat Lunak (Software) yang diperlukan :\n1. Microsoft Windows XP\n2. Turbo Assembler\n3. Linker : Tlink ver 3 minimal\n4. Text Editor : Edit atau bahasa pemrograman\nBAB III PENUTUP\n3.1. Kesimpulan. Bahasa Assembly adalah bahasa yang memudahkan pemahaman bagian computer yang paling rendah, mendekati mesin. Bahasa assembly sebaiknya dipelajari secara kontektual sehingga interaksi perangkat keras dan perangkat lunak computer mungkin lebih mudah dipahami. Bahasa assembly adalah bahasa pemrograman dengan korespondensi satu-satu antara perintah-perintah/pertanyaannya dan bahasa mesin computer. Assembler adalah program yang mengonversi kode program sumber ke dalam bahasa mesin System bilangan (number system) adalah suatu cara untuk mewakili besaran dari suatu item fisik. System bilangan terdiri dari: bilangan biner, bilangan decimal, bilangan octal dan hexadesimal. Kumpulan karakter dalam assembly Letter : A-Z, a-z Digit : 0-9 Karakter khusus: ? , (koma) @ “ _ \u0026 $ % !\n. ‘\n[] ~\n() |\n{} =\n+ #\n- ^\n/ ;\n* ` ",
+  "wordCount" : "968",
+  "inLanguage": "id",
+  "datePublished": "2012-12-12T00:46:00+07:00",
+  "dateModified": "2012-12-12T00:46:00+07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Rifky Fuady"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rifkyfuady.github.io/2012/12/tugas-pengenalan-bahasa-assembly.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rifky Fuady",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rifkyfuady.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://rifkyfuady.github.io/" accesskey="h" title="Home (Alt + H)">🏠</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://rifkyfuady.github.io/en/" title="English"
+                            aria-label=":gb:">🇬🇧</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://rifkyfuady.github.io/portfolio" title="Portofolio">
+                    <span>Portofolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/posts" title="Artikel">
+                    <span>Artikel</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/tags" title="Tagar">
+                    <span>Tagar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/search" title="Cari">
+                    <span>Cari</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://rifkyfuady.github.io/kebijakan-privasi" title="Kebijakan Privasi">
+                    <span>Kebijakan Privasi</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://rifkyfuady.github.io/">Beranda</a>&nbsp;»&nbsp;<a href="https://rifkyfuady.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY
+    </h1>
+    <div class="post-meta"><span title='2012-12-12 00:46:00.002 +0700 WIB'>Desember 12, 2012</span>&nbsp;·&nbsp;5 menit&nbsp;·&nbsp;968 kata&nbsp;·&nbsp;Rifky Fuady
+
+</div>
+  </header> 
+  <div class="post-content"><p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s1600/asemmbly.jpg"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyvhJHfhNlDvnWumconCx6yHTkWY3EmpovpvqOw3oO7fXR0fg2FVXoBAgUsnK0oHnK_Q9uWxuyk2nwwWSUtHqghclPde7ICcimRf6Zs0DBTFOePpIbJBcr2A64WpfTsZyDYmx6tU9Tkc/s320/asemmbly.jpg"></a></p>
+<p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s1600/logo_stmik_png.png"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDsi_i_iozHsBauNouPVGhtwdn0w99N3DphSNIZlyht84x2-gLRH4eydwE0PiOghmTcja8YfLkZuZ2y-06jylluWIPmcPcjde5mqP0TkAp_ycWZg6XtiHwQrePl3Ho2gN4UNZx7kQ44A/s200/logo_stmik_png.png"></a></p>
+<p>For  **Bpk. **<strong>Sattriedi W.B,S.Si,M.Kom</strong></p>
+<h2 id="pengenalan-bahasa-assembly"><strong>PENGENALAN BAHASA ASSEMBLY</strong><a hidden class="anchor" aria-hidden="true" href="#pengenalan-bahasa-assembly">#</a></h2>
+<p><strong>BAB I . PENDAHULUAN</strong></p>
+<p><strong>1.1 LATAR BELAKANG</strong></p>
+<p>Bahasa Assembly  atau  Rakitan  diprakarsai oleh  IBM  pada  tahun  1956  – 1963.  Bahasa  assembly  termasuk  bahasa  tingkat  rendah.  Pada  tahun  1957,  sebuah  tim  yang  dipimpin oleh  John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebih  mengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkan  dari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenis  file  tersebut memiliki  perbedaan  antara  program  yang  berekstensi  Com dan  Exe,  yang  merupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.</p>
+<p>Untuk  file  yang  diakhiri  dengan  extension  Com,  berarti  file  itu  paling  banyak  hanya  akan  memakan  luas  64  kilobyte  yang  disebut  1  segment,  sedangkan  untuk  file  berekstensi EXE  tidak dibatasi berapa segment  yang dapat dipakai. Dapat 1 segment, 2  segment,  3  segment  atau  lebih  dari  3  segment.  Oleh  karena  COM  hanya  memiliki  1  segment, Maka file Com memiliki kelebihan dan kekurangan sebagai  berikut :</p>
+<p>a. Stack yang telah dibuat sendiri oleh program di akhir Segment</p>
+<p>b. Hanya terdapat satu segment, sehingga tidak perlu mengatur DS, CS, SS, kecuali</p>
+<p>bila diinginkan.</p>
+<p>c. Karena hanya satu segment, maka tidak mungkin membuat program lebih dari 64</p>
+<p>kb.</p>
+<p>d. Butuh ruangan di awal program sebanyak 100 hexa byte untuk keperluan program</p>
+<p>segment prefix (PSP).</p>
+<p>e. Karena PSP  diketahui  dengan  pasti,  maka perlu dilakukan  operasi  ke  PSP lebih</p>
+<p>mudah karena masih berada dalam 1 segment.</p>
+<p>f. Dapat menggunakan utility DEBUG untuk membuat program.</p>
+<p>Kelebihan dan kekurangan program EXE, sebagai berikut :</p>
+<p>a. Hasil Program panjang</p>
+<p>b. Tidak perlu menyediakan tempat untuk PSP.</p>
+<p>c. Pembagian segmen diatur sendiri</p>
+<p>d. Membuat stack sendiri</p>
+<p>e. Tidak dapat membuat progr am dengan Debug.</p>
+<p><strong>1.2. Rumusan Masalah</strong> Permasalahan yang akan dibahas dalam penulisan makalah ini, adalah definisi dari bahasa assembly dan assembler; penjelasan mengenai system bilangan dan konversi bilangan; elemen dasar bahasa assembly.</p>
+<p><strong>1.3. Tujuan.</strong><br>
+Tujuan dari penulisan makalah ini ialah untuk menyelesaikan tugas mata kuliah BAHASA ASSEMBLY,dan untuk mendapatkan pengetahuan mengenai bahasa assembly baik bagi penulis maupun pembaca.</p>
+<p><strong>1.4. Manfaat.</strong><br>
+Manfaat Penulisan Makalah ini adalah sebagai sarana untuk menambah pengetahuan dan sebagai media pembelajaran.</p>
+<p><strong>BAB II PEMBAHASAN</strong></p>
+<p><strong>2.1. Elemen Bahasa Asembly</strong></p>
+<p>Dalam  pemrograman  bahasa  assembly  lebih  ditekankan  pada  system  operasi Microsoft Intel yang seiring dengan perkembangan mikroprosesor 8088/8086. Perkembangan bahasa assembly tergantung pada linker yang mengubah file *.obj menjadi *.exe atau *.com. Bahasa assembly dikategorikan sebagai bahasa tingkat rendah. Hal ini untuk menggambarkan spesifikasi sebagai bahasa yang berorientasi</p>
+<p>pada machine dependent. Untuk membandingkan bahasa mesin dan bahasa assembly menurut karakteristik dibagi 2 bagian :</p>
+<p>· Mnemonic Operation Code</p>
+<p>· Simbolic Operand Spesification</p>
+<p><strong>2.2. Proses Assembly</strong></p>
+<p>Untuk  membangun  skema  proses  translasi  dari  satu  bahasa  ke  bentuk  lain,  maka yang perlu diperhatikan adalah mengidentifikasi tugas dasar yang dikerjakan dalam proses translasi .</p>
+<p><strong>2.3. Skema Assembly</strong></p>
+<p>Proses penerjemahan secara sederhana dapat dikelompokkan dalam dua fase, yaitu:</p>
+<p>· <strong>Fase Analisa</strong></p>
+<p>a. Memisahkan label, mnemonic operation code dan operand field yang ada pada</p>
+<p>statement.</p>
+<p>b. Memasukkan symbol yang ditemukan pada label field dan alamat yang dituju</p>
+<p>machine word ke dalam symbol table.</p>
+<p>c. Melakukan validasi mnemonic operation code dengan melihat pada mnemonic</p>
+<p>table</p>
+<p>d. Menentukan  alamat  yang  dibutuhkan  oleh  statement  berdasarkan  pada</p>
+<p>mnem</p>
+<p>onic operation code dan operand field pada statement.</p>
+<p>·** Fase analisis dapat dikelompokkan menjadi beberapa tahap, yaitu :**</p>
+<p> a. Lexical Analisys</p>
+<p>Lexical  Analisys  adalah  menjalankan  mikro  level  examination  dari  teks</p>
+<p>masukan  untuk  mengenal  lexial  unit  yang  ada  didalamnya  dan  menentukan</p>
+<p>kategori syntax.</p>
+<p> b. Syntax Analisys</p>
+<p>Proses  Syntac  Analisys  dilakukan  terhadap  descriptor  dari  lexical  analisys</p>
+<p>untuk  menentukan  struktur  syntax  dari  statement  masukan.  Proses  tersebut</p>
+<p>dikenal  dengan  PARSING.  Output  dari  parsing  adalah  representasi  dari</p>
+<p>struktur syntac suatu statement.</p>
+<p>  c. Semantic Analisys</p>
+<p>Proses  semantic  analisys  dapat  diklasifikasikan  kedalam  proses  declarative</p>
+<p>statement dan proses eksekusi.</p>
+<p>· <strong>Fase Syntesis</strong></p>
+<p>a. Menghasilkan machine operation code yang berkorespodensi dengan</p>
+<p>mnemonic operation code yang telah dicari pada mnemonic table.</p>
+<p>b. Menghasilkan alamat operand dari symbol table</p>
+<p>c. Melakukan syntesis instruksi machine.</p>
+<p>Pada fase sysntesis dilakukan pemilihan machine operation code yang sesuai</p>
+<p>dengan mnemonic Load  dan menempatkan pada  machine  instruction opcode</p>
+<p>field.  Evaluasi  korespodensi  pengalamatan  dilakukan  untuk  operand</p>
+<p>expression ‘ Result + 4.</p>
+<p><strong>2.4. Proses Assembly</strong></p>
+<p>Unit  dalam sources program digunakan untuk  menterjemah semua bagian program.</p>
+<p>Ketika  fase  analisys  statement  program  pertama  kali  dilakukan,  maka  proses  LC</p>
+<p>akan dikerjakan dan symbol yang didefinisikan dalam program dimasukkan ke dalam</p>
+<p>symbol table. Untuk mengurangi pengulangan, maka hasil analisis sources statement</p>
+<p>dari  first  pass  direpresentasikan  dalam  internal  form  pada  sources  statement  yang</p>
+<p>disebut  intermediate  code. Selain  membentuk  intermediate  code,  suatu  proses</p>
+<p>assembler juga membangun struktur database yang digunakan oleh subsequent pass.</p>
+<p><strong>2.5. Spesifikasi Komputer</strong></p>
+<p>Dalam  pemrograman  bahasa  assembly,  ada  beberapa  aspek  utama  yang  minimal</p>
+<p>harus ada persyaratan yang menunjang, meliputi :</p>
+<p>Langkah Pasti Menuju Sukses</p>
+<p>A. Perangkat Keras (Hardware) yang diperlukan:</p>
+<p>1. Prosesor Intel, minimal Intel Pentium I, Intel Pentium II dan Pentium III</p>
+<p>2. Monitor CGA, EGA atau VGA</p>
+<p>3. Keyboard dan Mouse</p>
+<p>4. USB Port</p>
+<p>5. Harddisk</p>
+<p>B. Perangkat Lunak (Software) yang diperlukan :</p>
+<p>1. Microsoft Windows XP</p>
+<p>2. Turbo Assembler</p>
+<p>3. Linker : Tlink ver 3 minimal</p>
+<p>4. Text Editor : Edit atau bahasa pemrograman</p>
+<p><strong>BAB III  PENUTUP</strong></p>
+<dl>
+<dt>3.1. Kesimpulan.</dt>
+<dt>Bahasa Assembly adalah bahasa yang memudahkan pemahaman bagian computer yang paling rendah, mendekati mesin. Bahasa assembly sebaiknya dipelajari secara kontektual sehingga interaksi perangkat keras dan perangkat lunak computer mungkin lebih mudah dipahami.</dt>
+<dt>Bahasa assembly adalah bahasa pemrograman dengan korespondensi satu-satu antara perintah-perintah/pertanyaannya dan bahasa mesin computer.</dt>
+<dt>Assembler adalah program yang mengonversi kode program sumber ke dalam bahasa mesin</dt>
+<dt>System bilangan (number system) adalah suatu cara untuk mewakili besaran dari suatu item fisik. System bilangan terdiri dari: bilangan biner, bilangan decimal, bilangan octal dan hexadesimal.</dt>
+<dt>Kumpulan karakter dalam assembly</dt>
+<dt>Letter : A-Z, a-z</dt>
+<dt>Digit : 0-9</dt>
+<dt>Karakter khusus:</dt>
+<dt>? , (koma)</dt>
+<dt>@ “</dt>
+<dt>_ &amp;</dt>
+<dt>$ %</dt>
+<dd>!<br>
+. ‘<br>
+[] ~<br>
+() |<br>
+{} =<br>
++ #<br>
+- ^<br>
+/ ;<br>
+* `</dd>
+</dl>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://rifkyfuady.github.io/tags/bahasa-pemrograman/">Bahasa Pemrograman</a></li>
+      <li><a href="https://rifkyfuady.github.io/tags/tugas/">Tugas</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://rifkyfuady.github.io/2012/12/tugas-algoritma-dan-pemrograman-array_17.html">
+    <span class="title">« Sebelumnya</span>
+    <br>
+    <span>TUGAS ALGORITMA DAN PEMROGRAMAN - ARRAY DIMENSI BANYAK</span>
+  </a>
+  <a class="next" href="https://rifkyfuady.github.io/2012/10/tugas-algoritma-dan-pemprograman.html">
+    <span class="title">Selanjutnya »</span>
+    <br>
+    <span>Tugas Algoritma dan Pemrograman</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY on x"
+            href="https://x.com/intent/tweet/?text=TUGAS%20ARSITEKTUR%20dan%20ORGANSASI%20KOMPUTERPENGENALAN%20BAHASA%20ASSEMBLY&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html&amp;hashtags=BahasaPemrograman%2cTugas">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html&amp;title=TUGAS%20ARSITEKTUR%20dan%20ORGANSASI%20KOMPUTERPENGENALAN%20BAHASA%20ASSEMBLY&amp;summary=TUGAS%20ARSITEKTUR%20dan%20ORGANSASI%20KOMPUTERPENGENALAN%20BAHASA%20ASSEMBLY&amp;source=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY on whatsapp"
+            href="https://api.whatsapp.com/send?text=TUGAS%20ARSITEKTUR%20dan%20ORGANSASI%20KOMPUTERPENGENALAN%20BAHASA%20ASSEMBLY%20-%20https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share TUGAS ARSITEKTUR dan ORGANSASI KOMPUTERPENGENALAN BAHASA ASSEMBLY on telegram"
+            href="https://telegram.me/share/url?text=TUGAS%20ARSITEKTUR%20dan%20ORGANSASI%20KOMPUTERPENGENALAN%20BAHASA%20ASSEMBLY&amp;url=https%3a%2f%2frifkyfuady.github.io%2f2012%2f12%2ftugas-pengenalan-bahasa-assembly.html">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+ <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "rifkyfu32-github-io";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink"
+  >comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://rifkyfuady.github.io/">Rifky Fuady</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script type="text/javascript">
+    (function () {
+      
+      
+      if (window.location.hostname == "localhost") return;
+      if (document.getElementById("userway")) return;
+      const userway = document.createElement("script");
+      userway.id = "userway";
+      userway.type = "text/javascript";
+      userway.async = true;
+      const userway_account = "XAfzRB9irr";
+      userway.src = "//cdn.userway.org/widget.js";
+      userway.dataset.account = userway_account;
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(userway);
+    })();
+</script></body>
+
 </html>
