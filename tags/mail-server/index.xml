@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mail Server on Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/mail-server/</link>
+    <description>Recent content in Mail Server on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 05 Jan 2021 23:33:49 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/mail-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Mail Server</title>
+      <link>https://rifkyfuady.github.io/posts/deploy-mailserver/</link>
+      <pubDate>Tue, 05 Jan 2021 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/deploy-mailserver/</guid>
+      <description>&lt;p&gt;Menjelang akhir tahun saya mendapat project yang sedikit berhubungan dengan &lt;code&gt;Mail Server&lt;/code&gt;, yah walupun saya tidak mendapat task membangun &lt;code&gt;Mail Server&lt;/code&gt; karena bukan team email, saya jadi agak penasaran bagaimana kalau membangun &lt;code&gt;Mail Server&lt;/code&gt; sendiri.&lt;/p&gt;
+&lt;p&gt;Pertama kita harus beli domain tentunya, beli saja domain my.id yang tergolong sangat murah. Saya beli di &lt;a href=&#34;cloudkilat.com&#34;&gt;Cloud Kilat&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oh iya, sebelumnya saya akan menjabarkan spec service/docker image apa saja yang akan kita gunakan, berikut daftarnya:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

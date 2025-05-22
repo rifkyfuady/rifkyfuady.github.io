@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rifkyfuady.github.io/tags/info/</loc>
-    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+    <loc>https://rifkyfuady.github.io/posts/analogi-pbv-der-roe-dividen/</loc>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
   </url><url>
-    <loc>https://rifkyfuady.github.io/posts/membuat-blog-pwa/</loc>
-    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+    <loc>https://rifkyfuady.github.io/tags/investasi/</loc>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
   </url><url>
     <loc>https://rifkyfuady.github.io/posts/</loc>
-    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
   </url><url>
     <loc>https://rifkyfuady.github.io/</loc>
-    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -24,8 +24,11 @@
                 href="https://rifkyfuady.github.io/"
                 />
   </url><url>
+    <loc>https://rifkyfuady.github.io/tags/saham/</loc>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
+  </url><url>
     <loc>https://rifkyfuady.github.io/tags/</loc>
-    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+    <lastmod>2021-01-29T23:33:49+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -36,6 +39,36 @@
                 hreflang="id"
                 href="https://rifkyfuady.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://rifkyfuady.github.io/posts/deploy-mailserver/</loc>
+    <lastmod>2021-01-05T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/tags/docker/</loc>
+    <lastmod>2021-01-05T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/tags/mail-server/</loc>
+    <lastmod>2021-01-05T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/tags/traefik/</loc>
+    <lastmod>2021-01-05T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/tags/devops/</loc>
+    <lastmod>2020-12-15T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/posts/deploy-owncloud/</loc>
+    <lastmod>2020-12-15T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/posts/deploy-traefik/</loc>
+    <lastmod>2020-07-27T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/posts/apa-itu-traefik/</loc>
+    <lastmod>2020-06-25T23:33:49+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/tags/info/</loc>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+  </url><url>
+    <loc>https://rifkyfuady.github.io/posts/membuat-blog-pwa/</loc>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
   </url><url>
     <loc>https://rifkyfuady.github.io/tags/tips-dan-trick/</loc>
     <lastmod>2020-05-30T19:22:51+07:00</lastmod>

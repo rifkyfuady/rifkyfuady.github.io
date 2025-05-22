@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Traefik on Rifky Fuady</title>
+    <link>https://rifkyfuady.github.io/tags/traefik/</link>
+    <description>Recent content in Traefik on Rifky Fuady</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 05 Jan 2021 23:33:49 +0700</lastBuildDate>
+    <atom:link href="https://rifkyfuady.github.io/tags/traefik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Mail Server</title>
+      <link>https://rifkyfuady.github.io/posts/deploy-mailserver/</link>
+      <pubDate>Tue, 05 Jan 2021 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/deploy-mailserver/</guid>
+      <description>&lt;p&gt;Menjelang akhir tahun saya mendapat project yang sedikit berhubungan dengan &lt;code&gt;Mail Server&lt;/code&gt;, yah walupun saya tidak mendapat task membangun &lt;code&gt;Mail Server&lt;/code&gt; karena bukan team email, saya jadi agak penasaran bagaimana kalau membangun &lt;code&gt;Mail Server&lt;/code&gt; sendiri.&lt;/p&gt;
+&lt;p&gt;Pertama kita harus beli domain tentunya, beli saja domain my.id yang tergolong sangat murah. Saya beli di &lt;a href=&#34;cloudkilat.com&#34;&gt;Cloud Kilat&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oh iya, sebelumnya saya akan menjabarkan spec service/docker image apa saja yang akan kita gunakan, berikut daftarnya:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mudah Bikin Cloud Storage (Dropbox/GDrive) Sendiri</title>
+      <link>https://rifkyfuady.github.io/posts/deploy-owncloud/</link>
+      <pubDate>Tue, 15 Dec 2020 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/deploy-owncloud/</guid>
+      <description>&lt;p&gt;Berawal dari kisah sekelas Google yang tadi malam bisa &lt;code&gt;down&lt;/code&gt; gara-gara kehabisan &lt;code&gt;storage&lt;/code&gt;, saya tidak bisa mengakses file di Google Drive dan akhirnya beberapa pekerjaan terhambat. 😔 🤕&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Tampilan Deploy Owncloud&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/deploy-owncloud/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Belajar dari kejadian tersebut, akhirnya saya berusaha untuk mencari cara agar bisa membuat &lt;code&gt;cloud storage&lt;/code&gt; sendiri, akhirnya menemukan satu perangkat lunak &lt;code&gt;CMS(Content Management System)&lt;/code&gt; berbagi berkas gratis dan bebas seperti Google Drive/Dropbox bernama &lt;a href=&#34;https://owncloud.com/&#34;&gt;Owncloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dengan menggunakan &lt;code&gt;owncloud&lt;/code&gt;, kita dapat mengatur layanan cloud storage mulai dari user, group user, limited akses, size quota user dan lain sebagainya. Owncloud bisa kita jadikan sebagai salah satu bahan testing untuk cloud computing dikarenakan owncloud termasuk salah satu kategori dari model layanan cloud computing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploy Traefik</title>
+      <link>https://rifkyfuady.github.io/posts/deploy-traefik/</link>
+      <pubDate>Mon, 27 Jul 2020 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/deploy-traefik/</guid>
+      <description>&lt;p&gt;Jika teman-teman belum mengerti apa itu traefik, sebelumnya saya pernah menulis &lt;a href=&#34;https://rifkyfuady.github.io/posts/apa-itu-traefik/&#34;&gt;Apa Itu Traefik&lt;/a&gt; silahkan dibaca terlebih dahulu.&lt;/p&gt;
+&lt;p&gt;Kita disini akan menggunakan &lt;a href=&#34;https://docs.docker.com/compose/&#34;&gt;docker-compose&lt;/a&gt; karena menjalankan &lt;code&gt;docker run&lt;/code&gt; terlalu ribet dan membuat file .sh lebih ribet lagi. Pada dasarnya &lt;code&gt;docker-compose&lt;/code&gt; adalah sebuah tool untuk menjalankan aplikasi docker yang menggunakan banyak container, yang dibagi-bagi menjadi/sebagai sebuah services.&lt;/p&gt;
+&lt;p&gt;Traefik adalah service pertama kita, minimal konfigurasi untuk membuat service adalah:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nama_service:
+  image: &amp;lt;docker_image&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mari kita buat service traefik kita (di file docker-compose.yml):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apa Itu Traefik</title>
+      <link>https://rifkyfuady.github.io/posts/apa-itu-traefik/</link>
+      <pubDate>Thu, 25 Jun 2020 23:33:49 +0700</pubDate>
+      <guid>https://rifkyfuady.github.io/posts/apa-itu-traefik/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Tampilan Treafik arsitektur&#34; loading=&#34;lazy&#34; src=&#34;https://rifkyfuady.github.io/img/apa-itu-traefik/1.png&#34;&gt;
+&lt;strong&gt;Apa sih traefik itu?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A reverse proxy / load balancer that’s easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Kutipan diatas diambil dari websitenya traefik. Nah, bagaimana penjelasanya?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Edge Router&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Internet adalah tentang bagaimana komputer saling terhubung, tentang bagaimana satu komputer berkomunikasi dengan komputer lainnya. Sama seperti manusia, untuk bisa berkomunikasi dengan lancar, kita memerlukan &lt;code&gt;cara yang disepakati kedua belah pihak&lt;/code&gt;, yakni bahasa yang sama-sama dimengerti.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
